@@ -1,0 +1,2 @@
+execute if predicate sculk_hive:chance/01 run particle minecraft:sculk_soul ~ ~ ~ 1 1 1 0.000001 30 force
+execute if predicate sculk_hive:chance/01 run particle minecraft:sculk_charge_pop ~ ~ ~ 1 1 1 0.0001 50 force

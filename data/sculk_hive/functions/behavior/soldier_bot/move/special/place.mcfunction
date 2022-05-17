@@ -1,0 +1,3 @@
+execute if score @s sh_bot_special_type matches 0 run function sculk_hive:behavior/soldier_bot/move/special/zombie
+execute if score @s sh_bot_special_type matches 1 run function sculk_hive:behavior/soldier_bot/move/special/skeleton
+execute if score @s sh_bot_special_type matches 2 unless block ~ ~-1 ~ #sculk_hive:non-full if block ~ ~1 ~ #sculk_hive:non-full if block ~ ~2 ~ #sculk_hive:non-full if block ~ ~3 ~ #sculk_hive:non-full run function sculk_hive:behavior/soldier_bot/move/special/horseman

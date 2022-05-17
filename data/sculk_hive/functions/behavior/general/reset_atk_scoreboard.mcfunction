@@ -1,0 +1,10 @@
+scoreboard players reset @s sh_bite_cd
+scoreboard players reset @s sh_boom_cd
+scoreboard players reset @s sh_last_x
+scoreboard players reset @s sh_last_y
+scoreboard players reset @s sh_last_z
+scoreboard players reset @s sh_x
+scoreboard players reset @s sh_y
+scoreboard players reset @s sh_z
+scoreboard players reset @s sh_sta_ttl
+scoreboard players reset @s sh_snk

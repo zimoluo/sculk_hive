@@ -1,0 +1,226 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 5.0,
+                  "min": 2.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:sculk_catalyst",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": 1.0,
+                "function": "minecraft:set_count"
+              },
+              {
+                "function": "minecraft:enchant_with_levels",
+                "levels": {
+                  "type": "minecraft:uniform",
+                  "max": 50.0,
+                  "min": 30.0
+                },
+                "treasure": true
+              }
+            ],
+            "name": "minecraft:diamond_sword",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:enchant_with_levels",
+                "levels": {
+                  "type": "minecraft:uniform",
+                  "max": 50.0,
+                  "min": 30.0
+                },
+                "treasure": true
+              }
+            ],
+            "name": "minecraft:diamond_chestplate",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 15.0,
+                  "min": 5.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:sculk",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 5.0,
+                  "min": 2.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:sculk_shrieker",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 18.0,
+                  "min": 15.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:sculk_vein",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 3.0,
+                  "min": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:sculk_sensor",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 4.0,
+                  "min": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:soul_sand",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 3.0,
+                  "min": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:experience_bottle",
+            "weight": 3
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 3.0,
+                  "min": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:echo_shard",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 3.0,
+                  "min": 1.0
+                },
+                "function": "minecraft:set_count"
+              },
+              {
+                "function": "minecraft:set_potion",
+                "id": "minecraft:strong_regeneration"
+              }
+            ],
+            "name": "minecraft:potion",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly"
+              }
+            ],
+            "name": "minecraft:book",
+            "weight": 4
+          }
+        ],
+        "rolls": {
+          "type": "minecraft:uniform",
+          "max": 15.0,
+          "min": 10.0
+        }
+      },
+      {
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "item",
+                "weight": 1,
+                "name": "minecraft:stone_sword",
+                "functions": [
+                    {
+                        "function": "set_nbt",
+                        "tag": "{HideFlags: 6, Enchantments:[{id:\"secret_sculk_enchantment\", lvl:10s}], IsSculkSword:1b, AttributeModifiers:[{Slot:\"mainhand\", AttributeName:\"generic.attack_speed\", Name:\"generic.attack_speed\", Amount:-2.2d, Operation:0, UUID:[I; -98353636, 1098926181, -1340359474, -1752847197]},{Slot:\"mainhand\", AttributeName:\"generic.attack_damage\", Name:\"generic.attack_damage\", Amount:9.0, Operation:0, UUID:[I; -885041709, 1683771192, -1533567981, -1556236849]}],Unbreakable:1b,display:{Name:'{\"text\":\"Sculk Sword\",\"color\":\"#043F66\",\"italic\":false}',Lore:['\" \"','{\"text\":\"Enchanted with souls\",\"color\":\"yellow\",\"italic\":false}']}}"
+                    }
+                ]
+            }
+        ]
+        }
+    ]
+  }

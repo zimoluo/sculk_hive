@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#sculk_hive:non-full",
+    "sculk_catalyst"
+  ]
+}

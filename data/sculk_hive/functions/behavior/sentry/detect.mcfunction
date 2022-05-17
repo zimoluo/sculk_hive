@@ -1,0 +1,1 @@
+execute unless entity @e[tag=sh_sey_hp,distance=..0.16] run function sculk_hive:behavior/cat/death/activate

@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:adventure/kill_a_mob",
+  "criteria": {
+    "quite_impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Kill the Sculk Hive, the ultimate source of sculk and darkness"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "item": "minecraft:sculk_shrieker"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Sculk No More"
+    }
+  },
+  "requirements": [
+    [
+      "quite_impossible"
+    ]
+  ],
+  "hidden": true
+}

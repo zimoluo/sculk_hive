@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+      "minecraft:sculk_sensor",
+      "sculk_shrieker",
+      "minecraft:sculk_catalyst"
+    ]
+  }

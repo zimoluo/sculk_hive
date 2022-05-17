@@ -1,0 +1,1 @@
+scoreboard players add @s sh_bossfight 1

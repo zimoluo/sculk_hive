@@ -1,0 +1,1 @@
+function sculk_hive:behavior/laser/tick
