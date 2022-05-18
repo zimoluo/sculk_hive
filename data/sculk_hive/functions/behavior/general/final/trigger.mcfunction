@@ -4,7 +4,7 @@ tag @s add sh_final
 
 scoreboard players set @s sh_last_max_hp 0
 
-execute as @a[tag=sh_eff] at @s anchored eyes run particle flash ~ ~ ~ 0.01 0.01 0.01 0.0001 3 force @s
+execute as @a[tag=sh_eff] at @s anchored eyes run particle flash ^ ^ ^ 0.01 0.01 0.01 0.0001 3 force @s
 
 function sculk_hive:behavior/attack/rage/final
 

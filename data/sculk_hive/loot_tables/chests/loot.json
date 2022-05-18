@@ -38,7 +38,7 @@
                 "treasure": true
               }
             ],
-            "name": "minecraft:diamond_sword",
+            "name": "minecraft:diamond_hoe",
             "weight": 2
           },
           {
@@ -216,7 +216,7 @@
                 "functions": [
                     {
                         "function": "set_nbt",
-                        "tag": "{HideFlags: 6, Enchantments:[{id:\"secret_sculk_enchantment\", lvl:10s}], IsSculkSword:1b, AttributeModifiers:[{Slot:\"mainhand\", AttributeName:\"generic.attack_speed\", Name:\"generic.attack_speed\", Amount:-2.2d, Operation:0, UUID:[I; -98353636, 1098926181, -1340359474, -1752847197]},{Slot:\"mainhand\", AttributeName:\"generic.attack_damage\", Name:\"generic.attack_damage\", Amount:9.0, Operation:0, UUID:[I; -885041709, 1683771192, -1533567981, -1556236849]}],Unbreakable:1b,display:{Name:'{\"text\":\"Sculk Sword\",\"color\":\"#043F66\",\"italic\":false}',Lore:['\" \"','{\"text\":\"Enchanted with souls\",\"color\":\"yellow\",\"italic\":false}']}}"
+                        "tag": "{HideFlags: 6, Enchantments:[{id:\"secret_sculk_enchantment\", lvl:10s}], IsSculkSword:1b, HasWielder:0b, WielderUUID:[I; 0,0,0,0], AttributeModifiers:[{Slot:\"mainhand\", AttributeName:\"generic.attack_speed\", Name:\"generic.attack_speed\", Amount:-2.2d, Operation:0, UUID:[I; -98353636, 1098926181, -1340359474, -1752847197]},{Slot:\"mainhand\", AttributeName:\"generic.attack_damage\", Name:\"generic.attack_damage\", Amount:9.0, Operation:0, UUID:[I; -885041709, 1683771192, -1533567981, -1556236849]}],Unbreakable:1b,display:{Name:'{\"text\":\"Sculk Sword\",\"color\":\"#043F66\",\"italic\":false}',Lore:['\" \"','{\"text\":\"Enchanted with souls\",\"color\":\"yellow\",\"italic\":false}']}}"
                     }
                 ]
             }

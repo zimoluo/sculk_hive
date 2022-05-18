@@ -7,6 +7,13 @@ data merge storage sculk_hive:data {sculkHiveState:{present:0b}}
 
 effect clear @a[tag=sh_atk] darkness
 effect clear @a[tag=sh_eff] darkness
+
+effect clear @e[tag=sh_atk] wither
+effect clear @e[tag=sh_atk] darkness
+effect clear @e[tag=sh_atk] slowness
+effect clear @e[tag=sh_atk] mining_fatigue
+effect clear @e[tag=sh_atk] weakness
+
 playsound minecraft:entity.elder_guardian.curse hostile @a ~ ~ ~ 2 0.8
 playsound minecraft:block.sculk_shrieker.shriek hostile @a ~ ~ ~ 2 1.3
 

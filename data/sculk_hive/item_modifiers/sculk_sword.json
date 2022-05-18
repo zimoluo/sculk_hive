@@ -1,0 +1,16 @@
+[
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        [
+            {
+                "text":"Belongs to ","color":"yellow","italic":false},
+            {
+                "selector":"@s","color":"green","italic":false
+            }
+        ]
+      ],
+      "replace": false
+    }
+  ]

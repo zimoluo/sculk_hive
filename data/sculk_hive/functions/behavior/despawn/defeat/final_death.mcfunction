@@ -14,9 +14,33 @@ summon experience_orb ~ ~-0.124 ~-0.1 {Count:1, Value:25s}
 
 effect clear @a[tag=sh_atk] darkness
 effect clear @a[tag=sh_eff] darkness
+
+effect clear @e[tag=sh_atk] wither
+effect clear @e[tag=sh_atk] darkness
+effect clear @e[tag=sh_atk] slowness
+effect clear @e[tag=sh_atk] mining_fatigue
+effect clear @e[tag=sh_atk] weakness
+
 execute as @a[distance=..32,advancements={adventure/kill_sculk_hive=true}] at @s run playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ 2
 
 advancement grant @a[distance=..32,advancements={adventure/kill_sculk_hive=false}] only adventure/kill_sculk_hive
+
+execute positioned ~-15 ~-15 ~-15 run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 sculk_shrieker[can_summon=false, waterlogged=false] replace sculk_shrieker[can_summon=true,waterlogged=false]
+execute positioned ~15 ~-15 ~-15 run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 sculk_shrieker[can_summon=false, waterlogged=false] replace sculk_shrieker[can_summon=true,waterlogged=false]
+execute positioned ~15 ~-15 ~15 run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 sculk_shrieker[can_summon=false, waterlogged=false] replace sculk_shrieker[can_summon=true,waterlogged=false]
+execute positioned ~-15 ~-15 ~15 run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 sculk_shrieker[can_summon=false, waterlogged=false] replace sculk_shrieker[can_summon=true,waterlogged=false]
+execute positioned ~-15 ~15 ~15 run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 sculk_shrieker[can_summon=false, waterlogged=false] replace sculk_shrieker[can_summon=true,waterlogged=false]
+execute positioned ~15 ~15 ~15 run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 sculk_shrieker[can_summon=false, waterlogged=false] replace sculk_shrieker[can_summon=true,waterlogged=false]
+execute positioned ~15 ~15 ~-15 run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 sculk_shrieker[can_summon=false, waterlogged=false] replace sculk_shrieker[can_summon=true,waterlogged=false]
+execute positioned ~-15 ~15 ~-15 run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 sculk_shrieker[can_summon=false, waterlogged=false] replace sculk_shrieker[can_summon=true,waterlogged=false]
+execute positioned ~-15 ~-15 ~-15 run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 sculk_shrieker[can_summon=false, waterlogged=true] replace sculk_shrieker[can_summon=true,waterlogged=true]
+execute positioned ~15 ~-15 ~-15 run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 sculk_shrieker[can_summon=false, waterlogged=true] replace sculk_shrieker[can_summon=true,waterlogged=true]
+execute positioned ~15 ~-15 ~15 run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 sculk_shrieker[can_summon=false, waterlogged=true] replace sculk_shrieker[can_summon=true,waterlogged=true]
+execute positioned ~-15 ~-15 ~15 run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 sculk_shrieker[can_summon=false, waterlogged=true] replace sculk_shrieker[can_summon=true,waterlogged=true]
+execute positioned ~-15 ~15 ~15 run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 sculk_shrieker[can_summon=false, waterlogged=true] replace sculk_shrieker[can_summon=true,waterlogged=true]
+execute positioned ~15 ~15 ~15 run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 sculk_shrieker[can_summon=false, waterlogged=true] replace sculk_shrieker[can_summon=true,waterlogged=true]
+execute positioned ~15 ~15 ~-15 run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 sculk_shrieker[can_summon=false, waterlogged=true] replace sculk_shrieker[can_summon=true,waterlogged=true]
+execute positioned ~-15 ~15 ~-15 run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 sculk_shrieker[can_summon=false, waterlogged=true] replace sculk_shrieker[can_summon=true,waterlogged=true]
 
 setblock ~ ~ ~ air
 place template sculk_hive:boss/portal ~-2 ~-3 ~-2

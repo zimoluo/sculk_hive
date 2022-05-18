@@ -20,3 +20,6 @@ execute as @e[tag=sh_laser] at @s run function sculk_hive:behavior/laser/main
 execute as @e[tag=sh_sdr] at @s run function sculk_hive:behavior/soldier/main
 execute as @e[tag=sh_sdr_bot] at @s run function sculk_hive:behavior/soldier_bot/main
 execute as @e[tag=sh_rdr] at @s run function sculk_hive:behavior/soldier/horseman/rider
+execute as @e[type=item,nbt={Item:{tag:{IsSculkSword: 1b}}}] at @s run function sculk_hive:behavior/sword/main
+execute as @e[type=#sculk_hive:wielder,tag=!sh_dpy] at @s run function sculk_hive:behavior/sword/wielder/main
+execute as @e[tag=sh_prep_ctrl] at @s run function sculk_hive:behavior/sword/prep_ctrl/main
