@@ -23,24 +23,32 @@
 
 ### Attacks
 * The boss is divided into three phases, each featuring different yet related attack forms.
+
+#### First Phase
 * In the first phase, the boss doesn't actively attack for much, but instead focus on spreading itself.
-* * When the player remains stationary - that is, to stand still - for too long, the boss conjures fangs toward the player and shoots sonic blasts.
-* * When the fight has progressed for awhile, the boss casts necromancy spells to bring back those dead.
-* * Watch out for the Wardens aroused by those sculk shriekers.
-* * Becomes enraged when the four catalysts surrounding the boss are all beaten while there exists other catalysts; in this case, the boss quickly colonizes the arena with its sculks.
-* * Turns to the second phase when all catalysts are beaten. If the only catalysts beaten are all the four starting catalysts, the boss directly transforms to its final phase.
+* When the player remains stationary - that is, to stand still - for too long, the boss conjures fangs toward the player and shoots sonic blasts.
+* When the fight has progressed for awhile, the boss casts necromancy spells to bring back those dead.
+* Watch out for the Wardens aroused by those sculk shriekers.
+* Becomes enraged when the four catalysts surrounding the boss are all beaten while there exists other catalysts; in this case, the boss quickly colonizes the arena with its sculks.
+* Turns to the second phase when all catalysts are beaten. If the only catalysts beaten are all the four starting catalysts, the boss directly transforms to its final phase.
+
+#### Second Phase
 * Upon entering the second phase, the boss recharges its strength in preparation for a more ruthless attack.
-* * The boss continues to summon undead warriors, with the only exception being horsemen spawning more frequently.
-* * Detecting an enemy nearby, the catalysts - now 'sentries' - shoots stronger sonic blasts to them.
-* * When all sentries are knocked off, the boss enrages, entering its final phase.
+* The boss continues to summon undead warriors, with the only exception being horsemen spawning more frequently.
+* Detecting an enemy nearby, the catalysts - now 'sentries' - shoots stronger sonic blasts to them.
+* When all sentries are knocked off, the boss enrages, entering its final phase.
+
+#### Final Phase
 * The final phase demonstrates the boss's last resort of taking down its intruders. Again, the boss bar - turning red - recharges to maximum.
-* * The boss's sheild blows up, so now you can attack the boss itself.
-* * The boss shoots two super sonic blasts followed by a super sonic boom toward all its targets in range.
-* * Whenever a Warden is awaken, it becomes a spirit and flies toward the boss to recharge its health.
-* * Undead army no longer emerges from the ground.
-* * When the boss's health depletes, it loses all its powers and explodes. All negative effects will be removed, and warden will no longer be spawning in the vicinity.
+* The boss's sheild blows up, so now you can attack the boss itself.
+* The boss shoots two super sonic blasts followed by a super sonic boom toward all its targets in range.
+* Whenever a Warden is awaken, it becomes a spirit and flies toward the boss to recharge its health.
+* Undead army no longer emerges from the ground.
+* When the boss's health depletes, it loses all its powers and explodes. All negative effects will be removed, and warden will no longer be spawning in the vicinity.
+
+### Death
 * Upon its death, the boss leaves a portal-like structure with a loot chest on the top. All the players within a 32-block range are given an advancement.
-* * The chest contains loot similar to that in ancient cities, but with a unique loot: the Sculk Sword.
+* The chest contains loot similar to that in ancient cities, but with a unique loot: the Sculk Sword.
 
 ### Loot
 * The Sculk Sword is the loot from the boss. Forged and enchanted with the Sculk Hive's remnant souls, the mighty sword swears its faith to the first one who wields it.
