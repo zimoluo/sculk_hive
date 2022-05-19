@@ -40,6 +40,7 @@ scoreboard objectives add sh_swd_UUID_0 dummy
 scoreboard objectives add sh_swd_UUID_1 dummy
 scoreboard objectives add sh_swd_UUID_2 dummy
 scoreboard objectives add sh_swd_UUID_3 dummy
+
 gamerule maxCommandChainLength 2147483647
 team add sculk_hive
 team modify sculk_hive friendlyFire false

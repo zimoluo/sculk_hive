@@ -17,6 +17,10 @@
 	"minecraft:slime",
 	"minecraft:vex",
 	"minecraft:piglin",
-	"minecraft:hoglin"
+	"minecraft:hoglin",
+	"piglin_brute",
+	"warden",
+	"ender_dragon",
+	"#sculk_hive:monster_undead"
   ]
 }

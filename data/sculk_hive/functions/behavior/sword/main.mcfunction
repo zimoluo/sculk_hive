@@ -9,4 +9,6 @@ execute if data entity @s {Item:{tag:{HasWielder:1b}}} run data modify entity @s
 
 execute if entity @s[tag=!sh_htbk] if data entity @s {OnGround:1b, Item:{tag:{HasWielder:1b}}} run function sculk_hive:behavior/sword/judge
 
+execute if entity @s[tag=!sh_htbk] run particle soul_fire_flame ~ ~ ~ 0.1 0.1 0.1 0.0001 1 force
+
 execute if entity @s[tag=sh_htbk] run function sculk_hive:behavior/sword/tick

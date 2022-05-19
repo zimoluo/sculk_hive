@@ -3,6 +3,8 @@
   "values": [
     "honey_block",
     "farmland",
-    "dirt_path"
+    "dirt_path",
+    "piston",
+    "sticky_piston"
   ]
 }

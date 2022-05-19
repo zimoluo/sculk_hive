@@ -8,6 +8,7 @@
     "minecraft:zombified_piglin",
     "minecraft:zombie_villager",
 	"minecraft:phantom",
-	"minecraft:zoglin"
+	"minecraft:zoglin",
+  "wither"
   ]
 }
