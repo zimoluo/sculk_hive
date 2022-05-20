@@ -1,0 +1,18 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "exclusion_zone": {
+      "chunk_count": 10,
+      "other_set": "minecraft:ancient_cities"
+    },
+    "salt": 20113131,
+    "separation": 16,
+    "spacing": 40
+  },
+  "structures": [
+    {
+      "structure": "sculk_hive:sculk_chamber",
+      "weight": 1
+    }
+  ]
+}

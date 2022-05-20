@@ -1,0 +1,10 @@
+{
+  "values": [
+    "minecraft:deep_dark",
+    "#minecraft:is_ocean",
+    "#minecraft:is_mountain",
+    "#minecraft:is_hill",
+    "#minecraft:is_badlands",
+    "#minecraft:is_jungle"
+  ]
+}
