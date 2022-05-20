@@ -16,7 +16,7 @@
 * Pushes its last resort to desperately strike down the intruder.
 
 ### Summoning
-* The boss randomly appears underground or in ancient cities. When an altar-like structure is found, complete the building by placing a sculk shrieker on its top and igniting all four soul sands to initiate the summoning.
+* The boss is summoned using an altar. The altar is generated randomly underground. Specifically, the ancient city has a chance to generate an altar under the Warden statue in a hollow chamber. Another type of chamber generates randomly underground within any ocean, mountain, hill, jungle, badlands, and deep dark biome. Once you've found an altar, complete it by igniting all four blocks of soul sand and place a sculk shrieker on the top of the structure. Alternatively, use `/locate structure sculk_hive:sculk_chamber` to look for a chamber containing the altar.
 * After the altar is complete, darkness starts to surround you and the boss gradually transforms into its full state. Note that the health bar is charging up.
 * Disposing of the Sculk Sword will also create an incomplete altar.
 * Manually constructing the altar to summon the boss is impossible.
@@ -40,7 +40,7 @@
 
 #### Final Phase
 * The final phase demonstrates the boss's last resort of taking down its intruders. Again, the boss bar - turning red - recharges to maximum.
-* The boss's sheild blows up, so now you can attack the boss itself.
+* The boss's shield blows up, so now you can attack the boss itself.
 * The boss shoots two super sonic blasts followed by a super sonic boom toward all its targets in range.
 * Whenever a Warden is awaken, it becomes a spirit and flies toward the boss to recharge its health.
 * Undead army no longer emerges from the ground.
