@@ -25,22 +25,7 @@ execute as @a[distance=..32,advancements={adventure/kill_sculk_hive=true}] at @s
 
 advancement grant @a[distance=..32,advancements={adventure/kill_sculk_hive=false}] only adventure/kill_sculk_hive
 
-execute positioned ~-15 ~-15 ~-15 run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 sculk_shrieker[can_summon=false, waterlogged=false] replace sculk_shrieker[can_summon=true,waterlogged=false]
-execute positioned ~15 ~-15 ~-15 run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 sculk_shrieker[can_summon=false, waterlogged=false] replace sculk_shrieker[can_summon=true,waterlogged=false]
-execute positioned ~15 ~-15 ~15 run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 sculk_shrieker[can_summon=false, waterlogged=false] replace sculk_shrieker[can_summon=true,waterlogged=false]
-execute positioned ~-15 ~-15 ~15 run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 sculk_shrieker[can_summon=false, waterlogged=false] replace sculk_shrieker[can_summon=true,waterlogged=false]
-execute positioned ~-15 ~15 ~15 run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 sculk_shrieker[can_summon=false, waterlogged=false] replace sculk_shrieker[can_summon=true,waterlogged=false]
-execute positioned ~15 ~15 ~15 run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 sculk_shrieker[can_summon=false, waterlogged=false] replace sculk_shrieker[can_summon=true,waterlogged=false]
-execute positioned ~15 ~15 ~-15 run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 sculk_shrieker[can_summon=false, waterlogged=false] replace sculk_shrieker[can_summon=true,waterlogged=false]
-execute positioned ~-15 ~15 ~-15 run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 sculk_shrieker[can_summon=false, waterlogged=false] replace sculk_shrieker[can_summon=true,waterlogged=false]
-execute positioned ~-15 ~-15 ~-15 run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 sculk_shrieker[can_summon=false, waterlogged=true] replace sculk_shrieker[can_summon=true,waterlogged=true]
-execute positioned ~15 ~-15 ~-15 run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 sculk_shrieker[can_summon=false, waterlogged=true] replace sculk_shrieker[can_summon=true,waterlogged=true]
-execute positioned ~15 ~-15 ~15 run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 sculk_shrieker[can_summon=false, waterlogged=true] replace sculk_shrieker[can_summon=true,waterlogged=true]
-execute positioned ~-15 ~-15 ~15 run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 sculk_shrieker[can_summon=false, waterlogged=true] replace sculk_shrieker[can_summon=true,waterlogged=true]
-execute positioned ~-15 ~15 ~15 run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 sculk_shrieker[can_summon=false, waterlogged=true] replace sculk_shrieker[can_summon=true,waterlogged=true]
-execute positioned ~15 ~15 ~15 run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 sculk_shrieker[can_summon=false, waterlogged=true] replace sculk_shrieker[can_summon=true,waterlogged=true]
-execute positioned ~15 ~15 ~-15 run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 sculk_shrieker[can_summon=false, waterlogged=true] replace sculk_shrieker[can_summon=true,waterlogged=true]
-execute positioned ~-15 ~15 ~-15 run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 sculk_shrieker[can_summon=false, waterlogged=true] replace sculk_shrieker[can_summon=true,waterlogged=true]
+function sculk_hive:behavior/despawn/defeat/shrieker_replace
 
 setblock ~ ~ ~ air
 place template sculk_hive:boss/portal ~-2 ~-3 ~-2

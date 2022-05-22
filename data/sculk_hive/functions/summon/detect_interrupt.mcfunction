@@ -5,14 +5,14 @@ execute unless block ~1 ~-2 ~ sculk run function sculk_hive:behavior/despawn/int
 execute unless block ~-1 ~-2 ~ sculk run function sculk_hive:behavior/despawn/interrupted
 execute unless block ~ ~-2 ~1 sculk run function sculk_hive:behavior/despawn/interrupted
 execute unless block ~ ~-2 ~-1 sculk run function sculk_hive:behavior/despawn/interrupted
-execute unless score @s sh_cd matches 300.. unless block ~1 ~-2 ~1 #soul_fire_base_blocks run function sculk_hive:behavior/despawn/interrupted
-execute unless score @s sh_cd matches 300.. unless block ~-1 ~-2 ~1 #soul_fire_base_blocks run function sculk_hive:behavior/despawn/interrupted
-execute unless score @s sh_cd matches 300.. unless block ~1 ~-2 ~-1 #soul_fire_base_blocks run function sculk_hive:behavior/despawn/interrupted
-execute unless score @s sh_cd matches 300.. unless block ~-1 ~-2 ~-1 #soul_fire_base_blocks run function sculk_hive:behavior/despawn/interrupted
-execute if score @s sh_cd matches 300.. unless block ~1 ~-2 ~1 sculk run function sculk_hive:behavior/despawn/interrupted
-execute if score @s sh_cd matches 300.. unless block ~-1 ~-2 ~1 sculk run function sculk_hive:behavior/despawn/interrupted
-execute if score @s sh_cd matches 300.. unless block ~1 ~-2 ~-1 sculk run function sculk_hive:behavior/despawn/interrupted
-execute if score @s sh_cd matches 300.. unless block ~-1 ~-2 ~-1 sculk run function sculk_hive:behavior/despawn/interrupted
+execute unless score @s sh_cd matches 240.. unless block ~1 ~-2 ~1 #soul_fire_base_blocks run function sculk_hive:behavior/despawn/interrupted
+execute unless score @s sh_cd matches 240.. unless block ~-1 ~-2 ~1 #soul_fire_base_blocks run function sculk_hive:behavior/despawn/interrupted
+execute unless score @s sh_cd matches 240.. unless block ~1 ~-2 ~-1 #soul_fire_base_blocks run function sculk_hive:behavior/despawn/interrupted
+execute unless score @s sh_cd matches 240.. unless block ~-1 ~-2 ~-1 #soul_fire_base_blocks run function sculk_hive:behavior/despawn/interrupted
+execute if score @s sh_cd matches 240.. unless block ~1 ~-2 ~1 sculk run function sculk_hive:behavior/despawn/interrupted
+execute if score @s sh_cd matches 240.. unless block ~-1 ~-2 ~1 sculk run function sculk_hive:behavior/despawn/interrupted
+execute if score @s sh_cd matches 240.. unless block ~1 ~-2 ~-1 sculk run function sculk_hive:behavior/despawn/interrupted
+execute if score @s sh_cd matches 240.. unless block ~-1 ~-2 ~-1 sculk run function sculk_hive:behavior/despawn/interrupted
 execute unless score @s sh_cd matches 120.. unless block ~1 ~-1 ~1 soul_fire run function sculk_hive:behavior/despawn/interrupted
 execute unless score @s sh_cd matches 120.. unless block ~-1 ~-1 ~1 soul_fire run function sculk_hive:behavior/despawn/interrupted
 execute unless score @s sh_cd matches 120.. unless block ~1 ~-1 ~-1 soul_fire run function sculk_hive:behavior/despawn/interrupted

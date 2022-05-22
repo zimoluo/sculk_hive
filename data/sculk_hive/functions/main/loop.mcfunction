@@ -25,3 +25,6 @@ execute as @e[type=#sculk_hive:wielder,tag=!sh_dpy] at @s run function sculk_hiv
 execute as @e[tag=sh_prep_ctrl] at @s run function sculk_hive:behavior/sword/prep_ctrl/main
 execute as @a[advancements={sculk_hive:util/kill_monster=true}] at @s run function sculk_hive:behavior/sword/any/advancement
 execute as @a[advancements={sculk_hive:util/kill_monster=false, sculk_hive:util/hit_monster=true}] at @s run function sculk_hive:behavior/sword/any/hit
+execute as @e[tag=sh_cat_hp] at @s align xyz positioned ~0.5 ~1 ~0.5 run function sculk_hive:behavior/general/hp_prevent_suffocate
+execute as @e[tag=sh_sey_hp] at @s align xyz positioned ~0.5 ~1 ~0.5 run function sculk_hive:behavior/general/hp_prevent_suffocate
+execute as @e[tag=sh_final_hp] at @s align xyz positioned ~0.5 ~1 ~0.5 run function sculk_hive:behavior/general/hp_prevent_suffocate

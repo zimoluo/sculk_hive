@@ -26,3 +26,5 @@ tag @s add sh_smn
 tag @s remove sh_smn_cd
 scoreboard players set @s sh_cd -1
 scoreboard players reset @s sh_last_max_hp
+
+kill @e[tag=sh_part, tag=!sh_main, tag=!sh_smn]

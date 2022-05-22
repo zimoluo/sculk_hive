@@ -13,4 +13,4 @@ execute as @a[tag=sh_eff] at @s anchored eyes run particle minecraft:flash ~ ~ ~
 particle minecraft:flash ~ ~ ~ 0.5 0.5 0.5 0.0001 25 force
 playsound minecraft:block.sculk_shrieker.shriek hostile @a ~ ~ ~ 2 0.7
 effect clear @a[tag=sh_eff] minecraft:darkness
-effect give @a[tag=sh_eff] minecraft:darkness 26 0 true
+effect give @a[tag=sh_eff] minecraft:darkness 19 0 true
