@@ -20,6 +20,7 @@ tag @a[distance=..32] add sh_eff
 tag @e[distance=32.01.., tag=sh_eff] remove sh_eff
 
 tag @e[type=#sculk_hive:non-attack] remove sh_atk
+tag @e[nbt={Invulnerable:1b}] remove sh_atk
 tag @e[tag=sh_part] remove sh_atk
 tag @e[tag=sh_part] remove sh_atk_undead
 tag @e[tag=sh_part] remove sh_atk_normal
