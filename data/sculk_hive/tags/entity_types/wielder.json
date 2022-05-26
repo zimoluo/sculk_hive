@@ -17,6 +17,7 @@
     "minecraft:villager",
     "minecraft:wandering_trader",
     "minecraft:armor_stand",
-    "player"
+    "player",
+    "allay"
     ]
   }
