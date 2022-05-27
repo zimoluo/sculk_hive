@@ -4,6 +4,7 @@
 * A New Sculk-themed boss added to Minecraft 1.19.
 * Fairly hard challenges with a unique item loot.
 * Exhiliarating visual and sound effects.
+* OP Sword loots.
 * Lores that are surely charismatic.
 * Prepare to battle with Sculk Hive!
 
@@ -56,6 +57,8 @@
 * Declaring its loyalty to its only master, the sword refuses to and curses those that dare to pick up the sword.
 * If thrown by its master, the sword revenges the betrayal by turning into the Sculk Hive's altar.
 * Aside from the Sculk Sword, the player receives a remarkable amount of experience that guarantees at least a level from 0 to 20.
+* The sword can be enchanted with netherite blocks, amethyst blocks, and enchanting table to be purified into a netherite sword.
+* The purified sword is more powerful and will not create the boss upon being dropped by its owner.
 
 ## Technical Details
 * The boss can only be summoned when no other Sculk Hives are present in the world.
@@ -67,4 +70,4 @@
 
 ## Lore
 * I appreciate you reading all the way to the lore section - the one I believe to be the most interesting.
-* Sculk Hive is the very source of the deep dark biome and all the sculk blocks. Originated from the souls filled with hatred, the boss ceaselessly spreads itself to everything it encounters. It has been said that the Wardens were amongst the first creations of the boss, built to protect its creator. Out of the very fear, the underground miners constructed the ancient city to worship the Wardens. Tens of thousands of years went by, the boss, creating the deep dark biome of the entire world, rests to its dormant state - until the player wakes it again. Fueled by the souls, the boss emerges after absorbing four blocks of soul sand - what believed to be condensed with souls, powerful in souls, powerful enough to support a Wither, and, of course, the Sculk Hive. Rising from the long sleep, Sculk Hive attempts to once again conquer its surrounding landscapes, only to be interrupted by the intruders. In an attempt to eliminate all its potential threats, it calls up the dead ones submerged deep underground, belonging to those once devoured souls. Sculk Hive’s vain attempts will be ultimately proven unsuccessful, as the player strikes down all its catalysts. Aiming to defeat the dangerous threat, the frightening boss draws its soul power to fully charge itself, attacking the player. Wardens also return to their spirit forms to heal the Sculk Hive. However, the boss is eventually destroyed by the player, forging its remaining souls into the Sculk Sword, waiting for the day to avenge. It becomes only when the player throws the sword away that the desperate sword once again becomes the parts of Sculk Hive in seek of avenge.
+* Sculk Hive is the very source of the deep dark biome and all the sculk blocks. Originated from the souls filled with hatred, the boss ceaselessly spreads itself to everything it encounters. It has been said that the Wardens were amongst the first creations of the boss, built to protect its creator. Out of the very fear, the underground miners constructed the ancient city to worship the Wardens. Tens of thousands of years went by, the boss, creating the deep dark biome of the entire world, rests to its dormant state - until the player wakes it again. Fueled by the souls, the boss emerges after absorbing four blocks of soul sand - what believed to be condensed with souls, powerful in souls, powerful enough to support a Wither, and, of course, the Sculk Hive. Rising from the long sleep, Sculk Hive attempts to once again conquer its surrounding landscapes, only to be interrupted by the intruders. In an attempt to eliminate all its potential threats, it calls up the dead ones submerged deep underground, belonging to those once devoured souls. Sculk Hive’s vain attempts will be ultimately proven unsuccessful, as the player strikes down all its catalysts. Aiming to defeat the dangerous threat, the frightening boss draws its soul power to fully charge itself, attacking the player. Wardens also return to their spirit forms to heal the Sculk Hive. However, the boss is eventually destroyed by the player, forging its remaining souls into the Sculk Sword, waiting for the day to avenge. It becomes only when the player throws the sword away that the desperate sword once again becomes the parts of Sculk Hive in seek of avenge. For anyhow it becomes purified with light magic, the soul-enchanted sword fully gets rid of its former ego's identity, for the very once embracing its master as the true owner.
