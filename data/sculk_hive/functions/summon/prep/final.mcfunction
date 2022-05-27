@@ -1,4 +1,4 @@
-execute as @a[tag=sh_eff] at @s anchored eyes run particle minecraft:flash ~ ~ ~ 0.2 0.2 0.2 0.0001 10 force @s
+execute as @a[tag=sh_eff] at @s anchored eyes run particle minecraft:flash ^ ^ ^ 0.2 0.2 0.2 0.0001 10 force @s
 particle minecraft:flash ~ ~ ~ 0.5 0.5 0.5 0.0001 25 force
 playsound minecraft:item.totem.use hostile @a ~ ~ ~ 10 2 0.1
 
