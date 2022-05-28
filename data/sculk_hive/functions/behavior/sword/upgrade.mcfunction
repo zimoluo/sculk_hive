@@ -2,7 +2,7 @@ data modify entity @s Item.tag.Enchantments[{id:"minecraft:binding_curse"}].id s
 data remove entity @s Item.tag.AttributeModifiers[1]
 data remove entity @s Item.tag.AttributeModifiers[0]
 
-data modify entity @s Item.tag.display.Lore[1] set value '{"text":"Purified via magic","color":"yellow","italic":false}'
+data modify entity @s Item.tag.display.Lore[1] set value '{"text":"Purified via magic","color":"#FFE779","italic":false, "font":"minecraft:illageralt"}'
 
 data merge entity @s {Motion:[0d, 0d, 0d], NoGravity:1b, Item:{id:netherite_sword, tag:{StrongFaith:1b}}}
 data merge entity @s {Item:{tag:{AttributeModifiers:[{Slot:"mainhand", AttributeName:"generic.attack_speed", Name:"generic.attack_speed", Amount:-2.05d, Operation:0, UUID:[I; -98353636, 1098926181, -1340359474, -1752847197]},{Slot:"mainhand", AttributeName:"generic.attack_damage", Name:"generic.attack_damage", Amount:10.85, Operation:0, UUID:[I; -885041709, 1683771192, -1533567981, -1556236849]}]}}}
