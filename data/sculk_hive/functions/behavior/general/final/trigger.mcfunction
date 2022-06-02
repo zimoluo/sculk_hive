@@ -33,4 +33,4 @@ kill @e[tag=sh_shd, distance=..64]
 
 tag @s remove sh_phs
 
-gamerule doWardenSpawning true
+function sculk_hive:behavior/general/shrieker_on

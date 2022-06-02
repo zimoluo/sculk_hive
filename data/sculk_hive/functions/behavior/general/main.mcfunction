@@ -5,7 +5,9 @@ function sculk_hive:behavior/general/tick
 function sculk_hive:behavior/general/count_cat
 function sculk_hive:behavior/general/count_soldier
 
-execute unless entity @s[tag=sh_phs] unless entity @s[tag=sh_dth] unless entity @s[tag=sh_dth] run function sculk_hive:behavior/attack/main
+execute unless entity @s[tag=sh_phs] unless entity @s[tag=sh_dth] unless entity @s[tag=sh_2nd] run function sculk_hive:behavior/attack/main
+
+execute if entity @s[tag=sh_phs] run function sculk_hive:behavior/general/interphase
 
 execute if data storage sculk_hive:data {world: {difficulty: 0}} run function sculk_hive:behavior/despawn/disappear
 

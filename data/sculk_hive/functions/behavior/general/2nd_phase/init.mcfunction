@@ -12,6 +12,6 @@ function sculk_hive:behavior/attack/rage/2nd_ver
 execute as @e[tag=sh_sdr, distance=..64] at @s run tag @s add sh_sdr_ready
 execute as @e[tag=sh_sdr, distance=..64] at @s run function sculk_hive:behavior/soldier/burrow
 
-gamerule doWardenSpawning false
+function sculk_hive:behavior/general/shrieker_off
 
 execute as @e[type=warden,distance=..32] at @s run function sculk_hive:behavior/general/kill_warden

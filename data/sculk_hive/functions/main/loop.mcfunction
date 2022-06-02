@@ -14,8 +14,8 @@ execute as @e[tag=sh_kck] at @s run function sculk_hive:behavior/sentry/knocked/
 execute as @e[tag=sh_sey] at @s run function sculk_hive:behavior/sentry/main
 execute as @e[tag=sh_boom] at @s run function sculk_hive:behavior/boom/main
 execute as @e[tag=sh_shd] at @s run function sculk_hive:behavior/shield/main
-execute if entity @e[tag=sh_2nd, tag=!sh_final, tag=!sh_dth, tag=!sh_phs] at @s as @e[tag=sh_atk, distance=..64] at @s run function sculk_hive:behavior/laser_weak_attack/tick
-execute if entity @e[tag=sh_final, tag=!sh_dth] at @s as @e[tag=sh_atk, distance=..64] at @s run function sculk_hive:behavior/final_attack/ultra/tick
+execute as @e[tag=sh_2nd, tag=!sh_final, tag=!sh_dth, tag=!sh_phs] at @s as @e[tag=sh_atk, distance=..64] at @s run function sculk_hive:behavior/laser_weak_attack/tick
+execute as @e[tag=sh_final, tag=!sh_dth] at @s as @e[tag=sh_atk, distance=..64] at @s run function sculk_hive:behavior/final_attack/ultra/tick
 execute as @e[tag=sh_ultra_boom] at @s run function sculk_hive:behavior/ultra_boom/main
 execute as @e[tag=sh_final, tag=!sh_dth] at @s run function sculk_hive:behavior/final_attack/absorb_warden/detect
 execute as @e[tag=sh_spr] at @s run function sculk_hive:behavior/final_attack/warden_spirit/move

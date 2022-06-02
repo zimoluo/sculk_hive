@@ -28,6 +28,7 @@ scoreboard objectives add sh_dynamic_hp_calc dummy
 scoreboard objectives add sh_dynamic_hp_entry dummy
 scoreboard objectives add sh_cat_count dummy
 scoreboard objectives add sh_snk minecraft.custom:sneak_time
+scoreboard objectives add sh_jump minecraft.custom:jump
 scoreboard objectives add sh_climb minecraft.custom:climb_one_cm
 scoreboard objectives add sh_fall minecraft.custom:fall_one_cm
 scoreboard objectives add sh_sprint minecraft.custom:sprint_one_cm

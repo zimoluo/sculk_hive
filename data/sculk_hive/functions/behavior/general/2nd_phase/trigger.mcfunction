@@ -32,4 +32,4 @@ effect clear @e[tag=sh_sey_hp, distance=..64] resistance
 
 tag @s remove sh_phs
 
-gamerule doWardenSpawning true
+function sculk_hive:behavior/general/shrieker_on

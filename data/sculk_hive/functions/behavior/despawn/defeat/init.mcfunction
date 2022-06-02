@@ -7,7 +7,7 @@ playsound minecraft:entity.wither.death hostile @a ~ ~ ~ 2 0.7
 kill @e[tag=sh_part,tag=!sh_main, distance=..70]
 
 execute as @e[type=warden,distance=..32] at @s run function sculk_hive:behavior/general/kill_warden
-gamerule doWardenSpawning false
+function sculk_hive:behavior/general/shrieker_off
 
 effect clear @e[tag=sh_atk, distance=..64] wither
 effect clear @e[tag=sh_atk, distance=..64] darkness

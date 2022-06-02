@@ -12,3 +12,4 @@ scoreboard players set @s sh_horse 0
 scoreboard players set @s sh_minecart 0
 scoreboard players set @s sh_pig 0
 scoreboard players set @s sh_strider 0
+scoreboard players set @s sh_jump 0

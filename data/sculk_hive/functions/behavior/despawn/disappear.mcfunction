@@ -31,8 +31,7 @@ tag @e[tag=sh_sta, distance=..64] remove sh_sta
 tag @e[tag=sh_atk_normal, distance=..64] remove sh_atk_normal
 tag @e[tag=sh_atk_undead, distance=..64] remove sh_atk_undead
 
-execute if data storage sculk_hive:data {world:{doWardenSpawning:{before:0b}}} run gamerule doWardenSpawning false
-execute if data storage sculk_hive:data {world:{doWardenSpawning:{before:1b}}} run gamerule doWardenSpawning true
+function sculk_hive:behavior/general/shrieker_on
 
 summon marker ~ ~ ~ {Tags:["sh_smn"]}
 

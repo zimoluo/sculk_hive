@@ -23,7 +23,7 @@ execute as @a[distance=..32,advancements={adventure/kill_sculk_hive=true}] at @s
 
 advancement grant @a[distance=..32,advancements={adventure/kill_sculk_hive=false}] only adventure/kill_sculk_hive
 
-function sculk_hive:behavior/despawn/defeat/shrieker_replace
+function sculk_hive:behavior/general/shrieker_off
 
 setblock ~ ~ ~ air
 place template sculk_hive:boss/portal ~-2 ~-3 ~-2
@@ -39,8 +39,5 @@ tag @e[tag=sh_snk, distance=..64] remove sh_snk
 tag @e[tag=sh_sta, distance=..64] remove sh_sta
 tag @e[tag=sh_atk_normal, distance=..64] remove sh_atk_normal
 tag @e[tag=sh_atk_undead, distance=..64] remove sh_atk_undead
-
-execute if data storage sculk_hive:data {world:{doWardenSpawning:{before:0b}}} run gamerule doWardenSpawning false
-execute if data storage sculk_hive:data {world:{doWardenSpawning:{before:1b}}} run gamerule doWardenSpawning true
 
 kill @s

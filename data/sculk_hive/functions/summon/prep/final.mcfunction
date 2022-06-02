@@ -27,6 +27,4 @@ scoreboard players set @s sh_bossfight 0
 
 bossbar set sculk_hive:health style progress
 
-data merge storage sculk_hive:data {world:{doWardenSpawning:{before:0b}}}
-execute store result storage sculk_hive:data world.doWardenSpawning.before byte 1 run gamerule doWardenSpawning
-gamerule doWardenSpawning true
+function sculk_hive:behavior/general/shrieker_on

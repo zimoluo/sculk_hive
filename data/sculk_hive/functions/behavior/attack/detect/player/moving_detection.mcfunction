@@ -13,6 +13,7 @@ execute if score @s sh_horse matches 1.. run tag @s remove sh_sta
 execute if score @s sh_minecart matches 1.. run tag @s remove sh_sta
 execute if score @s sh_strider matches 1.. run tag @s remove sh_sta
 execute if score @s sh_pig matches 1.. run tag @s remove sh_sta
+execute if score @s sh_jump matches 1.. run tag @s remove sh_sta
 
 execute if score @s sh_snk matches 1.. run tag @s add sh_sta
 
