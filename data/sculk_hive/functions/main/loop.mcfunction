@@ -2,8 +2,6 @@ function sculk_hive:main/parameter
 
 function sculk_hive:summon/general_control
 
-function sculk_hive:behavior/bossbar/main
-
 execute as @e[tag=sh_smn_cd] at @s if data storage sculk_hive:data {world: {difficulty: 0}} run function sculk_hive:behavior/despawn/interrupted
 
 execute as @e[tag=sh_main] at @s run function sculk_hive:behavior/general/main
@@ -32,3 +30,5 @@ execute as @a[advancements={sculk_hive:util/kill_monster=false, sculk_hive:util/
 execute as @e[tag=sh_cat_hp] at @s align xyz positioned ~0.5 ~1 ~0.5 run function sculk_hive:behavior/general/hp_prevent_suffocate
 execute as @e[tag=sh_sey_hp] at @s align xyz positioned ~0.5 ~1 ~0.5 run function sculk_hive:behavior/general/hp_prevent_suffocate
 execute as @e[tag=sh_final_hp] at @s align xyz positioned ~0.5 ~1 ~0.5 run function sculk_hive:behavior/general/hp_prevent_suffocate
+
+function sculk_hive:behavior/bossbar/main
