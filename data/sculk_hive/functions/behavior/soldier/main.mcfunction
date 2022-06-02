@@ -8,3 +8,6 @@ execute if entity @s[tag=sh_sdr_ready] unless entity @s[tag=sh_sdr_disp] as @e[t
 particle sculk_soul ~ ~1 ~ 0.5 0.5 0.5 0.000001 2 force
 execute anchored eyes run particle soul_fire_flame ^ ^ ^ 0.3 0.3 0.3 0.000001 1 force
 execute anchored eyes run particle sculk_soul ^ ^ ^ 0.3 0.3 0.3 0.000001 1 force
+
+execute unless entity @e[tag=sh_main, distance=..64] run tag @s add sh_sdr_ready
+execute unless entity @e[tag=sh_main, distance=..64] run function sculk_hive:behavior/soldier/burrow

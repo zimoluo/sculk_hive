@@ -9,14 +9,14 @@ scoreboard players set @s sh_bot_xn 0
 scoreboard players set @s sh_bot_zp 0
 scoreboard players set @s sh_bot_zn 0
 
-execute if score @s sh_x > @e[tag=sh_main,limit=1] sh_x run scoreboard players set @s sh_bot_xp 2
-execute if score @s sh_x < @e[tag=sh_main,limit=1] sh_x run scoreboard players set @s sh_bot_xn 2
-execute if score @s sh_z > @e[tag=sh_main,limit=1] sh_z run scoreboard players set @s sh_bot_zp 2
-execute if score @s sh_z < @e[tag=sh_main,limit=1] sh_z run scoreboard players set @s sh_bot_zn 2
-execute if score @s sh_x = @e[tag=sh_main,limit=1] sh_x run scoreboard players set @s sh_bot_xp 1
-execute if score @s sh_x = @e[tag=sh_main,limit=1] sh_x run scoreboard players set @s sh_bot_xn 1
-execute if score @s sh_z = @e[tag=sh_main,limit=1] sh_z run scoreboard players set @s sh_bot_zp 1
-execute if score @s sh_z = @e[tag=sh_main,limit=1] sh_z run scoreboard players set @s sh_bot_zn 1
+execute if score @s sh_x > @e[tag=sh_main,limit=1, sort=nearest] sh_x run scoreboard players set @s sh_bot_xp 2
+execute if score @s sh_x < @e[tag=sh_main,limit=1, sort=nearest] sh_x run scoreboard players set @s sh_bot_xn 2
+execute if score @s sh_z > @e[tag=sh_main,limit=1, sort=nearest] sh_z run scoreboard players set @s sh_bot_zp 2
+execute if score @s sh_z < @e[tag=sh_main,limit=1, sort=nearest] sh_z run scoreboard players set @s sh_bot_zn 2
+execute if score @s sh_x = @e[tag=sh_main,limit=1, sort=nearest] sh_x run scoreboard players set @s sh_bot_xp 1
+execute if score @s sh_x = @e[tag=sh_main,limit=1, sort=nearest] sh_x run scoreboard players set @s sh_bot_xn 1
+execute if score @s sh_z = @e[tag=sh_main,limit=1, sort=nearest] sh_z run scoreboard players set @s sh_bot_zp 1
+execute if score @s sh_z = @e[tag=sh_main,limit=1, sort=nearest] sh_z run scoreboard players set @s sh_bot_zn 1
 
 scoreboard players operation @s sh_cat_span_diff = @s sh_cat_span_max
 scoreboard players operation @s sh_cat_span_diff -= @s sh_cat_span
@@ -28,8 +28,8 @@ execute at @s if score @s sh_cat_span matches 1.. if score @s sh_cat_span matche
 execute at @s run function sculk_hive:behavior/cat_bot/move/move
 execute at @s run function sculk_hive:behavior/cat_bot/move/move
 
-execute at @s if score @e[tag=sh_main,limit=1] sh_bossfight matches 0..1200 if predicate sculk_hive:chance/02 run function sculk_hive:behavior/cat_bot/move/special/decide
-execute at @s if score @e[tag=sh_main,limit=1] sh_bossfight matches 1201.. if predicate sculk_hive:chance/01 run function sculk_hive:behavior/cat_bot/move/special/decide
+execute at @s if score @e[tag=sh_main,limit=1, sort=nearest] sh_bossfight matches 0..1200 if predicate sculk_hive:chance/02 run function sculk_hive:behavior/cat_bot/move/special/decide
+execute at @s if score @e[tag=sh_main,limit=1, sort=nearest] sh_bossfight matches 1201.. if predicate sculk_hive:chance/01 run function sculk_hive:behavior/cat_bot/move/special/decide
 
 execute if predicate sculk_hive:chance/06 at @s run function sculk_hive:behavior/cat_bot/move/move
 execute if predicate sculk_hive:chance/02 at @s run tp @s ~ ~ ~ ~90 ~

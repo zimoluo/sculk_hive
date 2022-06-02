@@ -62,8 +62,8 @@
 
 ## Technical Details
 * The boss can only be summoned when no other Sculk Hives are present in the world.
-* When attempting to resummon the boss with the Sculk Sword, one must make sure that no other functional altars are within 128 blocks range.
-* The boss's attack range is 32 blocks, and the boss's despawning range is 128 blocks. When there are no players (including spectators) within 128 blocks, the boss despawns.
+* When attempting to resummon the boss with the Sculk Sword, one must make sure that no other functional altars are within 160 blocks range.
+* The boss's attack range is 32 blocks, and the boss's despawning range is 160 blocks. When there are no players (including spectators) within 160 blocks, the boss despawns.
 * The boss attacks all mobs except the Ender Dragon, Ghasts, and Wardens. For players, the boss only attacks players in survival or adventure mode.
 * When the boss despawns, it can be resummoned at its altar; however, the boss cannot be summoned at its original site if it's defeated.
 * The datapack names all its scoreboard objectives and tags with the prefix `sh_`, so it's compatible with most other datapacks.

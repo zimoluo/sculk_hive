@@ -8,6 +8,3 @@ execute if score @s sh_dth_eff_cd matches 0 run function sculk_hive:behavior/des
 
 execute if predicate sculk_hive:chance/01 run particle minecraft:sculk_soul ~ ~ ~ 1 1 1 0.000001 30 force
 execute if predicate sculk_hive:chance/01 run particle minecraft:sculk_charge_pop ~ ~ ~ 1 1 1 0.0001 50 force
-
-bossbar set sculk_hive:health max 100
-bossbar set sculk_hive:health value 0

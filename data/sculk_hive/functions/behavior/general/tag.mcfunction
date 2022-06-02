@@ -1,23 +1,21 @@
-tag @a[distance=..32, gamemode=!creative, gamemode=!spectator] add sh_atk
-tag @a[distance=..32, gamemode=!creative, gamemode=!spectator] add sh_atk_normal
+execute as @a[gamemode=!creative,gamemode=!spectator] at @s if entity @e[tag=sh_main,distance=..32] run tag @s add sh_atk
+execute as @a[gamemode=!creative,gamemode=!spectator] at @s if entity @e[tag=sh_main,distance=..32] run tag @s add sh_atk_normal
 
+execute as @e[type=!player, type=!#sculk_hive:non-attack, type=!#sculk_hive:undead] at @s if entity @e[tag=sh_main,distance=..32] run tag @s add sh_atk
+execute as @e[type=!player, type=!#sculk_hive:non-attack, type=!#sculk_hive:undead] at @s if entity @e[tag=sh_main,distance=..32] run tag @s add sh_atk_normal
+execute as @e[type=#sculk_hive:undead] at @s if entity @e[tag=sh_main,distance=..32] run tag @s add sh_atk
+execute as @e[type=#sculk_hive:undead] at @s if entity @e[tag=sh_main,distance=..32] run tag @s add sh_atk_undead
 
-tag @e[distance=..32, type=!player, type=!#sculk_hive:non-attack, type=!#sculk_hive:undead] add sh_atk
-tag @e[distance=..32, type=!player, type=!#sculk_hive:non-attack, type=!#sculk_hive:undead] add sh_atk_normal
-tag @e[distance=..32, type=#sculk_hive:undead] add sh_atk
-tag @e[distance=..32, type=#sculk_hive:undead] add sh_atk_undead
-
-tag @e[distance=32.01.., tag=sh_atk] remove sh_atk
-tag @e[distance=32.01.., tag=sh_atk_normal] remove sh_atk_normal
-tag @e[distance=32.01.., tag=sh_atk_undead] remove sh_atk_undead
+execute as @e[tag=sh_atk] at @s unless entity @e[tag=sh_main,distance=..32] run tag @s remove sh_atk
+execute as @e[tag=sh_atk_normal] at @s unless entity @e[tag=sh_main,distance=..32] run tag @s remove sh_atk_normal
+execute as @e[tag=sh_atk_undead] at @s unless entity @e[tag=sh_main,distance=..32] run tag @s remove sh_atk_undead
 
 tag @a[gamemode=!adventure, gamemode=!survival, tag=sh_atk] remove sh_atk
 tag @a[gamemode=!adventure, gamemode=!survival, tag=sh_atk_normal] remove sh_atk_normal
 
-
-tag @a[distance=..32] add sh_eff
-
-tag @e[distance=32.01.., tag=sh_eff] remove sh_eff
+execute as @a at @s if entity @e[tag=sh_main, distance=..32] run tag @s add sh_eff
+execute as @a at @s if entity @e[tag=sh_smn, distance=..32] run tag @s add sh_eff
+execute as @a at @s unless entity @e[tag=sh_main, distance=..32] unless entity @e[tag=sh_smn, distance=..32] run tag @s remove sh_eff
 
 tag @e[type=#sculk_hive:non-attack] remove sh_atk
 tag @e[nbt={Invulnerable:1b}] remove sh_atk

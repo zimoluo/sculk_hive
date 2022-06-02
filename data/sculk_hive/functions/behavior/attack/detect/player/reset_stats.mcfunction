@@ -1,0 +1,14 @@
+scoreboard players set @s sh_snk 0
+scoreboard players set @s sh_climb 0
+scoreboard players set @s sh_fall 0
+scoreboard players set @s sh_sprint 0
+scoreboard players set @s sh_fly 0
+scoreboard players set @s sh_swim 0
+scoreboard players set @s sh_walk 0
+scoreboard players set @s sh_walk_water 0
+scoreboard players set @s sh_boat 0
+scoreboard players set @s sh_aviate 0
+scoreboard players set @s sh_horse 0
+scoreboard players set @s sh_minecart 0
+scoreboard players set @s sh_pig 0
+scoreboard players set @s sh_strider 0

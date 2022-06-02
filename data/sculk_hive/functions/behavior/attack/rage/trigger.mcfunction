@@ -32,7 +32,7 @@ particle minecraft:soul_fire_flame ~ ~ ~ 2 2 2 0.00001 100 force
 playsound minecraft:block.sculk_shrieker.shriek hostile @a ~ ~ ~ 2 1.5
 playsound minecraft:block.sculk_shrieker.shriek hostile @a ~ ~ ~ 2 0.8
 
-effect give @e[tag=sh_atk] darkness 15 0 true
-effect give @e[tag=sh_atk] weakness 15
-effect give @e[tag=sh_atk, tag=sh_atk_normal] instant_damage 1 1 true
-effect give @e[tag=sh_atk, tag=sh_atk_undead] instant_health 1 1 true
+effect give @e[tag=sh_atk, distance=..64] darkness 15 0 true
+effect give @e[tag=sh_atk, distance=..64] weakness 15
+effect give @e[tag=sh_atk, tag=sh_atk_normal, distance=..64] instant_damage 1 1 true
+effect give @e[tag=sh_atk, tag=sh_atk_undead, distance=..64] instant_health 1 1 true

@@ -1,4 +1,4 @@
-kill @e[tag=sh_dpy]
+kill @e[tag=sh_dpy, limit=1, sort=nearest]
 
 execute positioned ~-2 ~ ~-2 run place template sculk_hive:boss/summon
 execute if predicate sculk_hive:chance/05 positioned ~-1 ~1 ~-1 run setblock ~ ~ ~ air
@@ -16,5 +16,5 @@ playsound minecraft:entity.warden.emerge hostile @a ~ ~ ~ 2 1.5
 
 particle minecraft:sculk_soul ~ ~2 ~ 0.5 0.5 0.5 0.00001 150 force
 
-kill @e[tag=sh_prep]
+kill @e[tag=sh_prep, limit=1, sort=nearest]
 kill @s

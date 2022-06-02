@@ -9,14 +9,14 @@ scoreboard players set @s sh_bot_xn 0
 scoreboard players set @s sh_bot_zp 0
 scoreboard players set @s sh_bot_zn 0
 
-execute if score @s sh_x > @e[tag=sh_main,limit=1] sh_x run scoreboard players set @s sh_bot_xp 2
-execute if score @s sh_x < @e[tag=sh_main,limit=1] sh_x run scoreboard players set @s sh_bot_xn 2
-execute if score @s sh_z > @e[tag=sh_main,limit=1] sh_z run scoreboard players set @s sh_bot_zp 2
-execute if score @s sh_z < @e[tag=sh_main,limit=1] sh_z run scoreboard players set @s sh_bot_zn 2
-execute if score @s sh_x = @e[tag=sh_main,limit=1] sh_x run scoreboard players set @s sh_bot_xp 1
-execute if score @s sh_x = @e[tag=sh_main,limit=1] sh_x run scoreboard players set @s sh_bot_xn 1
-execute if score @s sh_z = @e[tag=sh_main,limit=1] sh_z run scoreboard players set @s sh_bot_zp 1
-execute if score @s sh_z = @e[tag=sh_main,limit=1] sh_z run scoreboard players set @s sh_bot_zn 1
+execute if score @s sh_x > @e[tag=sh_main,limit=1, sort=nearest] sh_x run scoreboard players set @s sh_bot_xp 2
+execute if score @s sh_x < @e[tag=sh_main,limit=1, sort=nearest] sh_x run scoreboard players set @s sh_bot_xn 2
+execute if score @s sh_z > @e[tag=sh_main,limit=1, sort=nearest] sh_z run scoreboard players set @s sh_bot_zp 2
+execute if score @s sh_z < @e[tag=sh_main,limit=1, sort=nearest] sh_z run scoreboard players set @s sh_bot_zn 2
+execute if score @s sh_x = @e[tag=sh_main,limit=1, sort=nearest] sh_x run scoreboard players set @s sh_bot_xp 1
+execute if score @s sh_x = @e[tag=sh_main,limit=1, sort=nearest] sh_x run scoreboard players set @s sh_bot_xn 1
+execute if score @s sh_z = @e[tag=sh_main,limit=1, sort=nearest] sh_z run scoreboard players set @s sh_bot_zp 1
+execute if score @s sh_z = @e[tag=sh_main,limit=1, sort=nearest] sh_z run scoreboard players set @s sh_bot_zn 1
 
 scoreboard players operation @s sh_cat_span_diff = @s sh_cat_span_max
 scoreboard players operation @s sh_cat_span_diff -= @s sh_cat_span

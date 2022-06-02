@@ -1,4 +1,4 @@
-execute as @a[tag=sh_eff] at @s run particle minecraft:flash ^ ^ ^ 0.2 0.2 0.2 0.0001 10 force @s
+execute as @a[tag=sh_eff, distance=..64] at @s run particle minecraft:flash ^ ^ ^ 0.2 0.2 0.2 0.0001 10 force @s
 particle minecraft:flash ~ ~ ~ 0.5 0.5 0.5 0.0001 25 force
 
 playsound minecraft:particle.soul_escape hostile @a ~ ~ ~ 2
