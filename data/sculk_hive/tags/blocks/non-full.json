@@ -161,6 +161,8 @@
     "wither_skeleton_skull",
     "wither_skeleton_wall_skull",
     "kelp",
-    "kelp_plant"
+    "kelp_plant",
+    "nether_portal",
+    "end_portal"
   ]
 }
