@@ -1,5 +1,3 @@
-bossbar set sculk_hive:health players @a[distance=..32]
-
 bossbar set sculk_hive:health color blue
 
 scoreboard players set @s sh_hp 0

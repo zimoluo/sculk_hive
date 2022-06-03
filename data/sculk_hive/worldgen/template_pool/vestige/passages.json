@@ -1,0 +1,60 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sculk_hive:vestige/passages/long",
+        "processors": "sculk_hive:vestige_replace",
+        "projection": "rigid"
+      },
+      "weight": 10
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sculk_hive:vestige/passages/short",
+        "processors": "sculk_hive:vestige_replace",
+        "projection": "rigid"
+      },
+      "weight": 12
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sculk_hive:vestige/passages/cross",
+        "processors": "sculk_hive:vestige_replace",
+        "projection": "rigid"
+      },
+      "weight": 11
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sculk_hive:vestige/passages/t-way",
+        "processors": "sculk_hive:vestige_replace",
+        "projection": "rigid"
+      },
+      "weight": 11
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sculk_hive:vestige/passages/corner",
+        "processors": "sculk_hive:vestige_replace",
+        "projection": "rigid"
+      },
+      "weight": 8
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sculk_hive:vestige/passages/end",
+        "processors": "sculk_hive:vestige_replace",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "sculk_hive:vestige/end",
+  "name": "sculk_hive:vestige/passages"
+}

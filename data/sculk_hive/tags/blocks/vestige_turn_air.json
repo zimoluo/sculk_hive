@@ -1,0 +1,12 @@
+{
+    "replace": false,
+    "values": [
+      "#sculk_hive:air",
+      "grass",
+      "tall_grass",
+      "fern",
+      "large_fern",
+      "#flowers",
+      "vine"
+    ]
+  }

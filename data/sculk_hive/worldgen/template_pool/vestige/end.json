@@ -1,0 +1,15 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sculk_hive:vestige/passages/end",
+        "processors": "sculk_hive:vestige_replace",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty",
+  "name": "sculk_hive:vestige/end"
+}

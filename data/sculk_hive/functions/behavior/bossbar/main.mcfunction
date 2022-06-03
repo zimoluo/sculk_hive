@@ -15,8 +15,8 @@ tag @e[tag=sh_bar] remove sh_bar
 tag @e[tag=sh_bar_can] remove sh_bar_can
 tag @e[tag=sh_bar_only] remove sh_bar_only
 
-execute as @a at @s if entity @e[tag=sh_smn_cd, distance=..32] run tag @s add sh_bar_display
-execute as @a at @s if entity @e[tag=sh_main, distance=..32] run tag @s add sh_bar_display
+execute as @a[gamemode=!spectator] at @s if entity @e[tag=sh_smn_cd, distance=..32] run tag @s add sh_bar_display
+execute as @a[gamemode=!spectator] at @s if entity @e[tag=sh_main, distance=..32] run tag @s add sh_bar_display
 
 bossbar set sculk_hive:health players @a[tag=sh_bar_display]
 

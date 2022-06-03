@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+      "minecraft:stone_bricks",
+      "chiseled_stone_bricks",
+      "stripped_jungle_wood",
+      "jungle_fence",
+      "lantern"
+    ]
+  }

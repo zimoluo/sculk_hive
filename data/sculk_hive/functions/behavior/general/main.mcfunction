@@ -9,6 +9,8 @@ execute unless entity @s[tag=sh_phs] unless entity @s[tag=sh_dth] unless entity 
 
 execute if entity @s[tag=sh_phs] run function sculk_hive:behavior/general/interphase
 
+execute unless entity @s[tag=sh_dth] unless entity @s[tag=sh_phs] run function sculk_hive:behavior/general/regen/tick
+
 execute unless entity @s[tag=sh_dth] if data storage sculk_hive:data {world: {difficulty: 0}} run function sculk_hive:behavior/despawn/disappear
 
 execute unless entity @s[tag=sh_dth] unless entity @s[tag=sh_phd] unless entity @s[tag=sh_final] run function sculk_hive:behavior/general/soul

@@ -10,6 +10,7 @@ scoreboard objectives add sh_bot_zn dummy
 scoreboard objectives add sh_bot_last dummy
 scoreboard objectives add sh_bot_special_type dummy
 scoreboard objectives add sh_bot_special_pos dummy
+scoreboard objectives add sh_regen dummy
 scoreboard objectives add sh_x dummy
 scoreboard objectives add sh_y dummy
 scoreboard objectives add sh_z dummy
