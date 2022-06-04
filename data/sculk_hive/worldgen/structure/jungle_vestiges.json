@@ -10,7 +10,7 @@
   },
   "start_pool": "sculk_hive:vestige/start",
   "start_jigsaw_name": "sculk_hive:anchor",
-  "terrain_adaptation": "beard_thin",
+  "terrain_adaptation": "none",
   "step": "surface_structures",
   "use_expansion_hack": false
 }

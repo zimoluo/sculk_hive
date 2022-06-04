@@ -4,7 +4,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "sculk_hive:vestige/statues/chest",
-        "processors": "sculk_hive:vestige_intact",
+        "processors": "sculk_hive:vestige_decor",
         "projection": "rigid"
       },
       "weight": 1
@@ -13,7 +13,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "sculk_hive:vestige/statues/columns",
-        "processors": "sculk_hive:vestige_intact",
+        "processors": "sculk_hive:vestige_decor",
         "projection": "rigid"
       },
       "weight": 1
@@ -22,7 +22,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "sculk_hive:vestige/statues/lava",
-        "processors": "sculk_hive:vestige_intact",
+        "processors": "sculk_hive:vestige_decor",
         "projection": "rigid"
       },
       "weight": 1
@@ -31,7 +31,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "sculk_hive:vestige/statues/mimic",
-        "processors": "sculk_hive:vestige_intact",
+        "processors": "sculk_hive:vestige_decor",
         "projection": "rigid"
       },
       "weight": 1
