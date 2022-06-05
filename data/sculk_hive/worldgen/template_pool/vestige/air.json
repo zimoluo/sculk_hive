@@ -4,7 +4,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "sculk_hive:vestige/air",
-        "processors": "minecraft:empty",
+        "processors": "sculk_hive:vestige_intact",
         "projection": "rigid"
       },
       "weight": 1
