@@ -35,6 +35,123 @@
             "predicate_type": "minecraft:tag_match"
           },
           "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:oak_leaves"
+          },
+          "output_state": {
+            "Name": "minecraft:oak_leaves"
+          }
+        },
+        {
+          "input_predicate": {
+            "tag": "sculk_hive:vestige_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:spruce_leaves"
+          },
+          "output_state": {
+            "Name": "minecraft:spruce_leaves"
+          }
+        },
+        {
+          "input_predicate": {
+            "tag": "sculk_hive:vestige_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:dark_oak_leaves"
+          },
+          "output_state": {
+            "Name": "minecraft:dark_oak_leaves"
+          }
+        },
+        {
+          "input_predicate": {
+            "tag": "sculk_hive:vestige_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:acacia_leaves"
+          },
+          "output_state": {
+            "Name": "minecraft:acacia_leaves"
+          }
+        },
+        {
+          "input_predicate": {
+            "tag": "sculk_hive:vestige_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:birch_leaves"
+          },
+          "output_state": {
+            "Name": "minecraft:birch_leaves"
+          }
+        },
+        {
+          "input_predicate": {
+            "tag": "sculk_hive:vestige_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:jungle_leaves"
+          },
+          "output_state": {
+            "Name": "minecraft:jungle_leaves"
+          }
+        },
+        {
+          "input_predicate": {
+            "tag": "sculk_hive:vestige_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:mangrove_leaves"
+          },
+          "output_state": {
+            "Name": "minecraft:mangrove_leaves"
+          }
+        },
+        {
+          "input_predicate": {
+            "tag": "sculk_hive:vestige_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:azalea_leaves"
+          },
+          "output_state": {
+            "Name": "minecraft:azalea_leaves"
+          }
+        },
+        {
+          "input_predicate": {
+            "tag": "sculk_hive:vestige_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:flowering_azalea_leaves"
+          },
+          "output_state": {
+            "Name": "minecraft:flowering_azalea_leaves"
+          }
+        },
+        {
+          "input_predicate": {
+            "tag": "sculk_hive:vestige_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "location_predicate": {
             "predicate_type": "minecraft:tag_match",
             "tag": "sculk_hive:vestige_water_source"
           },
