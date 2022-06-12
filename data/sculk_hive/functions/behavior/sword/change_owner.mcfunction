@@ -1,5 +1,5 @@
 data modify entity @s Item.tag.HasWielder set value 0b
-data modify entity @s Item.tag.display.Lore append value '{"text":"Dwindling","color":"#FFD1A8","italic":false, "font":"minecraft:illageralt"}'
+data modify entity @s Item.tag.display.Lore append value '{"text":"Dwindling","color":"#006F75","italic":false, "font":"minecraft:illageralt"}'
 
 playsound minecraft:entity.illusioner.mirror_move hostile @a ~ ~ ~ 2 1.2
 particle minecraft:enchant ~ ~0.4 ~ 0.3 0.3 0.3 0.00001 10

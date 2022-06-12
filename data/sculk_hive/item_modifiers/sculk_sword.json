@@ -5,7 +5,7 @@
       "lore": [
         [
             {
-                "text":"Belongs to ","color":"yellow","italic":true
+                "text":"Belongs to ","color":"#FFE779","italic":true
             },
             {
                 "selector":"@s","color":"green","italic":false

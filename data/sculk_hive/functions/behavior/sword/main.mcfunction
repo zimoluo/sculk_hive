@@ -13,6 +13,6 @@ execute if entity @s[tag=!sh_htbk] if data entity @s {OnGround:1b, Item:{tag:{Ha
 execute if entity @s[tag=!sh_htbk] unless data entity @s {Item:{tag:{StrongFaith:1b}}} run particle soul_fire_flame ~ ~ ~ 0.1 0.1 0.1 0.0001 1 force
 execute if entity @s[tag=!sh_htbk] if data entity @s {Item:{tag:{StrongFaith:1b}}} if predicate sculk_hive:chance/05 run particle end_rod ~ ~ ~ 0.2 0.2 0.2 0.0001 1 force
 
-execute if entity @s[tag=!sh_htbk] if data entity @s {OnGround:1b, Item:{tag:{HasWielder:1b, WieldedByPlayer:0b}}} run function sculk_hive:behavior/sword/check_if_owner_died
+execute if entity @s[tag=!sh_htbk] if data entity @s {OnGround:1b, Item:{tag:{HasWielder:1b}}} run function sculk_hive:behavior/sword/check_if_owner_died
 
 execute if entity @s[tag=sh_htbk] run function sculk_hive:behavior/sword/tick
