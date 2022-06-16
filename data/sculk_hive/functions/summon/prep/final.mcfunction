@@ -7,9 +7,16 @@ particle minecraft:sculk_soul ~ ~ ~ 2 2 2 0.0001 200 force
 
 scoreboard players set @s sh_cd -1
 
+fill ~ ~ ~ ~ ~ ~ sculk_shrieker[can_summon=true, shrieking=false, waterlogged=false] replace sculk_shrieker[waterlogged=false]
+fill ~ ~ ~ ~ ~ ~ sculk_shrieker[can_summon=true, shrieking=false, waterlogged=true] replace sculk_shrieker[waterlogged=true]
+
+function sculk_hive:behavior/general/shrieker_on
+
 tag @s add sh_main
 tag @s add sh_part
 tag @s remove sh_smn_cd
+
+function sculk_hive:behavior/general/tag
 
 summon marker ~2 ~-1 ~ {Tags:["sh_part", "sh_cat", "sh_cat_top", "sh_cat_raw"]}
 summon marker ~-2 ~-1 ~ {Tags:["sh_part", "sh_cat", "sh_cat_top", "sh_cat_raw"]}

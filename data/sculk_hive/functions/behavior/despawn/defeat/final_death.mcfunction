@@ -23,7 +23,7 @@ execute as @a[distance=..32,advancements={adventure/kill_sculk_hive=true}] at @s
 
 advancement grant @a[distance=..32,advancements={adventure/kill_sculk_hive=false}] only adventure/kill_sculk_hive
 
-function sculk_hive:behavior/general/shrieker_off
+function sculk_hive:behavior/general/shrieker_destroy
 
 setblock ~ ~ ~ air
 place template sculk_hive:boss/portal ~-2 ~-3 ~-2

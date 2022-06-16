@@ -1,7 +1,5 @@
-setblock ~ ~ ~ air
-
-particle minecraft:sculk_charge_pop ~ ~ ~ 1 1 1 0.0001 200 force
-particle minecraft:sculk_soul ~ ~ ~ 1 1 1 0.0001 100 force
+particle minecraft:sculk_charge_pop ~ ~ ~ 2 2 2 0.0001 200 force
+particle minecraft:sculk_soul ~ ~ ~ 2 2 2 0.0001 100 force
 
 effect clear @a[tag=sh_atk, distance=..64] darkness
 effect clear @a[tag=sh_eff, distance=..64] darkness
@@ -15,10 +13,10 @@ effect clear @e[tag=sh_atk, distance=..64] weakness
 playsound minecraft:entity.elder_guardian.curse hostile @a ~ ~ ~ 2 0.8
 playsound minecraft:block.sculk_shrieker.shriek hostile @a ~ ~ ~ 2 1.3
 
-setblock ~1 ~-2 ~1 soul_sand
-setblock ~-1 ~-2 ~1 soul_sand
-setblock ~1 ~-2 ~-1 soul_sand
-setblock ~-1 ~-2 ~-1 soul_sand
+fill ~1 ~-2 ~1 ~1 ~-2 ~1 soul_sand replace sculk
+fill ~-1 ~-2 ~1 ~-1 ~-2 ~1 soul_sand replace sculk
+fill ~1 ~-2 ~-1 ~1 ~-2 ~-1 soul_sand replace sculk
+fill ~-1 ~-2 ~-1 ~-1 ~-2 ~-1 soul_sand replace sculk
 
 execute as @e[tag=sh_atk, distance=..64] at @s run function sculk_hive:behavior/general/reset_atk_scoreboard
 
@@ -32,6 +30,9 @@ tag @e[tag=sh_atk_normal, distance=..64] remove sh_atk_normal
 tag @e[tag=sh_atk_undead, distance=..64] remove sh_atk_undead
 
 function sculk_hive:behavior/general/shrieker_on
+
+fill ~ ~ ~ ~ ~ ~ air replace sculk_shrieker[waterlogged=false]
+fill ~ ~ ~ ~ ~ ~ water replace sculk_shrieker[waterlogged=true]
 
 summon marker ~ ~ ~ {Tags:["sh_smn"]}
 

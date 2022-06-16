@@ -6,8 +6,10 @@ bossbar set sculk_hive:health max 100
 
 scoreboard players set @s sh_cd 0
 
-setblock ~ ~ ~ air
-setblock ~ ~ ~ sculk_shrieker[can_summon=true, shrieking=false, waterlogged=false]
+function sculk_hive:behavior/general/shrieker_off
+
+fill ~ ~ ~ ~ ~ ~ sculk_shrieker[can_summon=false, shrieking=false, waterlogged=false] replace sculk_shrieker[waterlogged=false]
+fill ~ ~ ~ ~ ~ ~ sculk_shrieker[can_summon=false, shrieking=false, waterlogged=true] replace sculk_shrieker[waterlogged=true]
 
 execute as @a[tag=sh_eff, distance=..64] at @s anchored eyes run particle minecraft:flash ^ ^ ^ 0.2 0.2 0.2 0.0001 10 force @s
 particle minecraft:flash ~ ~ ~ 0.5 0.5 0.5 0.0001 25 force

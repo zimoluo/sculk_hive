@@ -5,6 +5,9 @@ function sculk_hive:behavior/general/tick
 function sculk_hive:behavior/general/count_cat
 function sculk_hive:behavior/general/count_soldier
 
+execute unless entity @s[tag=sh_dth] run function sculk_hive:behavior/general/blocks/detect
+execute if entity @s[tag=sh_dth] run function sculk_hive:behavior/general/blocks/detect_dth
+
 execute unless entity @s[tag=sh_phs] unless entity @s[tag=sh_dth] unless entity @s[tag=sh_2nd] run function sculk_hive:behavior/attack/main
 
 execute if entity @s[tag=sh_phs] run function sculk_hive:behavior/general/interphase
@@ -17,9 +20,6 @@ execute unless entity @s[tag=sh_dth] unless entity @s[tag=sh_phd] unless entity 
 execute if entity @s[tag=sh_final] unless entity @s[tag=sh_dth] run function sculk_hive:behavior/general/soul_big
 execute if entity @s[tag=sh_phd] run function sculk_hive:behavior/general/soul_small
 execute if entity @s[tag=sh_dth] run function sculk_hive:behavior/general/soul_dth
-
-execute unless entity @s[tag=sh_dth] run function sculk_hive:behavior/general/blocks/detect
-execute if entity @s[tag=sh_dth] run function sculk_hive:behavior/general/blocks/detect_dth
 
 execute unless entity @s[tag=sh_phs] unless entity @e[tag=sh_cat, distance=..64] unless entity @s[tag=sh_2nd] if entity @e[tag=sh_kck, distance=..64] run function sculk_hive:behavior/general/2nd_phase/init
 execute unless entity @s[tag=sh_phs] if entity @s[tag=sh_2nd] unless entity @e[tag=sh_sey, distance=..64] unless entity @s[tag=sh_final] run function sculk_hive:behavior/general/final/init
