@@ -1,5 +1,3 @@
-execute align xyz positioned ~0.5 ~ ~0.5 run function sculk_hive:behavior/sword/detect
-
 execute unless entity @s[tag=sh_swd] run function sculk_hive:behavior/sword/convert
 
 data merge entity @s {Health:32767s, Fire:-32768s, Invulnerable:1b}

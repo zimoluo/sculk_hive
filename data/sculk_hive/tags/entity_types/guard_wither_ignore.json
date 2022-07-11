@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+	"minecraft:ender_dragon",
+  "ghast",
+  "wither_skeleton",
+  "wither",
+	"#sculk_hive:non-mob",
+  "player"
+  ]
+}

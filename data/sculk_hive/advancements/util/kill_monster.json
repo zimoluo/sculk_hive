@@ -21,6 +21,27 @@
               }
           }
       },
+      "minecraft:player": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+            "entity": [
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "type": "minecraft:player"
+                    }
+                }
+            ],
+            "killing_blow": {
+                "is_explosion": false,
+                "is_projectile": false,
+                "is_lightning": false,
+                "bypasses_invulnerability": false,
+                "bypasses_magic": false
+            }
+        }
+    },
       "minecraft:warden": {
         "trigger": "minecraft:player_killed_entity",
         "conditions": {
@@ -772,7 +793,8 @@
           "minecraft:zombie_villager",
           "minecraft:zombie",
           "minecraft:zombified_piglin",
-          "minecraft:warden"
+          "minecraft:warden",
+          "minecraft:player"
       ]
   ]
 }

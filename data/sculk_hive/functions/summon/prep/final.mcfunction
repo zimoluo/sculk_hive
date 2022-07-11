@@ -28,7 +28,7 @@ summon marker ~ ~1.2 ~ {Tags:["sh_part","sh_spr_tgt"]}
 execute as @e[tag=sh_cat_raw] at @s run function sculk_hive:summon/cat_init_top
 
 
-execute as @e[type=warden,distance=..32] at @s run function sculk_hive:behavior/general/kill_warden
+execute as @e[type=warden,distance=..64] at @s run function sculk_hive:behavior/general/kill_warden
 
 scoreboard players set @s sh_bossfight 0
 

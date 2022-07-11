@@ -14,6 +14,7 @@ execute positioned ~-1.75 ~-1 ~-1.75 as @e[tag=sh_atk, dx=2.5, dz=2.5, dy=1] at 
 execute positioned ~-1.75 ~-1 ~-1.75 as @e[tag=sh_atk, dx=2.5, dz=2.5, dy=1] at @s run effect give @s slowness 10 1
 execute positioned ~-1.75 ~-1 ~-1.75 as @e[tag=sh_atk, dx=2.5, dz=2.5, dy=1] at @s if entity @s[tag=sh_atk_undead] run effect give @s instant_health 1 1 true
 execute positioned ~-1.75 ~-1 ~-1.75 as @e[tag=sh_atk, dx=2.5, dz=2.5, dy=1] at @s if entity @s[tag=sh_atk_normal] run effect give @s instant_damage 1 1 true
+execute positioned ~-1.75 ~-1 ~-1.75 as @e[tag=sh_atk, dx=2.5, dz=2.5, dy=1] at @s if entity @s[type=armor_stand] run function sculk_hive:behavior/general/de_armor
 
 
 execute unless entity @e[tag=sh_spr_tgt,distance=..1.6] at @s run function sculk_hive:behavior/laser/beam

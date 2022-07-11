@@ -7,7 +7,7 @@
         "processors": "sculk_hive:vestige_decor",
         "projection": "rigid"
       },
-      "weight": 1
+      "weight": 3
     },
     {
       "element": {
@@ -16,7 +16,7 @@
         "processors": "sculk_hive:vestige_decor",
         "projection": "rigid"
       },
-      "weight": 1
+      "weight": 3
     },
     {
       "element": {
@@ -25,12 +25,21 @@
         "processors": "sculk_hive:vestige_decor",
         "projection": "rigid"
       },
-      "weight": 1
+      "weight": 3
     },
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "sculk_hive:vestige/statues/mimic",
+        "processors": "sculk_hive:vestige_decor",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sculk_hive:vestige/statues/spawner",
         "processors": "sculk_hive:vestige_decor",
         "projection": "rigid"
       },

@@ -218,6 +218,19 @@
             ],
             "name": "minecraft:book",
             "weight": 4
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "enchantments": [
+                  "minecraft:swift_sneak"
+                ],
+                "function": "minecraft:enchant_randomly"
+              }
+            ],
+            "name": "minecraft:book",
+            "weight": 2
           }
         ],
         "rolls": {

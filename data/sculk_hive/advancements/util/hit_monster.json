@@ -28,6 +28,20 @@
             ]
         }
     },
+    "minecraft:player": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+            "entity": [
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "type": "minecraft:player"
+                    }
+                }
+            ]
+        }
+    },
       "minecraft:cave_spider": {
           "trigger": "minecraft:player_hurt_entity",
           "conditions": {
@@ -527,7 +541,8 @@
           "minecraft:zombie_villager",
           "minecraft:zombie",
           "minecraft:zombified_piglin",
-          "minecraft:warden"
+          "minecraft:warden",
+          "minecraft:player"
       ]
   ]
 }

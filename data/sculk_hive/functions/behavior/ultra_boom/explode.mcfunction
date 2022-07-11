@@ -3,6 +3,7 @@ playsound minecraft:block.sculk_shrieker.shriek hostile @a ~ ~ ~ 2 0.8
 
 execute positioned ~-3 ~-2.5 ~-3 as @e[tag=sh_atk, dx=6, dz=6, dy=4] at @s if entity @s[tag=sh_atk_normal] run effect give @s instant_damage 1 1 true
 execute positioned ~-3 ~-2.5 ~-3 as @e[tag=sh_atk, dx=6, dz=6, dy=4] at @s if entity @s[tag=sh_atk_undead] run effect give @s instant_health 1 1 true
+execute positioned ~-3 ~-2.5 ~-3 as @e[tag=sh_atk, dx=6, dz=6, dy=4] at @s if entity @s[type=armor_stand] run function sculk_hive:behavior/general/de_armor
 
 execute positioned ~-3 ~-2.5 ~-3 as @e[tag=sh_atk, dx=6, dz=6, dy=4] at @s run effect give @s darkness 20 0 true
 execute positioned ~-3 ~-2.5 ~-3 as @e[tag=sh_atk, dx=6, dz=6, dy=4] at @s run effect give @s wither 25 1

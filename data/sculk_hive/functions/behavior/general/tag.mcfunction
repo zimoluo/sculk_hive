@@ -19,9 +19,12 @@ execute as @a at @s unless entity @e[tag=sh_main, distance=..32] unless entity @
 
 tag @e[type=#sculk_hive:non-attack] remove sh_atk
 tag @e[nbt={Invulnerable:1b}] remove sh_atk
+tag @e[tag=sh_guard] remove sh_atk
 tag @e[tag=sh_part] remove sh_atk
 tag @e[tag=sh_part] remove sh_atk_undead
 tag @e[tag=sh_part] remove sh_atk_normal
 tag @e[tag=!sh_atk] remove sh_sta
 tag @e[tag=!sh_atk] remove sh_bite
 tag @e[tag=!sh_atk] remove sh_boomed
+
+execute as @e[type=armor_stand] if data entity @s {ArmorItems:[{}, {tag:{Enchantments:[{id:"minecraft:swift_sneak"}]}}, {}, {}]} unless data entity @s {Marker:1b} unless data entity @s {Invisible:1b} at @s if entity @e[tag=sh_main, distance=..32] run tag @s add sh_atk

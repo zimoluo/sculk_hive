@@ -14,6 +14,9 @@ scoreboard objectives add sh_regen dummy
 scoreboard objectives add sh_x dummy
 scoreboard objectives add sh_y dummy
 scoreboard objectives add sh_z dummy
+scoreboard objectives add sh_forward dummy
+scoreboard objectives add sh_side dummy
+scoreboard objectives add sh_pos_score dummy
 scoreboard objectives add sh_last_x dummy
 scoreboard objectives add sh_last_y dummy
 scoreboard objectives add sh_last_z dummy

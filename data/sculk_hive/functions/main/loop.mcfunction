@@ -30,5 +30,9 @@ execute as @a[advancements={sculk_hive:util/kill_monster=false, sculk_hive:util/
 execute as @e[tag=sh_cat_hp] at @s align xyz positioned ~0.5 ~1 ~0.5 run function sculk_hive:behavior/general/hp_prevent_suffocate
 execute as @e[tag=sh_sey_hp] at @s align xyz positioned ~0.5 ~1 ~0.5 run function sculk_hive:behavior/general/hp_prevent_suffocate
 execute as @e[tag=sh_final_hp] at @s align xyz positioned ~0.5 ~1 ~0.5 run function sculk_hive:behavior/general/hp_prevent_suffocate
+execute as @e[type=#sculk_hive:guard] at @s run function sculk_hive:behavior/vestige/main
+execute as @e[tag=sh_vestige_spawner] at @s unless block ~ ~ ~ void_air run function sculk_hive:behavior/vestige/spawner/format
+execute as @e[tag=sh_vestige_spawn_bot] at @s run function sculk_hive:behavior/vestige/spawner/main
+execute as @e[tag=sh_vestige_spawn_center] at @s run function sculk_hive:behavior/vestige/spawner/count
 
 function sculk_hive:behavior/bossbar/main

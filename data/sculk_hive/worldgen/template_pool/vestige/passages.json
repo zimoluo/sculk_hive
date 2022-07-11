@@ -34,7 +34,7 @@
         "processors": "sculk_hive:vestige_replace",
         "projection": "rigid"
       },
-      "weight": 11
+      "weight": 8
     },
     {
       "element": {

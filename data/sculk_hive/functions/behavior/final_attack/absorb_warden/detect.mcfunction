@@ -1,1 +1,1 @@
-execute as @e[type=warden,distance=..32] at @s unless data entity @s {Brain:{memories:{"minecraft:is_emerging":{}}}} run function sculk_hive:behavior/final_attack/absorb_warden/transform
+execute as @e[type=warden,distance=..64] at @s unless data entity @s {Brain:{memories:{"minecraft:is_emerging":{}}}} run function sculk_hive:behavior/final_attack/absorb_warden/transform
