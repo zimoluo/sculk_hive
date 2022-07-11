@@ -3,6 +3,7 @@ function sculk_hive:main/parameter
 function sculk_hive:summon/general_control
 
 execute as @e[tag=sh_smn_cd] at @s if data storage sculk_hive:data {world: {difficulty: 0}} run function sculk_hive:behavior/despawn/interrupted
+execute as @e[tag=sh_smn_cd] at @s if data storage sculk_hive:data {world:{mobGriefing:0b}} run function sculk_hive:behavior/despawn/interrupted
 
 execute as @e[tag=sh_main] at @s run function sculk_hive:behavior/general/main
 

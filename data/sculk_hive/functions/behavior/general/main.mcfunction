@@ -15,6 +15,7 @@ execute if entity @s[tag=sh_phs] run function sculk_hive:behavior/general/interp
 execute unless entity @s[tag=sh_dth] unless entity @s[tag=sh_phs] run function sculk_hive:behavior/general/regen/tick
 
 execute unless entity @s[tag=sh_dth] if data storage sculk_hive:data {world: {difficulty: 0}} run function sculk_hive:behavior/despawn/disappear
+execute unless entity @s[tag=sh_dth] if data storage sculk_hive:data {world:{mobGriefing:0b}} run function sculk_hive:behavior/despawn/disappear
 
 execute unless entity @s[tag=sh_dth] unless entity @s[tag=sh_phd] unless entity @s[tag=sh_final] run function sculk_hive:behavior/general/soul
 execute if entity @s[tag=sh_final] unless entity @s[tag=sh_dth] run function sculk_hive:behavior/general/soul_big
