@@ -7,13 +7,13 @@
         "processors": "sculk_hive:vestige_decor",
         "projection": "rigid"
       },
-      "weight": 1
+      "weight": 2
     },
     {
       "element": {
           "element_type": "minecraft:empty_pool_element"
       },
-      "weight": 5
+      "weight": 11
     }
   ],
   "fallback": "sculk_hive:vestige/loot",

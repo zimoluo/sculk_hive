@@ -65,6 +65,18 @@ scoreboard objectives add sh_swd_UUID_1 dummy
 scoreboard objectives add sh_swd_UUID_2 dummy
 scoreboard objectives add sh_swd_UUID_3 dummy
 scoreboard objectives add sh_swd_count dummy
+scoreboard objectives add sh_max_spawn dummy
+
+scoreboard objectives add sh_constant dummy
+scoreboard players set 2 sh_constant 2
+scoreboard players set 3 sh_constant 3
+scoreboard players set 4 sh_constant 4
+scoreboard players set 5 sh_constant 5
+scoreboard players set 6 sh_constant 6
+scoreboard players set 7 sh_constant 7
+scoreboard players set 8 sh_constant 8
+scoreboard players set 9 sh_constant 9
+scoreboard players set 10 sh_constant 10
 
 gamerule maxCommandChainLength 2147483647
 team add sculk_hive

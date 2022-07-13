@@ -93,5 +93,8 @@ execute if predicate sculk_hive:chance/01 as @e[tag=sh_temp_1] at @s run tp @s ~
 
 tag @e[tag=sh_temp_1] remove sh_temp_1
 
+scoreboard players add @e[tag=sh_vestige_spawn_center,limit=1,sort=nearest,distance=..120] sh_sdr_count 1
+execute as @e[tag=sh_vestige_spawn_bot, distance=..12] run function sculk_hive:behavior/vestige/spawner/find_pos/reset_cd
+
 tag @e[tag=sh_vestige_spawn_bot,limit=1,sort=nearest] add sh_vestige_spawn_done
 kill @s
