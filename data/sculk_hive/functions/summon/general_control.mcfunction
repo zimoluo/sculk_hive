@@ -15,3 +15,5 @@ execute as @e[tag=sh_smn_fire_ready] at @s run function sculk_hive:summon/struct
 execute as @e[tag=sh_smn_cd] at @s run function sculk_hive:summon/cd
 
 execute as @e[tag=sh_smn_item] at @s run function sculk_hive:summon/structure_special/item
+
+execute as @e[tag=sh_vestige_spawn_center] at @s if entity @e[tag=sh_smn, tag=!sh_smn_special,distance=..3] run kill @e[tag=sh_smn_fire,distance=..256]

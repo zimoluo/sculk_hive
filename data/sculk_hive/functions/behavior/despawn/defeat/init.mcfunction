@@ -15,6 +15,9 @@ effect clear @e[tag=sh_atk, distance=..64] slowness
 effect clear @e[tag=sh_atk, distance=..64] mining_fatigue
 effect clear @e[tag=sh_atk, distance=..64] weakness
 
+effect give @a[tag=sh_atk, distance=..64] regeneration 3 9 true
+effect give @a[tag=sh_atk, distance=..64] instant_health 1 4 true
+
 particle minecraft:sculk_soul ~ ~ ~ 2 2 2 0.00001 200 force
 particle minecraft:soul_fire_flame ~ ~ ~ 5 5 5 1 200 force
 particle minecraft:soul_fire_flame ~ ~ ~ 1.5 1.5 1.5 0.0000001 100 force

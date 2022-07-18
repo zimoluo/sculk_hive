@@ -1,5 +1,5 @@
 execute store result score @s sh_hp run data get entity @e[tag=sh_final_hp,limit=1,sort=nearest] Health
-execute store result score @s sh_max_hp run data get entity @e[tag=sh_final_hp,limit=1,sort=nearest] Attributes[{Name:"minecraft:generic.max_health"}].Base
+execute store result score @s sh_max_hp run attribute @e[tag=sh_final_hp,limit=1,sort=nearest] generic.max_health get
 
 scoreboard players operation @s sh_hp += @s sh_final_hp_addition
 execute if score @s sh_hp >= @s sh_max_hp run scoreboard players operation @s sh_max_hp = @s sh_hp

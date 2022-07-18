@@ -4,4 +4,6 @@ execute store result storage sculk_hive:data world.difficulty int 1 run difficul
 execute store result storage sculk_hive:data world.doMobSpawning byte 1 run gamerule doMobSpawning
 execute store result storage sculk_hive:data world.mobGriefing byte 1 run gamerule mobGriefing
 
+function sculk_hive:behavior/general/dynamic_difficulty
+
 function sculk_hive:behavior/general/tag
