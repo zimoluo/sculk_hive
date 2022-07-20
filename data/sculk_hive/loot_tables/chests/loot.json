@@ -18,7 +18,8 @@
               }
             ],
             "name": "minecraft:sculk_catalyst",
-            "weight": 5
+            "weight": 5,
+            "quality": -5
           },
           {
             "type": "minecraft:item",
@@ -39,7 +40,8 @@
               }
             ],
             "name": "minecraft:diamond_hoe",
-            "weight": 2
+            "weight": 2,
+            "quality": -2
           },
           {
             "type": "minecraft:item",
@@ -55,7 +57,8 @@
               }
             ],
             "name": "minecraft:diamond_chestplate",
-            "weight": 2
+            "weight": 2,
+            "quality": -2
           },
           {
             "type": "minecraft:item",
@@ -71,7 +74,8 @@
               }
             ],
             "name": "minecraft:sculk",
-            "weight": 5
+            "weight": 5,
+            "quality": -5
           },
           {
             "type": "minecraft:item",
@@ -87,7 +91,8 @@
               }
             ],
             "name": "minecraft:sculk_shrieker",
-            "weight": 5
+            "weight": 5,
+            "quality": -5
           },
           {
             "type": "minecraft:item",
@@ -103,7 +108,8 @@
               }
             ],
             "name": "minecraft:sculk_vein",
-            "weight": 5
+            "weight": 5,
+            "quality": -5
           },
           {
             "type": "minecraft:item",
@@ -119,7 +125,8 @@
               }
             ],
             "name": "minecraft:sculk_sensor",
-            "weight": 5
+            "weight": 5,
+            "quality": -5
           },
           {
             "type": "minecraft:item",
@@ -135,7 +142,8 @@
               }
             ],
             "name": "minecraft:soul_sand",
-            "weight": 5
+            "weight": 5,
+            "quality": -5
           },
           {
             "type": "minecraft:item",
@@ -151,7 +159,8 @@
               }
             ],
             "name": "minecraft:experience_bottle",
-            "weight": 3
+            "weight": 3,
+            "quality": -3
           },
           {
             "type": "minecraft:item",
@@ -167,27 +176,8 @@
               }
             ],
             "name": "minecraft:echo_shard",
-            "weight": 5
-          },
-          {
-            "type": "minecraft:item",
-            "functions": [
-              {
-                "add": false,
-                "count": {
-                  "type": "minecraft:uniform",
-                  "max": 4.0,
-                  "min": 1.0
-                },
-                "function": "minecraft:set_count"
-              },
-              {
-                "function": "minecraft:set_potion",
-                "id": "minecraft:luck"
-              }
-            ],
-            "name": "minecraft:potion",
-            "weight": 6
+            "weight": 5,
+            "quality": -5
           },
           {
             "type": "minecraft:item",
@@ -197,7 +187,8 @@
               }
             ],
             "name": "minecraft:book",
-            "weight": 4
+            "weight": 4,
+            "quality": -4
           },
           {
             "type": "minecraft:item",
@@ -210,13 +201,19 @@
               }
             ],
             "name": "minecraft:book",
-            "weight": 2
+            "weight": 2,
+            "quality": -2
+          },
+          {
+            "type": "minecraft:empty",
+            "weight": 0,
+            "quality": 1
           }
         ],
         "rolls": {
           "type": "minecraft:uniform",
-          "max": 15.0,
-          "min": 10.0
+          "max": 12.0,
+          "min": 8.0
         }
       },
       {
@@ -234,6 +231,59 @@
                 ]
             }
         ]
+        },
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 1.5,
+                    "min": 1.0
+                  },
+                  "function": "minecraft:set_count"
+                },
+                {
+                  "function": "minecraft:set_potion",
+                  "id": "minecraft:luck"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.08
+                }
+              ],
+              "name": "minecraft:potion",
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "entries": [
+            {
+              "type": "minecraft:empty",
+              "weight": 1,
+              "quality": -1
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:written_book",
+              "functions": [
+                {
+                  "function": "set_nbt",
+                  "tag": "{isDiary:1b, diaryType:\"sculkHive\",display:{Name:'{\"text\":\"Developer Diary: Sculk Hive\",\"italic\":false}'},resolved:0b, generation:3, author:\"g2245820920\", title: \"Developer Diary\", pages:['[\"\",{\"text\":\"Welcome, \"},{\"selector\":\"@s\"},{\"text\":\". Looks like you have discovered the only easter egg hidden in this data pack: Developer Diary! Yay! There are three different diaries to be found, each describing an aspect of this data pack. Here\\\\u2019s the one about Sculk Hive itself.\"}]','[\"\",{\"text\":\"The idea of Sculk Hive originated from the\"},{\"text\":\" Wild Update\",\"italic\":true},{\"text\":\", featuring the deep dark and its hidden lore. I decided to design and make a boss that relates to sculk elements and the deep dark biome. After quite a bit of days of making, Sculk Hive comes into reality. \",\"color\":\"reset\"}]','[\"\",{\"text\":\"The idea of this boss partly came from another boss mob I made two years ago: Fungus Crab, a nether-themed boss corresponding to the \"},{\"text\":\"Nether Update\",\"italic\":true},{\"text\":\", where player is asked to fight the boss with two phases and many patterns of attack.\",\"color\":\"reset\"}]','{\"text\":\"The very first idea was \\\\u2018spreading.\\\\u2019 That is, the boss attacks through spreading. This idea is eventually reflected in the first phase where boss attacks those who stand upon sculk blocks. Another idea is \\\\u2018phases,\\\\u2019 \"}','{\"text\":\"meaning that the boss has two phases depending on its health. This is achieved in Fungus Crab by simply adjusting the phase according to health. \"}','{\"text\":\"Sculk Hive, however, implements a more complex mechanism. Incorporating the concept of \\\\u2018spreading,\\\\u2019 Sculk Hive enters its second phase only when it loses all its catalysts.\"}','{\"text\":\"The second phase was originally designed to be the \\\\u2018mechanical phase,\\\\u2019 where the boss reveals its mechanical inner part and attacks through redstone. While inherited from Fungus Crab, this design doesn\\\\u2019t pair well with Sculk Hive since it breaks the lore behind. \"}','{\"text\":\"Eventually, the boss retains its sculk-themed design throughout the battle instead of only at the first phase.\\\\nAmidst the development, a final phase was conceived and hence added to this boss. \"}','{\"text\":\"When all its catalysts are defeated, the boss loses its \\\\u2018shield\\\\u2019 and thus becomes vulnerable to damage. The shield\\\\u2019s visual effect is achieved through commands. Additionally, the boss is equipped with \\\\u2018super attacks\\\\u2019 in this phase, attempting to kill \"}','{\"text\":\"all potential threats that approach.\\\\nThe boss represents its health using zoglins. Zoglins have ideal hitbox and almost no properties. Mobs that breed will not satisfy, as the player could interact with them and break the whole mechanism. Spiders are good, \"}','{\"text\":\"but they cannot hide their eyes when invisible. Zoglins, in this case, seem to be the only choice. The only drawback of this type of mob is that it\\\\u2019s undead \\\\u2013 well, this doesn\\\\u2019t much break the lore.\\\\n \"}','{\"text\":\"The loot of the boss didn\\\\u2019t come until finishing the boss itself. Originally, I wanted to make a unique loot as the item to re-summon the boss. The idea later underwent several changes to become the Sculk Sword: a powerful sword obtained only by \"}','{\"text\":\"defeating the Sculk Hive. Unlike swords crafted in vanilla game, Sculk Sword recognizes its owner and has special powers against monsters and players. However, when discarded by its owner, the swords enrages to become the altar for summoning the boss. \"}','{\"text\":\"Sculk Sword can also be upgraded/purified to become even stronger, but can no longer transform into the altar.\\\\nAnother special loot is \"}','{\"text\":\"the potion of luck, through which you get this book. Long existed in creative inventory, the potion is almost useless and is unobtainable in survival game. I decided to add it as a part of loot and easter egg to discover these Developer Diaries :)\"}','{\"text\":\"So far, Sculk Hive is largely mature. It isn\\\\u2019t designed to be anything fancy, but an augmentation to vanilla gaming experience. Have fun adding this data pack to your survival game :)\\\\n \\\\nBest Regards,\\\\ng2245820920\"}']}"
+                }
+              ],
+              "weight": 0,
+              "quality": 1
+            }
+          ],
+          "rolls": 1.0
         }
     ]
   }

@@ -81,5 +81,7 @@ scoreboard players set 10 sh_constant 10
 gamerule maxCommandChainLength 2147483647
 team add sculk_hive
 team modify sculk_hive friendlyFire false
+team modify sculk_hive seeFriendlyInvisibles false
+team modify sculk_hive collisionRule always
 bossbar add sculk_hive:health {"color":"#043F66","text":"Sculk Hive","italic": false}
 bossbar set sculk_hive:health style progress

@@ -1,0 +1,42 @@
+{
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "vestiges": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "sculk_hive:jungle_vestiges"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Vestiges standing deep within wild jungles"
+    },
+    "frame": "task",
+    "hidden": true,
+    "icon": {
+      "item": "minecraft:chiseled_stone_bricks"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Archaeologist"
+    }
+  },
+  "requirements": [
+    [
+      "vestiges"
+    ]
+  ],
+  "hidden": true
+}

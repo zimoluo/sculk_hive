@@ -1,0 +1,39 @@
+{
+  "parent": "minecraft:adventure/kill_sculk_hive",
+  "criteria": {
+    "obtain_book": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:written_book"
+            ],
+            "nbt": "{isDiary:1b}"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Stories behind the development"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "item": "minecraft:written_book"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Developer Diary"
+    }
+  },
+  "requirements": [
+    [
+      "obtain_book"
+    ]
+  ],
+  "hidden": true
+}

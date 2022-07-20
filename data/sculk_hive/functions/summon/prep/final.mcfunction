@@ -27,6 +27,7 @@ summon marker ~ ~1.2 ~ {Tags:["sh_part","sh_spr_tgt"]}
 
 execute as @e[tag=sh_cat_raw] at @s run function sculk_hive:summon/cat_init_top
 
+advancement grant @a[distance=..32,advancements={adventure/summon_sculk_hive=false}] only adventure/summon_sculk_hive
 
 execute as @e[type=warden,distance=..64] at @s run function sculk_hive:behavior/general/kill_warden
 

@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:adventure/summon_sculk_hive",
+  "parent": "minecraft:adventure/find_vestiges",
   "criteria": {
     "quite_impossible": {
       "trigger": "minecraft:impossible"
@@ -8,16 +8,16 @@
   "display": {
     "announce_to_chat": true,
     "description": {
-      "text": "Kill the Sculk Hive, the ultimate source of sculk and darkness"
+      "text": "The awakening of a terrible monster"
     },
-    "frame": "challenge",
+    "frame": "goal",
     "hidden": false,
     "icon": {
-      "item": "minecraft:sculk_shrieker"
+      "item": "minecraft:sculk_catalyst"
     },
     "show_toast": true,
     "title": {
-      "text": "Party No More"
+      "text": "Sculk Party"
     }
   },
   "requirements": [
