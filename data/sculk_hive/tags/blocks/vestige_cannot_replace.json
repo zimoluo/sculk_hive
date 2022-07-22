@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+      "#features_cannot_replace",
+      "#leaves",
+      "#sculk_hive:water_inherent"
+    ]
+  }
