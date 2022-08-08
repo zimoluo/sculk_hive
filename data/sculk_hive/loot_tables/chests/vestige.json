@@ -271,9 +271,47 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{isDiary:1b, diaryType:\"jungleVestiges\",display:{Name:'{\"text\":\"Developer Diary: Jungle Vestiges\",\"italic\":false}'},resolved:1b, generation:3, author:\"g2245820920\", title: \"Developer Diary\", pages:['[\"\",{\"text\":\"The idea of Jungle Vestiges came from one of my dreams that took place in mid-2021. With the near advent of \"},{\"text\":\"Caves & Cliffs Part 2\",\"italic\":true},{\"text\":\", I dreamed of a structure that generates in the jungles, comprising of buildings similar to those found in strongholds. \",\"color\":\"reset\"}]','{\"text\":\"It remained a blurred conception, though, as it only took place in dreams \\\\u2013 a hidden part of my memory. In fact, it wasn\\\\u2019t even recalled until I began working on this data pack. Completing a majority of the functions of Sculk Hive, I began wondering on an appropriate place to \"}','{\"text\":\"encounter and fight against this new boss. An early concept drove me to build two structures where the boss\\\\u2019s summoning altar is placed: Sculk Chamber and a secret room in the ancient cites. Both worked to blend with the deep dark style of the vanilla game, \"}','[\"\",{\"text\":\"yet made a sacrifice of my own creation. What I did was no more than building a few simple structures and write them into world generation. From my point of view, they only \"},{\"text\":\"did\",\"bold\":true},{\"text\":\" their job of introducing the boss into survival game, but they didn\\\\u2019t \",\"color\":\"reset\"},{\"text\":\"fulfill\",\"bold\":true},{\"text\":\" their work. This was just the moment when \",\"color\":\"reset\"}]','[\"\",{\"text\":\"I was largely inspired by the concept that appeared in my dream: Jungle Vestiges. It took me days to bring it into realization. At first, I intended to make it tunnel-like structure that resembled \"},{\"text\":\"an early screenshot of stronghold exposed above ground.\",\"underlined\":true,\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/ed/Unnamed_Brick_Blocks.png/revision/latest\"}}]','{\"text\":\"Indeed, Jungle Vestiges took many inspirations from stronghold: whenever it comes into contact with air, it deletes itself, leaving a \\\\u2018broken\\\\u2019 generation that fits well into the environment. Testing this structure in game, \"}','{\"text\":\"I made a hard decision to remove the adapt noise of this structure, since it would otherwise result in weird tunnel generation. The central platform, or the arena, was modified in compensation. Following future updates to this structure, \"}','{\"text\":\"I replaced the summoning altar at the center of the arena with a statue made of stone bricks. Resembling those traps in ancient sites, the statue activates along with eight columns surrounding and later transforms into the real altar. \"}','{\"text\":\"Loots are distributed throughout the structure. Upon making the loot table, I simply blended those found in jungle pyramids with those in ancient cities to make a hybrid, which in turn serves to suggest the hidden nature of this structure. \"}','{\"text\":\"Well, I guess that\\\\u2019s it. Enjoy this piece of construction and fill up the lore tied with it :)\\\\n\\\\nBest Regards,\\\\ng2245820920\"}']}"
+              "tag": "{isDiary:1b, diaryType:\"jungleVestiges\",display:{Name:'{\"text\":\"Developer Diary: Jungle Vestiges\",\"italic\":false, \"color\":\"light_purple\"}'},resolved:1b, generation:3, author:\"g2245820920\", title: \"Developer Diary\", pages:['[\"\",{\"text\":\"The idea of Jungle Vestiges came from one of my dreams that took place in mid-2021. With the near advent of \"},{\"text\":\"Caves & Cliffs Part 2\",\"italic\":true},{\"text\":\", I dreamed of a structure that generates in the jungles, comprising of buildings similar to those found in strongholds. \",\"color\":\"reset\"}]','{\"text\":\"It remained a blurred conception, though, as it only took place in dreams \\\\u2013 a hidden part of my memory. In fact, it wasn\\\\u2019t even recalled until I began working on this data pack. Completing a majority of the functions of Sculk Hive, I began wondering on an appropriate place to \"}','{\"text\":\"encounter and fight against this new boss. An early concept drove me to build two structures where the boss\\\\u2019s summoning altar is placed: Sculk Chamber and a secret room in the ancient cites. Both worked to blend with the deep dark style of the vanilla game, \"}','[\"\",{\"text\":\"yet made a sacrifice of my own creation. What I did was no more than building a few simple structures and write them into world generation. From my point of view, they only \"},{\"text\":\"did\",\"bold\":true},{\"text\":\" their job of introducing the boss into survival game, but they didn\\\\u2019t \",\"color\":\"reset\"},{\"text\":\"fulfill\",\"bold\":true},{\"text\":\" their work. This was just the moment when \",\"color\":\"reset\"}]','[\"\",{\"text\":\"I was largely inspired by the concept that appeared in my dream: Jungle Vestiges. It took me days to bring it into realization. At first, I intended to make it tunnel-like structure that resembled \"},{\"text\":\"an early screenshot of stronghold exposed above ground.\",\"underlined\":true,\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/ed/Unnamed_Brick_Blocks.png/revision/latest\"}}]','{\"text\":\"Indeed, Jungle Vestiges took many inspirations from stronghold: whenever it comes into contact with air, it deletes itself, leaving a \\\\u2018broken\\\\u2019 generation that fits well into the environment. Testing this structure in game, \"}','{\"text\":\"I made a hard decision to remove the adapt noise of this structure, since it would otherwise result in weird tunnel generation. The central platform, or the arena, was modified in compensation. Following future updates to this structure, \"}','{\"text\":\"I replaced the summoning altar at the center of the arena with a statue made of stone bricks. Resembling those traps in ancient sites, the statue activates along with eight columns surrounding and later transforms into the real altar. \"}','{\"text\":\"Loots are distributed throughout the structure. Upon making the loot table, I simply blended those found in jungle pyramids with those in ancient cities to make a hybrid, which in turn serves to suggest the hidden nature of this structure. \"}','{\"text\":\"Well, I guess that\\\\u2019s it. Enjoy this piece of construction and fill up the lore tied with it :)\\\\n\\\\nBest Regards,\\\\ng2245820920\"}']}"
             }
           ],
+          "weight": 0,
+          "quality": 1
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 1,
+          "quality": -1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.5,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:luck"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0.33333
+            }
+          ],
+          "name": "minecraft:potion",
           "weight": 0,
           "quality": 1
         }

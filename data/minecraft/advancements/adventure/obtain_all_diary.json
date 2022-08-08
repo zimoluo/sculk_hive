@@ -1,14 +1,26 @@
 {
   "parent": "minecraft:adventure/kill_sculk_hive",
   "criteria": {
-    "obtain_book": {
+    "obtain_all_diary": {
       "conditions": {
         "items": [
           {
             "items": [
               "minecraft:written_book"
             ],
-            "nbt": "{isDiary:1b}"
+            "nbt": "{isDiary:1b, diaryType: \"sculkHive\"}"
+          },
+          {
+            "items": [
+              "minecraft:written_book"
+            ],
+            "nbt": "{isDiary:1b, diaryType: \"jungleVestiges\"}"
+          },
+          {
+            "items": [
+              "minecraft:written_book"
+            ],
+            "nbt": "{isDiary:1b, diaryType: \"guards\"}"
           }
         ]
       },
@@ -18,7 +30,7 @@
   "display": {
     "announce_to_chat": true,
     "description": {
-      "text": "Stories behind the development"
+      "text": "Have all Developer Diaries in inventory at once!"
     },
     "frame": "challenge",
     "hidden": true,
@@ -27,12 +39,12 @@
     },
     "show_toast": true,
     "title": {
-      "text": "Developer Diary"
+      "text": "The Infinity Book"
     }
   },
   "requirements": [
     [
-      "obtain_book"
+      "obtain_all_diary"
     ]
   ],
   "hidden": true

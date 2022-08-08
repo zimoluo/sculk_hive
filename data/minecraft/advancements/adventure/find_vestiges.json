@@ -1,21 +1,8 @@
 {
   "parent": "minecraft:adventure/root",
   "criteria": {
-    "vestiges": {
-      "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "location": {
-                "structure": "sculk_hive:jungle_vestiges"
-              }
-            }
-          }
-        ]
-      },
-      "trigger": "minecraft:location"
+    "quite_impossible": {
+      "trigger": "minecraft:impossible"
     }
   },
   "display": {
@@ -35,7 +22,7 @@
   },
   "requirements": [
     [
-      "vestiges"
+      "quite_impossible"
     ]
   ],
   "hidden": true

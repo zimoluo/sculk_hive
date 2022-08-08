@@ -24,6 +24,64 @@ execute as @a[distance=..32,advancements={adventure/kill_sculk_hive=true}] at @s
 advancement grant @a[distance=..32,advancements={adventure/kill_sculk_hive=false}] only adventure/kill_sculk_hive
 
 execute positioned ~ ~-2 ~ run function sculk_hive:behavior/general/shrieker_destroy
+execute positioned ~15 ~-2 ~ run function sculk_hive:behavior/general/shrieker_destroy
+execute positioned ~-15 ~-2 ~ run function sculk_hive:behavior/general/shrieker_destroy
+execute positioned ~ ~-2 ~15 run function sculk_hive:behavior/general/shrieker_destroy
+execute positioned ~ ~-2 ~-15 run function sculk_hive:behavior/general/shrieker_destroy
+execute positioned ~15 ~-2 ~15 run function sculk_hive:behavior/general/shrieker_destroy
+execute positioned ~-15 ~-2 ~15 run function sculk_hive:behavior/general/shrieker_destroy
+execute positioned ~15 ~-2 ~-15 run function sculk_hive:behavior/general/shrieker_destroy
+execute positioned ~-15 ~-2 ~-15 run function sculk_hive:behavior/general/shrieker_destroy
+
+execute positioned ~ ~-2 ~ run function sculk_hive:behavior/general/sensor_destroy
+execute positioned ~15 ~-2 ~ run function sculk_hive:behavior/general/sensor_destroy
+execute positioned ~-15 ~-2 ~ run function sculk_hive:behavior/general/sensor_destroy
+execute positioned ~ ~-2 ~15 run function sculk_hive:behavior/general/sensor_destroy
+execute positioned ~ ~-2 ~-15 run function sculk_hive:behavior/general/sensor_destroy
+execute positioned ~15 ~-2 ~15 run function sculk_hive:behavior/general/sensor_destroy
+execute positioned ~-15 ~-2 ~15 run function sculk_hive:behavior/general/sensor_destroy
+execute positioned ~15 ~-2 ~-15 run function sculk_hive:behavior/general/sensor_destroy
+execute positioned ~-15 ~-2 ~-15 run function sculk_hive:behavior/general/sensor_destroy
+
+execute positioned ~ ~ ~ run function sculk_hive:behavior/general/shrieker_destroy
+execute positioned ~15 ~ ~ run function sculk_hive:behavior/general/shrieker_destroy
+execute positioned ~-15 ~ ~ run function sculk_hive:behavior/general/shrieker_destroy
+execute positioned ~ ~ ~15 run function sculk_hive:behavior/general/shrieker_destroy
+execute positioned ~ ~ ~-15 run function sculk_hive:behavior/general/shrieker_destroy
+execute positioned ~15 ~ ~15 run function sculk_hive:behavior/general/shrieker_destroy
+execute positioned ~-15 ~ ~15 run function sculk_hive:behavior/general/shrieker_destroy
+execute positioned ~15 ~ ~-15 run function sculk_hive:behavior/general/shrieker_destroy
+execute positioned ~-15 ~ ~-15 run function sculk_hive:behavior/general/shrieker_destroy
+
+execute positioned ~ ~ ~ run function sculk_hive:behavior/general/sensor_destroy
+execute positioned ~15 ~ ~ run function sculk_hive:behavior/general/sensor_destroy
+execute positioned ~-15 ~ ~ run function sculk_hive:behavior/general/sensor_destroy
+execute positioned ~ ~ ~15 run function sculk_hive:behavior/general/sensor_destroy
+execute positioned ~ ~ ~-15 run function sculk_hive:behavior/general/sensor_destroy
+execute positioned ~15 ~ ~15 run function sculk_hive:behavior/general/sensor_destroy
+execute positioned ~-15 ~ ~15 run function sculk_hive:behavior/general/sensor_destroy
+execute positioned ~15 ~ ~-15 run function sculk_hive:behavior/general/sensor_destroy
+execute positioned ~-15 ~ ~-15 run function sculk_hive:behavior/general/sensor_destroy
+
+execute positioned ~ ~-4 ~ run function sculk_hive:behavior/general/shrieker_destroy
+execute positioned ~15 ~-4 ~ run function sculk_hive:behavior/general/shrieker_destroy
+execute positioned ~-15 ~-4 ~ run function sculk_hive:behavior/general/shrieker_destroy
+execute positioned ~ ~-4 ~15 run function sculk_hive:behavior/general/shrieker_destroy
+execute positioned ~ ~-4 ~-15 run function sculk_hive:behavior/general/shrieker_destroy
+execute positioned ~15 ~-4 ~15 run function sculk_hive:behavior/general/shrieker_destroy
+execute positioned ~-15 ~-4 ~15 run function sculk_hive:behavior/general/shrieker_destroy
+execute positioned ~15 ~-4 ~-15 run function sculk_hive:behavior/general/shrieker_destroy
+execute positioned ~-15 ~-4 ~-15 run function sculk_hive:behavior/general/shrieker_destroy
+
+execute positioned ~ ~-4 ~ run function sculk_hive:behavior/general/sensor_destroy
+execute positioned ~15 ~-4 ~ run function sculk_hive:behavior/general/sensor_destroy
+execute positioned ~-15 ~-4 ~ run function sculk_hive:behavior/general/sensor_destroy
+execute positioned ~ ~-4 ~15 run function sculk_hive:behavior/general/sensor_destroy
+execute positioned ~ ~-4 ~-15 run function sculk_hive:behavior/general/sensor_destroy
+execute positioned ~15 ~-4 ~15 run function sculk_hive:behavior/general/sensor_destroy
+execute positioned ~-15 ~-4 ~15 run function sculk_hive:behavior/general/sensor_destroy
+execute positioned ~15 ~-4 ~-15 run function sculk_hive:behavior/general/sensor_destroy
+execute positioned ~-15 ~-4 ~-15 run function sculk_hive:behavior/general/sensor_destroy
 
 setblock ~ ~ ~ air
 place template sculk_hive:boss/portal ~-2 ~-3 ~-2

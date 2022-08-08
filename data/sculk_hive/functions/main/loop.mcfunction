@@ -36,5 +36,6 @@ execute as @e[type=#sculk_hive:guard] at @s run function sculk_hive:behavior/ves
 execute as @e[tag=sh_vestige_spawner] at @s unless block ~ ~ ~ void_air run function sculk_hive:behavior/vestige/spawner/format
 execute as @e[tag=sh_vestige_spawn_bot] at @s run function sculk_hive:behavior/vestige/spawner/main
 execute as @e[tag=sh_vestige_spawn_center] at @s run function sculk_hive:behavior/vestige/spawner/count
+execute as @a[advancements={adventure/find_vestiges=false}] at @s if predicate sculk_hive:vestige/in_vestige run advancement grant @s only adventure/find_vestiges
 
 function sculk_hive:behavior/bossbar/main
