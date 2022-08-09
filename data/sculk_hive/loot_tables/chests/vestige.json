@@ -281,6 +281,38 @@
       "rolls": 1.0
     },
     {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.5,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:luck"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0.085
+            }
+          ],
+          "name": "minecraft:potion",
+          "weight": 1,
+          "quality": -1
+        }
+      ]
+    },
+    {
       "bonus_rolls": 0.0,
       "entries": [
         {

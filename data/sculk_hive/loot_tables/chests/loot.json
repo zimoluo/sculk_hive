@@ -255,7 +255,7 @@
               "conditions": [
                 {
                   "condition": "random_chance",
-                  "chance": 0.08
+                  "chance": 0.15
                 }
               ],
               "name": "minecraft:potion",

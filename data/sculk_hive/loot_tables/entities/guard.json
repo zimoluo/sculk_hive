@@ -145,6 +145,43 @@
         "rolls": 1.0
       },
       {
+        "rolls": 1,
+        "conditions": [
+          {
+            "condition": "minecraft:killed_by_player"
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 1.5,
+                  "min": 1.0
+                },
+                "function": "minecraft:set_count"
+              },
+              {
+                "function": "minecraft:set_potion",
+                "id": "minecraft:luck"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "random_chance",
+                "chance": 0.005
+              }
+            ],
+            "name": "minecraft:potion",
+            "weight": 1,
+            "quality": -1
+          }
+        ]
+      },
+      {
         "bonus_rolls": 0.0,
         "conditions": [
             {

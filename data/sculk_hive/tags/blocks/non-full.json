@@ -35,6 +35,7 @@
     "minecraft:lava",
     "minecraft:water",
     "#sculk_hive:air",
+    "hopper",
   	"minecraft:tripwire",
   	"minecraft:structure_void",
   	"minecraft:redstone_wire",
