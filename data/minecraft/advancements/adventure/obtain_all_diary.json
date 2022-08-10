@@ -8,19 +8,19 @@
             "items": [
               "minecraft:written_book"
             ],
-            "nbt": "{isDiary:1b, diaryType: \"sculkHive\"}"
+            "nbt": "{isSculkHiveDiary:1b, sculkHiveDiaryType: \"sculkHive\"}"
           },
           {
             "items": [
               "minecraft:written_book"
             ],
-            "nbt": "{isDiary:1b, diaryType: \"jungleVestiges\"}"
+            "nbt": "{isSculkHiveDiary:1b, sculkHiveDiaryType: \"jungleVestiges\"}"
           },
           {
             "items": [
               "minecraft:written_book"
             ],
-            "nbt": "{isDiary:1b, diaryType: \"guards\"}"
+            "nbt": "{isSculkHiveDiary:1b, sculkHiveDiaryType: \"guards\"}"
           }
         ]
       },

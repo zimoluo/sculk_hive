@@ -1,0 +1,22 @@
+{
+  "criteria": {
+      "obtain_diary": {
+          "conditions": {
+            "items": [
+              {
+                "items": [
+                  "minecraft:written_book"
+                ],
+                "nbt": "{isSculkHiveDiary:1b, sculkHiveDiaryType: \"guards\"}"
+              }
+            ]
+          },
+          "trigger": "minecraft:inventory_changed"
+        }
+  },
+  "requirements": [
+    [
+      "obtain_diary"
+    ]
+  ]
+}

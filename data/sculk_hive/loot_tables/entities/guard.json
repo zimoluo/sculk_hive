@@ -24,20 +24,17 @@
               }
             ],
             "name": "minecraft:book",
-            "weight": 1,
-            "quality": -1
+            "weight": 1
           },
           {
             "type": "minecraft:item",
             "name": "minecraft:sculk_catalyst",
-            "weight": 1,
-            "quality": -1
+            "weight": 1
           },
           {
             "type": "minecraft:item",
             "name": "minecraft:music_disc_otherside",
-            "weight": 1,
-            "quality": -1
+            "weight": 1
           },
           {
             "type": "minecraft:item",
@@ -53,8 +50,7 @@
               }
             ],
             "name": "minecraft:echo_shard",
-            "weight": 1,
-            "quality": -1
+            "weight": 1
           },
           {
             "type": "minecraft:item",
@@ -70,8 +66,7 @@
               }
             ],
             "name": "minecraft:disc_fragment_5",
-            "weight": 1,
-            "quality": -1
+            "weight": 1
           }
         ],
         "rolls": 1.0
@@ -81,14 +76,21 @@
         "conditions": [
             {
               "condition": "minecraft:killed_by_player"
+            },
+            {
+              "condition": "entity_properties",
+              "entity": "killer_player",
+              "predicate": {
+                "type_specific": {
+                  "type": "player",
+                  "advancements": {
+                    "minecraft:adventure/obtain_all_diary": true
+                  }
+                }
+              }
             }
           ],
         "entries": [
-          {
-            "type": "minecraft:empty",
-            "weight": 1,
-            "quality": -1
-          },
           {
             "type": "minecraft:item",
             "name": "minecraft:player_head",
@@ -98,12 +100,11 @@
                 "tag": "{SkullOwner:\"g2245820920\"}"
               }
             ],
-            "weight": 0,
-            "quality": 1,
+            "weight": 1,
             "conditions": [
               {
                 "condition": "random_chance",
-                "chance": 0.05
+                "chance": 0.01
               }
             ]
           }
@@ -115,108 +116,71 @@
         "conditions": [
             {
               "condition": "minecraft:killed_by_player"
-            }
-          ],
-        "entries": [
-          {
-            "type": "minecraft:empty",
-            "weight": 1,
-            "quality": -1
-          },
-          {
-            "type": "minecraft:item",
-            "functions": [
-              {
-                "function": "minecraft:set_potion",
-                "id": "minecraft:luck"
-              }
-            ],
-            "conditions": [
-              {
-                "condition": "random_chance",
-                "chance": 0.225
-              }
-            ],
-            "name": "minecraft:potion",
-            "weight": 0,
-            "quality": 1
-          }
-        ],
-        "rolls": 1.0
-      },
-      {
-        "rolls": 1,
-        "conditions": [
-          {
-            "condition": "minecraft:killed_by_player"
-          }
-        ],
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "functions": [
-              {
-                "add": false,
-                "count": {
-                  "type": "minecraft:uniform",
-                  "max": 1.5,
-                  "min": 1.0
-                },
-                "function": "minecraft:set_count"
-              },
-              {
-                "function": "minecraft:set_potion",
-                "id": "minecraft:luck"
-              }
-            ],
-            "conditions": [
-              {
-                "condition": "random_chance",
-                "chance": 0.005
-              }
-            ],
-            "name": "minecraft:potion",
-            "weight": 1,
-            "quality": -1
-          }
-        ]
-      },
-      {
-        "bonus_rolls": 0.0,
-        "conditions": [
+            },
             {
-              "condition": "minecraft:killed_by_player"
+              "condition": "entity_properties",
+              "entity": "killer_player",
+              "predicate": {
+                "type_specific": {
+                  "type": "player",
+                  "advancements": {
+                    "sculk_hive:util/has_sculk_hive_diary": true,
+                    "sculk_hive:util/has_guard_diary": false
+                  }
+                }
+              }
             }
           ],
         "entries": [
-          {
-            "type": "minecraft:empty",
-            "weight": 1,
-            "quality": -1
-          },
           {
             "type": "minecraft:item",
             "name": "minecraft:written_book",
             "functions": [
               {
                 "function": "set_nbt",
-                "tag": "{isDiary:1b, diaryType:\"guards\",display:{Name:'{\"text\":\"Developer Diary: Guards of Jungle Vestiges\",\"italic\":false, \"color\":\"light_purple\"}'},resolved:1b, generation:3, author:\"g2245820920\", title: \"Developer Diary\", pages:['{\"text\":\"To begin with, guards are among the last to be designed in this data pack. After finishing working on the Jungle Vestiges, I played a lot with it both in creative and in survival. I tested it on several worlds either normal or amplified, locating multiple copies of this structure.\"}','{\"text\":\"Hosting a vanilla survival server myself, I also installed the data pack on it to test how the structure and the boss performed on an actual survival gaming. It turns out that the Jungle Vestiges are all good but lack in protection. Literally, a ruined, wrecked structure deep inside jungles, \"}','{\"text\":\"Vestiges are meant to be lost, dangerous, yet lucrative, attracting. Not only is it where the boss will be fought, but it also contributes to the lore of both the game and this data pack. Loots are found within chests; columns surround the arena. The only element that is yet to be achieved is a security of this structure. \"}','{\"text\":\"Just as fortress is guarded by wither skeletons, Jungle Vestiges are guarded by these undead soldiers. Perhaps they were once alive as the builders of this huge construction, but all that is the matter of lore. Designing these guards are not an easy task. \"}','{\"text\":\"Two things I need to guarantee: these guards are strong enough and must be different from ordinary zombies, and they also have to be blended with mcfunction to make them feasible with data pack. Eventually, I made them highly variable in stats, weapons, and many more. \"}','{\"text\":\"They overall have a better performance than that of normal zombies and skeletons. Their spawning becomes another problem. As of 1.18, monsters must be spawned in complete darkness, something absent in this structure. After several brainstorming, \"}','{\"text\":\"I came up with the solution of using markers to manually spawn them. So comes tons of algorithms to be dealt with, and what you see now is the final solution - balanced and fitting. After all, the goal of this data pack is never to add anything fancy, but to add another taste to vanilla gaming. \"}','{\"text\":\"That\\'s all about the guards in Jungle Vestiges. Have a nice day in exploring these forsaken structures while make your way to avoid being attacked by these terrifying guards :p\\\\n \\\\nBest Regards,\\\\ng2245820920\"}']}"
+                "tag": "{isSculkHiveDiary:1b, sculkHiveDiaryType:\"guards\",display:{Name:'{\"text\":\"Developer Diary\",\"italic\":false, \"color\":\"light_purple\"}',Lore:['{\"text\":\"Guards of Jungle Vestiges\",\"italic\":false, \"color\":\"light_purple\"}']},resolved:1b, generation:3, author:\"g2245820920\", title: \"Developer Diary\", pages:['{\"text\":\"To begin with, guards are among the last to be designed in this data pack. After finishing working on the Jungle Vestiges, I played a lot with it both in creative and in survival. I tested it on several worlds either normal or amplified, locating multiple copies of this structure.\"}','{\"text\":\"Hosting a vanilla survival server myself, I also installed the data pack on it to test how the structure and the boss performed on an actual survival gaming. It turns out that the Jungle Vestiges are all good but lack in protection. Literally, a ruined, wrecked structure deep inside jungles, \"}','{\"text\":\"Vestiges are meant to be lost, dangerous, yet lucrative, attracting. Not only is it where the boss will be fought, but it also contributes to the lore of both the game and this data pack. Loots are found within chests; columns surround the arena. The only element that is yet to be achieved is a security of this structure. \"}','{\"text\":\"Just as fortress is guarded by wither skeletons, Jungle Vestiges are guarded by these undead soldiers. Perhaps they were once alive as the builders of this huge construction, but all that is the matter of lore. Designing these guards are not an easy task. \"}','{\"text\":\"Two things I need to guarantee: these guards are strong enough and must be different from ordinary zombies, and they also have to be blended with mcfunction to make them feasible with data pack. Eventually, I made them highly variable in stats, weapons, and many more. \"}','{\"text\":\"They overall have a better performance than that of normal zombies and skeletons. Their spawning becomes another problem. As of 1.18, monsters must be spawned in complete darkness, something absent in this structure. After several brainstorming, \"}','{\"text\":\"I came up with the solution of using markers to manually spawn them. So comes tons of algorithms to be dealt with, and what you see now is the final solution - balanced and fitting. After all, the goal of this data pack is never to add anything fancy, but to add another taste to vanilla gaming. \"}','{\"text\":\"That\\'s all about the guards in Jungle Vestiges. Have a nice day in exploring these forsaken structures while make your way to avoid being attacked by these terrifying guards :p\\\\n \\\\nBest Regards,\\\\ng2245820920\"}']}"
               }
             ],
-            "weight": 0,
-            "quality": 1,
-            "conditions": [
-              {
-                "condition": "inverted",
-                "term": {
-                    "condition": "entity_properties",
-                    "entity": "killer_player",
-                    "predicate": {
-                    "nbt": "{Inventory:[{tag:{isDiary:1b, diaryType:\"guards\"}}]}"
+            "weight": 1
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+            {
+              "condition": "minecraft:killed_by_player"
+            },
+            {
+              "condition": "entity_properties",
+              "entity": "killer_player",
+              "predicate": {
+                "type_specific": {
+                  "type": "player",
+                  "advancements": {
+                    "sculk_hive:util/has_sculk_hive_diary": true,
+                    "sculk_hive:util/has_guard_diary": true
                   }
                 }
               }
-            ]
+            },
+            {
+              "condition": "random_chance",
+              "chance": 0.01
+            }
+          ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:written_book",
+            "functions": [
+              {
+                "function": "set_nbt",
+                "tag": "{isSculkHiveDiary:1b, sculkHiveDiaryType:\"guards\",display:{Name:'{\"text\":\"Developer Diary\",\"italic\":false, \"color\":\"light_purple\"}',Lore:['{\"text\":\"Guards of Jungle Vestiges\",\"italic\":false, \"color\":\"light_purple\"}']},resolved:1b, generation:3, author:\"g2245820920\", title: \"Developer Diary\", pages:['{\"text\":\"To begin with, guards are among the last to be designed in this data pack. After finishing working on the Jungle Vestiges, I played a lot with it both in creative and in survival. I tested it on several worlds either normal or amplified, locating multiple copies of this structure.\"}','{\"text\":\"Hosting a vanilla survival server myself, I also installed the data pack on it to test how the structure and the boss performed on an actual survival gaming. It turns out that the Jungle Vestiges are all good but lack in protection. Literally, a ruined, wrecked structure deep inside jungles, \"}','{\"text\":\"Vestiges are meant to be lost, dangerous, yet lucrative, attracting. Not only is it where the boss will be fought, but it also contributes to the lore of both the game and this data pack. Loots are found within chests; columns surround the arena. The only element that is yet to be achieved is a security of this structure. \"}','{\"text\":\"Just as fortress is guarded by wither skeletons, Jungle Vestiges are guarded by these undead soldiers. Perhaps they were once alive as the builders of this huge construction, but all that is the matter of lore. Designing these guards are not an easy task. \"}','{\"text\":\"Two things I need to guarantee: these guards are strong enough and must be different from ordinary zombies, and they also have to be blended with mcfunction to make them feasible with data pack. Eventually, I made them highly variable in stats, weapons, and many more. \"}','{\"text\":\"They overall have a better performance than that of normal zombies and skeletons. Their spawning becomes another problem. As of 1.18, monsters must be spawned in complete darkness, something absent in this structure. After several brainstorming, \"}','{\"text\":\"I came up with the solution of using markers to manually spawn them. So comes tons of algorithms to be dealt with, and what you see now is the final solution - balanced and fitting. After all, the goal of this data pack is never to add anything fancy, but to add another taste to vanilla gaming. \"}','{\"text\":\"That\\'s all about the guards in Jungle Vestiges. Have a nice day in exploring these forsaken structures while make your way to avoid being attacked by these terrifying guards :p\\\\n \\\\nBest Regards,\\\\ng2245820920\"}']}"
+              }
+            ],
+            "weight": 1
           }
         ],
         "rolls": 1.0
