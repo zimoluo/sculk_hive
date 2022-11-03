@@ -1,0 +1,14 @@
+setblock ~ ~-1 ~ sculk
+setblock ~ ~-2 ~ sculk
+setblock ~1 ~-2 ~ sculk
+setblock ~-1 ~-2 ~ sculk
+setblock ~ ~-2 ~1 sculk
+setblock ~ ~-2 ~-1 sculk
+setblock ~1 ~-2 ~1 sculk
+setblock ~-1 ~-2 ~1 sculk
+setblock ~1 ~-2 ~-1 sculk
+setblock ~-1 ~-2 ~-1 sculk
+setblock ~-2 ~-2 ~ sculk
+setblock ~2 ~-2 ~ sculk
+setblock ~ ~-2 ~2 sculk
+setblock ~ ~-2 ~-2 sculk

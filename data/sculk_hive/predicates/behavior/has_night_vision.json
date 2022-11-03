@@ -1,0 +1,16 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "effects": {
+            "minecraft:night_vision":
+            {
+                "amplifier":
+                {
+                    "min": -128,
+                    "max": 127
+                }
+            }
+        }
+    }
+}

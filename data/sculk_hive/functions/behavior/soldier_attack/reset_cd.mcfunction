@@ -19,3 +19,6 @@ execute if data storage sculk_hive:data {world:{difficulty:1}} run scoreboard pl
 execute if data storage sculk_hive:data {world:{difficulty:1}} run scoreboard players operation @s sh_sdr_cd /= 5 sh_constant
 execute if data storage sculk_hive:data {world:{difficulty:3}} run scoreboard players operation @s sh_sdr_cd /= 5 sh_constant
 execute if data storage sculk_hive:data {world:{difficulty:3}} run scoreboard players operation @s sh_sdr_cd *= 4 sh_constant
+
+execute if entity @s[tag=sh_secret] run scoreboard players operation @s sh_sdr_cd /= 4 sh_constant
+execute if entity @s[tag=sh_secret] run scoreboard players operation @s sh_sdr_cd *= 3 sh_constant

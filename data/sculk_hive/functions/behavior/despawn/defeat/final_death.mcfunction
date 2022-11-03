@@ -23,6 +23,9 @@ execute as @a[distance=..32,advancements={adventure/kill_sculk_hive=true}] at @s
 
 advancement grant @a[distance=..32,advancements={adventure/kill_sculk_hive=false}] only adventure/kill_sculk_hive
 
+fill ~ ~ ~ ~ ~ ~ air replace sculk_shrieker[waterlogged=false]
+fill ~ ~ ~ ~ ~ ~ water replace sculk_shrieker[waterlogged=true]
+
 execute positioned ~ ~-2 ~ run function sculk_hive:behavior/general/shrieker_destroy
 execute positioned ~15 ~-2 ~ run function sculk_hive:behavior/general/shrieker_destroy
 execute positioned ~-15 ~-2 ~ run function sculk_hive:behavior/general/shrieker_destroy
@@ -83,9 +86,8 @@ execute positioned ~-15 ~-4 ~15 run function sculk_hive:behavior/general/sensor_
 execute positioned ~15 ~-4 ~-15 run function sculk_hive:behavior/general/sensor_destroy
 execute positioned ~-15 ~-4 ~-15 run function sculk_hive:behavior/general/sensor_destroy
 
-setblock ~ ~ ~ air
-place template sculk_hive:boss/portal ~-2 ~-3 ~-2
-setblock ~ ~ ~ chest[facing=south,type=single,waterlogged=false]{CustomName:'{"color":"#043F66","text":"Sculk Hive","italic": false}',LootTable:"sculk_hive:chests/loot"}
+execute if block ~ ~ ~ air run setblock ~ ~ ~ chest[facing=south,type=single,waterlogged=false]{CustomName:'{"color":"#043F66","text":"Sculk Hive","italic": false}',LootTable:"sculk_hive:chests/loot"}
+execute if block ~ ~ ~ water run setblock ~ ~ ~ chest[facing=south,type=single,waterlogged=true]{CustomName:'{"color":"#043F66","text":"Sculk Hive","italic": false}',LootTable:"sculk_hive:chests/loot"}
 
 execute as @e[tag=sh_atk, distance=..64] at @s run function sculk_hive:behavior/general/reset_atk_scoreboard
 

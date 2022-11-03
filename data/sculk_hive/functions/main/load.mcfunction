@@ -66,6 +66,23 @@ scoreboard objectives add sh_swd_UUID_2 dummy
 scoreboard objectives add sh_swd_UUID_3 dummy
 scoreboard objectives add sh_swd_count dummy
 scoreboard objectives add sh_max_spawn dummy
+scoreboard objectives add sh_bossbar_multiplier dummy
+scoreboard objectives add sh_bossbar_max dummy
+scoreboard objectives add sh_chit_stage dummy
+scoreboard objectives add sh_chit_timer dummy
+scoreboard objectives add sh_chit_walker_count dummy
+scoreboard objectives add sh_shd_count dummy
+scoreboard objectives add sh_parabola_x0 dummy
+scoreboard objectives add sh_parabola_y0 dummy
+scoreboard objectives add sh_parabola_z0 dummy
+scoreboard objectives add sh_parabola_vx dummy
+scoreboard objectives add sh_parabola_vy dummy
+scoreboard objectives add sh_parabola_vz dummy
+scoreboard objectives add sh_parabola_dt dummy
+scoreboard objectives add sh_parabola_t dummy
+scoreboard objectives add sh_parabola_other dummy
+scoreboard objectives add sh_darkness_timer dummy
+scoreboard objectives add sh_attract_timer dummy
 
 scoreboard objectives add sh_constant dummy
 scoreboard players set 2 sh_constant 2
@@ -77,6 +94,13 @@ scoreboard players set 7 sh_constant 7
 scoreboard players set 8 sh_constant 8
 scoreboard players set 9 sh_constant 9
 scoreboard players set 10 sh_constant 10
+scoreboard players set 20 sh_constant 20
+scoreboard players set 50 sh_constant 50
+scoreboard players set 120 sh_constant 120
+scoreboard players set 270 sh_constant 270
+scoreboard players set -1 sh_constant -1
+scoreboard players set 100 sh_constant 100
+scoreboard players set g/2 sh_constant 122
 
 gamerule maxCommandChainLength 2147483647
 team add sculk_hive

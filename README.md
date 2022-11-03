@@ -17,7 +17,7 @@
 * Pushes its last resort to desperately strike down the intruder.
 
 ### Summoning
-* The boss is summoned using an altar. There are three ways to find the Sculk Hive's alter: jungle vestiges, sculk chamber, and ancient city dungeon. Jungle vestiges are rare structures found within jungle's surface. Featuring an arena at the center with labyrinth surrounding it, the Jungle Vestiges holds the mighty Sculk Hive for explorers to confront. Alternatively, the altar can be found randomly underground. Specifically, the ancient city has a chance to generate an altar under the Warden statue in a hollow dungeon. Another type of chamber generates randomly underground within any ocean, mountain, and deep dark biome. Once you've found an altar, complete it by igniting all four blocks of soul sand and place a sculk shrieker on the top of the structure. Alternatively, use `/locate structure sculk_hive:jungle_vestiges` to look for a chamber containing the altar.
+* The boss is summoned using an altar, which is found in the Jungle Vestiges. The Jungle vestiges are very rare structures found within jungle's surface, located using the command `/locate structure sculk_hive:jungle_vestiges`. Featuring an arena at the center with labyrinth surrounding it, the ruins holds the mighty Sculk Hive for explorers to confront. Once you've found an altar, complete it by igniting all four blocks of soul sand and place a sculk shrieker on the top of the structure.
 * After the altar is complete, darkness starts to surround you and the boss gradually transforms into its full state. Note that the health bar is charging up.
 * Disposing of the Sculk Sword will also create an incomplete altar.
 * Manually constructing the altar to summon the boss is impossible.

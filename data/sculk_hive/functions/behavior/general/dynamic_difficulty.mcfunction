@@ -30,4 +30,20 @@ execute if data storage sculk_hive:data {world:{difficulty:3}} run scoreboard pl
 
 execute if data storage sculk_hive:data {world:{difficulty:2}} run scoreboard players set ULTRA sh_constant 105
 execute if data storage sculk_hive:data {world:{difficulty:1}} run scoreboard players set ULTRA sh_constant 130
-execute if data storage sculk_hive:data {world:{difficulty:3}} run scoreboard players set ULTRA sh_constant 95
+execute if data storage sculk_hive:data {world:{difficulty:3}} run scoreboard players set ULTRA sh_constant 100
+
+execute if data storage sculk_hive:data {world:{difficulty:2}} run scoreboard players set ULTRA_SECRET sh_constant 100
+execute if data storage sculk_hive:data {world:{difficulty:1}} run scoreboard players set ULTRA_SECRET sh_constant 120
+execute if data storage sculk_hive:data {world:{difficulty:3}} run scoreboard players set ULTRA_SECRET sh_constant 95
+
+execute if data storage sculk_hive:data {world:{difficulty:2}} run scoreboard players set FOURTH_PHASE sh_constant 1170
+execute if data storage sculk_hive:data {world:{difficulty:1}} run scoreboard players set FOURTH_PHASE sh_constant 870
+execute if data storage sculk_hive:data {world:{difficulty:3}} run scoreboard players set FOURTH_PHASE sh_constant 1470
+
+execute if data storage sculk_hive:data {world:{difficulty:2}} run scoreboard players set BOMBARD sh_constant 55
+execute if data storage sculk_hive:data {world:{difficulty:1}} run scoreboard players set BOMBARD sh_constant 70
+execute if data storage sculk_hive:data {world:{difficulty:3}} run scoreboard players set BOMBARD sh_constant 40
+
+execute if data storage sculk_hive:data {world:{difficulty:1}} run scoreboard players set ESCAPE sh_constant 90
+execute if data storage sculk_hive:data {world:{difficulty:2}} run scoreboard players set ESCAPE sh_constant 120
+execute if data storage sculk_hive:data {world:{difficulty:3}} run scoreboard players set ESCAPE sh_constant 160

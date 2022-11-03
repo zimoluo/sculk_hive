@@ -4,6 +4,8 @@ playsound minecraft:block.sculk_shrieker.shriek hostile @a ~ ~ ~ 2 0.9
 playsound minecraft:block.sculk_shrieker.shriek hostile @a ~ ~ ~ 2 1.3
 playsound minecraft:entity.wither.death hostile @a ~ ~ ~ 2 0.7
 
+scoreboard players set @s sh_phase_cd -1
+
 kill @e[tag=sh_part,tag=!sh_main, distance=..70]
 
 execute as @e[type=warden,distance=..64] at @s run function sculk_hive:behavior/general/kill_warden

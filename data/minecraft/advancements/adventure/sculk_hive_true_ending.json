@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:adventure/kill_sculk_hive",
+  "criteria": {
+    "quite_impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Witness the powerful monstrosity's rage and death"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "item": "minecraft:sculk_shrieker"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Truthseeker"
+    }
+  },
+  "requirements": [
+    [
+      "quite_impossible"
+    ]
+  ],
+  "hidden": true
+}

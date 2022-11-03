@@ -14,9 +14,9 @@ execute as @e[tag=sh_sey] at @s run function sculk_hive:behavior/sentry/main
 execute as @e[tag=sh_boom] at @s run function sculk_hive:behavior/boom/main
 execute as @e[tag=sh_shd] at @s run function sculk_hive:behavior/shield/main
 execute as @e[tag=sh_2nd, tag=!sh_final, tag=!sh_dth, tag=!sh_phs] at @s as @e[tag=sh_atk, distance=..64] at @s run function sculk_hive:behavior/laser_weak_attack/tick
-execute as @e[tag=sh_final, tag=!sh_dth] at @s as @e[tag=sh_atk, distance=..64] at @s run function sculk_hive:behavior/final_attack/ultra/tick
+execute as @e[tag=sh_final, tag=!sh_dth, tag=!sh_fourth] at @s as @e[tag=sh_atk, distance=..64] at @s run function sculk_hive:behavior/final_attack/ultra/tick
 execute as @e[tag=sh_ultra_boom] at @s run function sculk_hive:behavior/ultra_boom/main
-execute as @e[tag=sh_final, tag=!sh_dth] at @s run function sculk_hive:behavior/final_attack/absorb_warden/detect
+execute as @e[tag=sh_final, tag=!sh_dth, tag=!sh_fourth] at @s run function sculk_hive:behavior/final_attack/absorb_warden/detect
 execute as @e[tag=sh_spr] at @s run function sculk_hive:behavior/final_attack/warden_spirit/move
 execute as @e[tag=sh_laser] at @s run function sculk_hive:behavior/laser/main
 execute as @e[tag=sh_laser_weak] at @s run function sculk_hive:behavior/laser_weak/main
@@ -32,6 +32,9 @@ execute as @a[advancements={sculk_hive:util/kill_monster=false, sculk_hive:util/
 execute as @e[tag=sh_cat_hp] at @s align xyz positioned ~0.5 ~1 ~0.5 run function sculk_hive:behavior/general/hp_prevent_suffocate
 execute as @e[tag=sh_sey_hp] at @s align xyz positioned ~0.5 ~1 ~0.5 run function sculk_hive:behavior/general/hp_prevent_suffocate
 execute as @e[tag=sh_final_hp] at @s align xyz positioned ~0.5 ~1 ~0.5 run function sculk_hive:behavior/general/hp_prevent_suffocate
+execute as @e[tag=sh_chit] at @s run function sculk_hive:behavior/secret_phase/chibaku_tensei/main
+execute as @e[tag=sh_parabola] at @s run function sculk_hive:behavior/secret_phase/chibaku_tensei/parabola/main
+execute as @e[tag=sh_fire_trap] at @s run function sculk_hive:behavior/secret_phase/chibaku_tensei/parabola/fire/fire_trap/tick
 execute as @e[type=#sculk_hive:guard] at @s run function sculk_hive:behavior/vestige/main
 execute as @e[tag=sh_vestige_spawner] at @s unless block ~ ~ ~ void_air run function sculk_hive:behavior/vestige/spawner/format
 execute as @e[tag=sh_vestige_spawn_bot] at @s run function sculk_hive:behavior/vestige/spawner/main

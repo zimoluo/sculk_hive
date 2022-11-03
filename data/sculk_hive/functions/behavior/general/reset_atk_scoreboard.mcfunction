@@ -8,3 +8,4 @@ scoreboard players reset @s sh_y
 scoreboard players reset @s sh_z
 scoreboard players reset @s sh_sta_ttl
 scoreboard players reset @s sh_snk
+scoreboard players reset @s sh_attract_timer

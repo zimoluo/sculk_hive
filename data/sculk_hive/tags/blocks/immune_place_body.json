@@ -17,7 +17,7 @@
     "chest",
     "trapped_chest",
     "ender_chest",
-    "shulker_box",
+    "#shulker_boxes",
     "dragon_egg"
   ]
 }
