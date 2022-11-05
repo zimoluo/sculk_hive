@@ -164,6 +164,7 @@
     "kelp",
     "kelp_plant",
     "nether_portal",
-    "end_portal"
+    "end_portal",
+    "#fence_gates"
   ]
 }

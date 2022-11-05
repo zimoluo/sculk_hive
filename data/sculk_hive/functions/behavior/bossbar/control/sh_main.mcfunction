@@ -4,5 +4,4 @@ execute unless entity @s[tag=sh_dth] unless entity @s[tag=sh_phs] if entity @s[t
 execute if entity @s[tag=sh_fourth, tag=!sh_dth] run function sculk_hive:behavior/bossbar/control/bossbar_fourth
 execute if entity @s[tag=sh_phs, tag=!sh_phs_secret, tag=!sh_dth] run function sculk_hive:behavior/bossbar/control/bossbar_phase
 execute if entity @s[tag=sh_phs_secret, tag=!sh_dth] run function sculk_hive:behavior/bossbar/control/bossbar_phase_secret
-execute if entity @s[tag=sh_dth] run bossbar set sculk_hive:health max 100
-execute if entity @s[tag=sh_dth] run bossbar set sculk_hive:health value 0
+execute if entity @s[tag=sh_dth] run function sculk_hive:behavior/bossbar/control/bossbar_death

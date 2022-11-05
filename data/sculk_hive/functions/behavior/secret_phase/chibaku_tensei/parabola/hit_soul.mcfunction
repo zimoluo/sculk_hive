@@ -17,5 +17,8 @@ execute if data storage sculk_hive:data {world:{difficulty:1}} positioned ~-1.9 
 execute if data storage sculk_hive:data {world:{difficulty:2}} positioned ~-2.25 ~-2.25 ~-2.25 as @e[tag=sh_atk,dx=3.5, dy=3.5, dz=3.5] at @s run effect give @s[tag=sh_atk_undead] instant_health 1 1 true
 execute if data storage sculk_hive:data {world:{difficulty:3}} positioned ~-2.5 ~-2.5 ~-2.5 as @e[tag=sh_atk,dx=4, dy=4, dz=4] at @s run effect give @s[tag=sh_atk_undead] instant_health 1 1 true
 execute if data storage sculk_hive:data {world:{difficulty:1}} positioned ~-1.9 ~-1.9 ~-1.9 as @e[tag=sh_atk,dx=2.8, dy=2.8, dz=2.8] at @s run effect give @s[tag=sh_atk_undead] instant_health 1 0 true
+execute if data storage sculk_hive:data {world:{difficulty:2}} positioned ~-2.25 ~-2.25 ~-2.25 as @e[tag=sh_atk,dx=3.5, dy=3.5, dz=3.5, type=armor_stand] at @s run function sculk_hive:behavior/general/de_armor
+execute if data storage sculk_hive:data {world:{difficulty:3}} positioned ~-2.5 ~-2.5 ~-2.5 as @e[tag=sh_atk,dx=4, dy=4, dz=4, type=armor_stand] at @s run function sculk_hive:behavior/general/de_armor
+execute if data storage sculk_hive:data {world:{difficulty:1}} positioned ~-1.9 ~-1.9 ~-1.9 as @e[tag=sh_atk,dx=2.8, dy=2.8, dz=2.8, type=armor_stand] at @s run function sculk_hive:behavior/general/de_armor
 
 execute positioned ~-2.5 ~-2.5 ~-2.5 as @e[tag=sh_atk,dx=4, dy=4, dz=4] at @s run function sculk_hive:behavior/secret_phase/chibaku_tensei/parabola/soul_attack

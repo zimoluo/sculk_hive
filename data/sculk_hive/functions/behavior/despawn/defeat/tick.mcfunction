@@ -1,5 +1,5 @@
 scoreboard players add @s sh_dth_cd 1
-execute if entity @s[tag=sh_fourth] if score @s sh_dth_cd matches 80.. run scoreboard players remove @s sh_dth_eff_cd 1
+execute if entity @s[tag=sh_fourth] if score @s sh_dth_cd matches 120.. run scoreboard players remove @s sh_dth_eff_cd 1
 execute unless entity @s[tag=sh_fourth] run scoreboard players remove @s sh_dth_eff_cd 1
 
 execute if score @s sh_dth_cd matches 300 unless entity @s[tag=sh_fourth] run function sculk_hive:behavior/despawn/defeat/final_death

@@ -32,7 +32,8 @@ execute if entity @s[tag=sh_fourth, tag=!sh_dth] run function sculk_hive:behavio
 execute unless entity @s[tag=sh_phs] unless entity @e[tag=sh_cat, distance=..64] unless entity @s[tag=sh_2nd] if entity @e[tag=sh_kck, distance=..64] run function sculk_hive:behavior/general/2nd_phase/init
 execute unless entity @s[tag=sh_phs] if entity @s[tag=sh_2nd] unless entity @e[tag=sh_sey, distance=..64] unless entity @s[tag=sh_final] run function sculk_hive:behavior/general/final/init
 execute unless entity @s[tag=sh_phs] unless entity @e[tag=sh_cat, distance=..64] unless entity @s[tag=sh_2nd] unless entity @e[tag=sh_kck, distance=..64] run function sculk_hive:behavior/general/secret_phase/init
-execute unless entity @s[tag=sh_dth] if entity @s[tag=sh_final] unless entity @s[tag=sh_secret] unless entity @e[tag=sh_final_hp,distance=..0.16] run function sculk_hive:behavior/despawn/defeat/init
+execute unless data storage sculk_hive:data {world: {difficulty: 3}} unless entity @s[tag=sh_dth] if entity @s[tag=sh_final] unless entity @s[tag=sh_secret] unless entity @e[tag=sh_final_hp,distance=..0.16] run function sculk_hive:behavior/despawn/defeat/init
+execute if data storage sculk_hive:data {world: {difficulty: 3}} unless entity @s[tag=sh_dth] if entity @s[tag=sh_final] unless entity @s[tag=sh_secret] unless entity @e[tag=sh_final_hp,distance=..0.16] run function sculk_hive:behavior/secret_phase/init_in_hard_mode
 execute unless entity @s[tag=sh_dth] if entity @s[tag=sh_final] if entity @s[tag=sh_secret] unless entity @s[tag=sh_fourth] unless entity @e[tag=sh_final_hp,distance=..0.16] run function sculk_hive:behavior/secret_phase/init
 execute if entity @s[tag=sh_dth] run function sculk_hive:behavior/despawn/defeat/tick
 
