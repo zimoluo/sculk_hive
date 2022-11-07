@@ -4,11 +4,11 @@ particle minecraft:sculk_soul ~ ~ ~ 1 1 1 0.0001 100 force
 
 particle minecraft:sculk_soul ~ ~ ~ 3 1 3 0.0001 500 force
 
-summon experience_orb ~0.1 ~-0.124 ~ {Count:1, Value:100s}
-summon experience_orb ~ ~-0.124 ~0.1 {Count:1, Value:100s}
-summon experience_orb ~-0.1 ~-0.124 ~-0.1 {Count:1, Value:50s}
-summon experience_orb ~-0.1 ~-0.124 ~ {Count:1, Value:25s}
-summon experience_orb ~ ~-0.124 ~-0.1 {Count:1, Value:25s}
+summon experience_orb ~0.1 ~0.876 ~ {Count:1, Value:100s}
+summon experience_orb ~ ~0.876 ~0.1 {Count:1, Value:100s}
+summon experience_orb ~-0.1 ~0.876 ~-0.1 {Count:1, Value:50s}
+summon experience_orb ~-0.1 ~0.876 ~ {Count:1, Value:25s}
+summon experience_orb ~ ~0.876 ~-0.1 {Count:1, Value:25s}
 
 effect clear @a[tag=sh_atk, distance=..64] darkness
 effect clear @a[tag=sh_eff, distance=..64] darkness

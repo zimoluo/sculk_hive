@@ -4,17 +4,17 @@ particle minecraft:sculk_soul ~ ~ ~ 1 1 1 0.0001 100 force
 
 particle minecraft:sculk_soul ~ ~ ~ 3 1 3 0.0001 500 force
 
-summon experience_orb ~0.1 ~-0.124 ~ {Count:1, Value:150s}
-summon experience_orb ~ ~-0.124 ~0.1 {Count:1, Value:150s}
-summon experience_orb ~-0.1 ~-0.124 ~-0.1 {Count:1, Value:70s}
-summon experience_orb ~-0.1 ~-0.124 ~ {Count:1, Value:35s}
-summon experience_orb ~ ~-0.124 ~-0.1 {Count:1, Value:45s}
+summon experience_orb ~0.1 ~0.876 ~ {Count:1, Value:150s}
+summon experience_orb ~ ~0.876 ~0.1 {Count:1, Value:150s}
+summon experience_orb ~-0.1 ~0.876 ~-0.1 {Count:1, Value:70s}
+summon experience_orb ~-0.1 ~0.876 ~ {Count:1, Value:35s}
+summon experience_orb ~ ~0.876 ~-0.1 {Count:1, Value:45s}
 
-summon experience_orb ~0.11 ~-0.124 ~ {Count:1, Value:80s}
-summon experience_orb ~ ~-0.124 ~0.11 {Count:1, Value:80s}
-summon experience_orb ~-0.11 ~-0.124 ~-0.11 {Count:1, Value:30s}
-summon experience_orb ~-0.11 ~-0.124 ~ {Count:1, Value:25s}
-summon experience_orb ~ ~-0.124 ~-0.11 {Count:1, Value:35s}
+summon experience_orb ~0.11 ~0.876 ~ {Count:1, Value:80s}
+summon experience_orb ~ ~0.876 ~0.11 {Count:1, Value:80s}
+summon experience_orb ~-0.11 ~0.876 ~-0.11 {Count:1, Value:30s}
+summon experience_orb ~-0.11 ~0.876 ~ {Count:1, Value:25s}
+summon experience_orb ~ ~0.876 ~-0.11 {Count:1, Value:35s}
 
 execute as @e[tag=sh_attracted,distance=..64] at @s run effect give @s slow_falling 6 0 false
 execute as @e[tag=sh_attracted,distance=..64] at @s run function sculk_hive:behavior/secret_phase/chibaku_tensei/tractor_beam/release
