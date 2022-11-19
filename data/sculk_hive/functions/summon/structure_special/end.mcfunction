@@ -1,8 +1,8 @@
 execute as @e[tag=sh_smn_fire,distance=..256] at @s run function sculk_hive:summon/structure_special/fire_end
 
-execute positioned ~ ~1.5 ~ run playsound block.fire.extinguish hostile @a ~ ~ ~ 8 1
-execute positioned ~ ~1.5 ~ run playsound block.fire.extinguish hostile @a ~ ~ ~ 8 0.9
-execute positioned ~ ~1.5 ~ run playsound block.fire.extinguish hostile @a ~ ~ ~ 8 1.1
+execute positioned ~ ~1.5 ~ run playsound block.fire.extinguish hostile @a ~ ~ ~ 10 1
+execute positioned ~ ~1.5 ~ run playsound block.fire.extinguish hostile @a ~ ~ ~ 10 0.9
+execute positioned ~ ~1.5 ~ run playsound block.fire.extinguish hostile @a ~ ~ ~ 10 1.1
 
 execute positioned ~-2 ~1 ~ if block ~ ~ ~ fire run setblock ~ ~ ~ air
 execute positioned ~2 ~1 ~ if block ~ ~ ~ fire run setblock ~ ~ ~ air
@@ -12,7 +12,7 @@ execute positioned ~ ~2 ~ if block ~ ~ ~ fire run setblock ~ ~ ~ air
 
 execute positioned ~-2 ~-1 ~-2 run place template sculk_hive:vestige/boss ~ ~ ~
 
-execute positioned ~ ~1.5 ~ run playsound minecraft:block.sculk_shrieker.shriek hostile @a ~ ~ ~ 8 1.1
+execute positioned ~ ~1.5 ~ run playsound minecraft:block.sculk_shrieker.shriek hostile @a ~ ~ ~ 10 1.1
 
 execute positioned ~ ~1.5 ~ run particle sculk_soul ~ ~ ~ 3 1.5 3 0.000001 150 force
 

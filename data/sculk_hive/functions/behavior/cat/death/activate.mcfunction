@@ -1,8 +1,8 @@
 particle sculk_soul ~ ~0.7 ~ 0.8 0.8 0.8 0.000001 30 force
 particle soul_fire_flame ~ ~0.7 ~ 0.8 0.8 0.8 0.1 30 force
 
-playsound block.sculk_shrieker.shriek hostile @a ~ ~ ~ 2 1.2
-playsound minecraft:entity.warden.death hostile @a ~ ~ ~ 2 1.3
+playsound block.sculk_shrieker.shriek hostile @a ~ ~ ~ 3.5 1.2
+playsound minecraft:entity.warden.death hostile @a ~ ~ ~ 3.5 1.3
 
 setblock ~ ~ ~ air destroy
 

@@ -83,6 +83,8 @@ scoreboard objectives add sh_parabola_t dummy
 scoreboard objectives add sh_parabola_other dummy
 scoreboard objectives add sh_darkness_timer dummy
 scoreboard objectives add sh_attract_timer dummy
+scoreboard objectives add sh_boss_beaten dummy
+scoreboard objectives add sh_guard_conversion dummy
 
 scoreboard objectives add sh_constant dummy
 scoreboard players set 2 sh_constant 2
@@ -107,5 +109,5 @@ team add sculk_hive
 team modify sculk_hive friendlyFire false
 team modify sculk_hive seeFriendlyInvisibles false
 team modify sculk_hive collisionRule always
-bossbar add sculk_hive:health {"color":"#043F66","text":"Sculk Hive","italic": false}
+bossbar add sculk_hive:health {"color":"#006F75","text":"Sculk Hive","italic": false}
 bossbar set sculk_hive:health style progress

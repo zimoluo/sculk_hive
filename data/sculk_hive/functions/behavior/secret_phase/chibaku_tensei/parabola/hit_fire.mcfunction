@@ -1,7 +1,7 @@
-playsound entity.wither.break_block hostile @a ~ ~ ~ 2 1.3
-playsound entity.wither.shoot hostile @a ~ ~ ~ 2 1.3
-playsound entity.wither.shoot hostile @a ~ ~ ~ 2 0.8
-playsound entity.generic.explode hostile @a ~ ~ ~ 2 1.4
+playsound entity.wither.break_block hostile @a ~ ~ ~ 4 1.3
+playsound entity.wither.shoot hostile @a ~ ~ ~ 4 1.3
+playsound entity.wither.shoot hostile @a ~ ~ ~ 4 0.8
+playsound entity.generic.explode hostile @a ~ ~ ~ 4 1.4
 
 particle explosion ~ ~ ~ 1 1 1 0.0001 8 force
 

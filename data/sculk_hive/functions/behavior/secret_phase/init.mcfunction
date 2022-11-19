@@ -10,9 +10,9 @@ effect clear @e[tag=sh_atk, distance=..64] weakness
 
 effect give @a[tag=sh_atk, distance=..64] instant_health 1 1 true
 
-playsound minecraft:entity.wither.death hostile @a ~ ~ ~ 2 0.7
-playsound minecraft:block.sculk_shrieker.shriek hostile @a ~ ~ ~ 2 0.9
-playsound minecraft:block.sculk_shrieker.shriek hostile @a ~ ~ ~ 2 1.3
+playsound minecraft:entity.wither.death hostile @a ~ ~ ~ 4.5 0.7
+playsound minecraft:block.sculk_shrieker.shriek hostile @a ~ ~ ~ 4.5 0.9
+playsound minecraft:block.sculk_shrieker.shriek hostile @a ~ ~ ~ 4.5 1.3
 
 particle minecraft:soul_fire_flame ~ ~ ~ 3 3 3 0.1 400 force
 

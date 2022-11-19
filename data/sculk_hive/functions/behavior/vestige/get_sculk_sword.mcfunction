@@ -1,0 +1,4 @@
+data merge entity @s {HandDropChances:[1.0f, 0.0f]}
+tag @s add sh_guard_soul
+
+item replace entity @s weapon.mainhand with stone_sword{HideFlags: 6, Enchantments:[{id:"minecraft:binding_curse", lvl:1s}], IsSculkSword:1b, StrongFaith:0b, HasWielder:0b, WielderUUID:[I; 0,0,0,0], AttributeModifiers:[{Slot:"mainhand", AttributeName:"generic.attack_speed", Name:"generic.attack_speed", Amount:-2.18d, Operation:0, UUID:[I; -98353636, 1098926181, -1340359474, -1752847197]},{Slot:"mainhand", AttributeName:"generic.attack_damage", Name:"generic.attack_damage", Amount:9.8, Operation:0, UUID:[I; -885041709, 1683771192, -1533567981, -1556236849]}],Unbreakable:1b,display:{Name:'{"text":"Sculk Sword","color":"#006F75","italic":false}',Lore:['" "','{"text":"Enchanted with souls","color":"#006F75","italic":false, "font":"minecraft:illageralt"}']}}

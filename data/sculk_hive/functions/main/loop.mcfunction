@@ -40,5 +40,6 @@ execute as @e[tag=sh_vestige_spawner] at @s unless block ~ ~ ~ void_air run func
 execute as @e[tag=sh_vestige_spawn_bot] at @s run function sculk_hive:behavior/vestige/spawner/main
 execute as @e[tag=sh_vestige_spawn_center] at @s run function sculk_hive:behavior/vestige/spawner/count
 execute as @a[advancements={adventure/find_vestiges=false}] at @s if predicate sculk_hive:vestige/in_vestige run advancement grant @s only adventure/find_vestiges
+execute as @a unless score @s sh_boss_beaten matches 0.. run scoreboard players set @s sh_boss_beaten 0
 
 function sculk_hive:behavior/bossbar/main

@@ -63,11 +63,14 @@ execute if data storage sculk_hive:data {world:{difficulty: 3}} if predicate scu
 
 
 effect give @s fire_resistance 999999 0 true
-data merge entity @s {ArmorDropChances:[0.0f, 0.0f, 0.0f, 0.0f], HandDropChances:[0.01f, 0.0f], PersistenceRequired: 0b, DeathLootTable:"sculk_hive:entities/guard", Fire:-20s, CanPickUpLoot: 0b}
+data merge entity @s {ArmorDropChances:[0.0f, 0.0f, 0.0f, 0.0f], HandDropChances:[0.01f, 0.0f], DeathLootTable:"sculk_hive:entities/guard", Fire:-20s, CanPickUpLoot: 0b}
+execute unless entity @s[tag=sh_natural] run data merge entity @s {PersistenceRequired: 0b}
 
 effect clear @s wither
 
 execute store result entity @s Health float 1 run attribute @s generic.max_health get
+
+execute unless entity @s[tag=sh_natural] if predicate sculk_hive:chance/00005 if entity @a[distance=..128, scores={sh_boss_beaten=30..}] run function sculk_hive:behavior/vestige/get_sculk_sword
 
 tag @s add sh_natural
 tag @s add sh_guard

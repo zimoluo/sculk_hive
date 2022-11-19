@@ -1,0 +1,1 @@
+execute unless block ~ ~ ~ #sculk_hive:soul_fire_base_replace unless block ~ ~ ~ #sculk_hive:immune_spread if block ~ ~1 ~ #sculk_hive:non-full if block ~ ~2 ~ #sculk_hive:non-full unless block ~ ~1 ~ #sculk_hive:immune_fire_trap unless block ~ ~2 ~ #sculk_hive:immune_fire_trap run function sculk_hive:behavior/secret_phase/chibaku_tensei/parabola/fire/spread

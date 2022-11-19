@@ -19,6 +19,6 @@ execute positioned ~-1.5 ~1 ~-2.5 if block ~ ~ ~ fire run setblock ~ ~ ~ air
 execute positioned ~0.5 ~1 ~-2.5 if block ~ ~ ~ fire run setblock ~ ~ ~ air
 execute positioned ~1.5 ~1 ~-2.5 if block ~ ~ ~ fire run setblock ~ ~ ~ air
 
-execute positioned ~ ~1 ~ run playsound block.fire.extinguish hostile @a ~ ~ ~ 3 1
+execute positioned ~ ~1 ~ run playsound block.fire.extinguish hostile @a ~ ~ ~ 5 1
 
 kill @s

@@ -1,6 +1,7 @@
 execute as @a[tag=sh_eff, distance=..64] at @s anchored eyes run particle minecraft:flash ^ ^ ^ 0.2 0.2 0.2 0.0001 10 force @s
 particle minecraft:flash ~ ~ ~ 0.5 0.5 0.5 0.0001 25 force
-playsound minecraft:item.totem.use hostile @a ~ ~ ~ 10 2 0.1
+execute if data storage sculk_hive:data {world:{globalSoundEvents: 0b}} run playsound minecraft:item.totem.use hostile @a ~ ~ ~ 4.5 2
+execute if data storage sculk_hive:data {world:{globalSoundEvents: 1b}} as @a at @s anchored eyes run playsound minecraft:item.totem.use hostile @s ^ ^ ^ 1 2
 
 particle minecraft:sculk_charge_pop ~ ~ ~ 2 2 2 0.0001 400 force
 particle minecraft:sculk_soul ~ ~ ~ 2 2 2 0.0001 200 force

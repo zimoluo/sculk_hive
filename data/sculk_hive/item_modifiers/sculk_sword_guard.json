@@ -1,0 +1,17 @@
+[
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        [
+            {
+                "text":"Belongs to ","color":"#FFE779","italic":true
+            },
+            {
+                "text":"Vestige Guardian","color":"green","italic":false
+            }
+        ]
+      ],
+      "replace": false
+    }
+  ]

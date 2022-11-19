@@ -1,6 +1,6 @@
 function sculk_hive:behavior/general/blocks/repair_body
 
-playsound minecraft:block.sculk_shrieker.shriek hostile @a ~ ~ ~ 2 1.5
+playsound minecraft:block.sculk_shrieker.shriek hostile @a ~ ~ ~ 4 1.5
 
 particle minecraft:sculk_soul ~ ~ ~ 1 1 1 0.00001 50 force
 

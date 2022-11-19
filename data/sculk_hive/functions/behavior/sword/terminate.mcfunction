@@ -7,7 +7,7 @@ scoreboard players set @e[tag=sh_prep_ctrl] sh_cd 0
 
 execute as @a[distance=..16] at @s anchored eyes run particle flash ^ ^ ^ 0.0001 0.0001 0.0001 0.0001 3 force @s
 particle flash ~ ~1 ~ 0.1 0.1 0.1 0.0001 5 force
-playsound minecraft:block.sculk_shrieker.shriek hostile @a ~ ~ ~ 2 1.5
+playsound minecraft:block.sculk_shrieker.shriek hostile @a ~ ~ ~ 4 1.5
 summon lightning_bolt ~ ~ ~
 particle sculk_soul ~ ~1 ~ 0.6 0.6 0.6 0.00001 50 force
 

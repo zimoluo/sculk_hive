@@ -15,6 +15,6 @@ tag @e[tag=sh_temp] remove sh_temp
 
 item replace entity @s armor.legs with air
 
-playsound minecraft:entity.armor_stand.break block @a ~ ~ ~ 2
+playsound minecraft:entity.armor_stand.break block @a ~ ~ ~ 3
 particle minecraft:explosion ~ ~1.5 ~ 0.3 0.4 0.3 0.00001 3 force
 particle block oak_planks ~ ~1.5 ~ 0.3 0.45 0.3 0.0001 20 force

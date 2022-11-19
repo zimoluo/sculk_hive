@@ -29,8 +29,8 @@ execute as @e[tag=sh_bot_raw] at @s run function sculk_hive:behavior/cat_bot/ini
 
 particle minecraft:sculk_soul ~ ~ ~ 2 2 2 0.00001 100 force
 particle minecraft:soul_fire_flame ~ ~ ~ 2 2 2 0.00001 100 force
-playsound minecraft:block.sculk_shrieker.shriek hostile @a ~ ~ ~ 2 1.5
-playsound minecraft:block.sculk_shrieker.shriek hostile @a ~ ~ ~ 2 0.8
+playsound minecraft:block.sculk_shrieker.shriek hostile @a ~ ~ ~ 4.5 1.5
+playsound minecraft:block.sculk_shrieker.shriek hostile @a ~ ~ ~ 4.5 0.8
 
 effect give @e[tag=sh_atk, distance=..64] darkness 15 0 true
 effect give @e[tag=sh_atk, distance=..64] weakness 15

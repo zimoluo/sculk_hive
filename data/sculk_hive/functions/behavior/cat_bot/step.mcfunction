@@ -36,9 +36,9 @@ execute if predicate sculk_hive:chance/02 at @s run tp @s ~ ~ ~ ~90 ~
 execute if predicate sculk_hive:chance/02 at @s run tp @s ~ ~ ~ ~-90 ~
 execute if predicate sculk_hive:chance/04 at @s run function sculk_hive:behavior/cat_bot/move/move
 
-playsound minecraft:block.sculk.charge hostile @a ~ ~ ~ 2
-playsound minecraft:block.sculk_catalyst.bloom hostile @a ~ ~ ~ 2
-playsound minecraft:block.sculk.spread hostile @a ~ ~ ~ 2
+playsound minecraft:block.sculk.charge hostile @a ~ ~ ~ 4
+playsound minecraft:block.sculk_catalyst.bloom hostile @a ~ ~ ~ 4
+playsound minecraft:block.sculk.spread hostile @a ~ ~ ~ 4
 particle minecraft:sculk_charge_pop ~ ~ ~ 1.2 0.4 1.2 0.00001 30 force
 
 scoreboard players set @s sh_bot_last 0

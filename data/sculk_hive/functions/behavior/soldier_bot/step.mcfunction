@@ -35,7 +35,7 @@ execute if predicate sculk_hive:chance/02 at @s run tp @s ~ ~ ~ ~90 ~
 execute if predicate sculk_hive:chance/02 at @s run tp @s ~ ~ ~ ~-90 ~
 execute if predicate sculk_hive:chance/04 at @s run function sculk_hive:behavior/soldier_bot/move/move
 
-playsound minecraft:entity.evoker.prepare_summon hostile @a ~ ~ ~ 2 1
+playsound minecraft:entity.evoker.prepare_summon hostile @a ~ ~ ~ 4 1
 
 scoreboard players set @s sh_bot_last 0
 execute store result score @s sh_bot_last run data get entity @s Rotation[0]

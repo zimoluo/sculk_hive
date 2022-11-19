@@ -1,8 +1,8 @@
-playsound minecraft:block.sculk_shrieker.shriek hostile @a ~ ~ ~ 2 0.3
-playsound minecraft:block.sculk_shrieker.shriek hostile @a ~ ~ ~ 2 0.7
-playsound minecraft:block.sculk_shrieker.shriek hostile @a ~ ~ ~ 2 0.9
-playsound minecraft:block.sculk_shrieker.shriek hostile @a ~ ~ ~ 2 1.3
-playsound minecraft:entity.wither.death hostile @a ~ ~ ~ 2 0.7
+playsound minecraft:block.sculk_shrieker.shriek hostile @a ~ ~ ~ 4.5 0.3
+playsound minecraft:block.sculk_shrieker.shriek hostile @a ~ ~ ~ 4.5 0.7
+playsound minecraft:block.sculk_shrieker.shriek hostile @a ~ ~ ~ 4.5 0.9
+playsound minecraft:block.sculk_shrieker.shriek hostile @a ~ ~ ~ 4.5 1.3
+playsound minecraft:entity.wither.death hostile @a ~ ~ ~ 4.5 0.7
 
 scoreboard players set @s sh_phase_cd -1
 

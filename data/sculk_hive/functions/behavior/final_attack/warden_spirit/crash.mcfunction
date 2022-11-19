@@ -11,5 +11,5 @@ execute store result entity @e[tag=sh_final_hp,limit=1,sort=nearest] Health floa
 
 
 
-playsound minecraft:entity.evoker.prepare_summon hostile @a ~ ~ ~ 2 1.2
+playsound minecraft:entity.evoker.prepare_summon hostile @a ~ ~ ~ 4 1.2
 particle minecraft:happy_villager ~ ~0.8 ~ 0.5 0.5 0.5 1 20 force

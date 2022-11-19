@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:adventure/kill_sculk_hive",
+  "criteria": {
+    "quite_impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "To honor your dedication, Vestige Guardians will rarely carry the Sculk Sword"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "item": "minecraft:stone_sword",
+      "nbt": "{Damage: 0, Enchantments: [{\"id\": \"binding_curse\", \"lvl\": 1s}]}"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Sculk Dedication"
+    }
+  },
+  "requirements": [
+    [
+      "quite_impossible"
+    ]
+  ],
+  "hidden": true
+}

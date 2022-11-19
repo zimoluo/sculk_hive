@@ -10,10 +10,10 @@ execute as @e[tag=sh_sey_hp] run data merge entity @s {Invulnerable:0b}
 
 particle minecraft:sculk_soul ~ ~ ~ 2 2 2 0.00001 100 force
 particle minecraft:soul_fire_flame ~ ~ ~ 2 2 2 0.00001 100 force
-playsound minecraft:block.sculk_shrieker.shriek hostile @a ~ ~ ~ 2 1.5
-playsound minecraft:block.sculk_shrieker.shriek hostile @a ~ ~ ~ 2 0.8
-playsound minecraft:entity.warden.roar hostile @a ~ ~ ~ 2 1.2
-playsound minecraft:entity.warden.roar hostile @a ~ ~ ~ 2 0.8
+playsound minecraft:block.sculk_shrieker.shriek hostile @a ~ ~ ~ 4.5 1.5
+playsound minecraft:block.sculk_shrieker.shriek hostile @a ~ ~ ~ 4.5 0.8
+playsound minecraft:entity.warden.roar hostile @a ~ ~ ~ 4.5 1.2
+playsound minecraft:entity.warden.roar hostile @a ~ ~ ~ 4.5 0.8
 
 execute as @e[tag=sh_atk, distance=..64] run scoreboard players set @s sh_boom_cd 200
 execute as @e[tag=sh_atk, distance=..64] if predicate sculk_hive:chance/03 run scoreboard players add @s sh_boom_cd 5

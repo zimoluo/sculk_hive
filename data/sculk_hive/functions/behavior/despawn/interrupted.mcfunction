@@ -8,8 +8,8 @@ particle minecraft:sculk_soul ~ ~ ~ 2 2 2 0.0001 100 force
 effect clear @a[tag=sh_atk, distance=..64] darkness
 effect clear @a[tag=sh_eff, distance=..64] darkness
 effect clear @a[distance=..32] darkness
-playsound minecraft:entity.elder_guardian.curse hostile @a ~ ~ ~ 2 0.8
-playsound minecraft:block.sculk_shrieker.shriek hostile @a ~ ~ ~ 2 1.3
+playsound minecraft:entity.elder_guardian.curse hostile @a ~ ~ ~ 4.5 0.8
+playsound minecraft:block.sculk_shrieker.shriek hostile @a ~ ~ ~ 4.5 1.3
 
 fill ~1 ~-2 ~1 ~1 ~-2 ~1 soul_sand replace sculk
 fill ~-1 ~-2 ~1 ~-1 ~-2 ~1 soul_sand replace sculk

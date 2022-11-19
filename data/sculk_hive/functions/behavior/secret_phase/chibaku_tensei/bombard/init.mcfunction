@@ -21,5 +21,5 @@ execute if data storage sculk_hive:data {world:{difficulty:3}} run function scul
 execute if data storage sculk_hive:data {world:{difficulty:3}} if predicate sculk_hive:chance/06 run function sculk_hive:behavior/secret_phase/chibaku_tensei/bombard/get_normal_walker
 execute if data storage sculk_hive:data {world:{difficulty:3}} if predicate sculk_hive:chance/04 run function sculk_hive:behavior/secret_phase/chibaku_tensei/bombard/get_normal_walker
 
-execute if score @s sh_chit_walker_count matches 1.. run playsound entity.wither.shoot hostile @a ~ ~ ~ 3 0.9
-execute if score @s sh_chit_walker_count matches 1.. run playsound entity.wither.shoot hostile @a ~ ~ ~ 3 1.3
+execute if score @s sh_chit_walker_count matches 1.. run playsound entity.wither.shoot hostile @a ~ ~ ~ 4.5 0.9
+execute if score @s sh_chit_walker_count matches 1.. run playsound entity.wither.shoot hostile @a ~ ~ ~ 4.5 1.3
