@@ -10,7 +10,7 @@
     "description": {
       "text": "Kill the Sculk Hive, the ultimate source of sculk and darkness"
     },
-    "frame": "challenge",
+    "frame": "goal",
     "hidden": false,
     "icon": {
       "item": "minecraft:sculk_shrieker"

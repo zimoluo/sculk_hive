@@ -19,7 +19,7 @@ effect clear @e[tag=sh_atk, distance=..64] slowness
 effect clear @e[tag=sh_atk, distance=..64] mining_fatigue
 effect clear @e[tag=sh_atk, distance=..64] weakness
 
-execute as @a[distance=..32,advancements={adventure/kill_sculk_hive=true}] at @s run playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ 4.5
+execute as @a[distance=..32] at @s run playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ 4.5
 
 advancement grant @a[distance=..32,advancements={adventure/kill_sculk_hive=false}] only adventure/kill_sculk_hive
 scoreboard players add @a[distance=..32] sh_boss_beaten 1

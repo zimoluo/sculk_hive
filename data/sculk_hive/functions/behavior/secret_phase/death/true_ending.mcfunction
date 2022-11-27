@@ -28,7 +28,7 @@ effect clear @e[tag=sh_atk, distance=..64] weakness
 effect give @a[tag=sh_atk, distance=..64] regeneration 3 9 true
 effect give @a[tag=sh_atk, distance=..64] instant_health 1 4 true
 
-execute as @a[distance=..32,advancements={adventure/kill_sculk_hive=true}] at @s run playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ 4.5
+execute as @a[distance=..32,advancements={adventure/sculk_hive_true_ending=true}] at @s run playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ 4.5
 
 advancement grant @a[distance=..32,advancements={adventure/kill_sculk_hive=false}] only adventure/kill_sculk_hive
 advancement grant @a[distance=..32,advancements={adventure/sculk_hive_true_ending=false}] only adventure/sculk_hive_true_ending
