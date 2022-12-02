@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+	"dolphin",
+	"slime",
+	"allay",
+	"bat",
+	"pig",
+	"cow",
+	"villager",
+	"turtle",
+	"skeleton_horse",
+	"evoker"
+  ]
+}

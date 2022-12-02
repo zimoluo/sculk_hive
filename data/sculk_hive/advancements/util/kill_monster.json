@@ -84,6 +84,27 @@
               }
           }
       },
+      "minecraft:illusioner": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+            "entity": [
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "type": "minecraft:illusioner"
+                    }
+                }
+            ],
+            "killing_blow": {
+                "is_explosion": false,
+                "is_projectile": false,
+                "is_lightning": false,
+                "bypasses_invulnerability": false,
+                "bypasses_magic": false
+            }
+        }
+    },
       "minecraft:creeper": {
           "trigger": "minecraft:player_killed_entity",
           "conditions": {
@@ -794,7 +815,8 @@
           "minecraft:zombie",
           "minecraft:zombified_piglin",
           "minecraft:warden",
-          "minecraft:player"
+          "minecraft:player",
+          "minecraft:illusioner"
       ]
   ]
 }
