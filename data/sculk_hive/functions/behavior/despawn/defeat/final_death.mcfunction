@@ -19,6 +19,11 @@ effect clear @e[tag=sh_atk, distance=..64] slowness
 effect clear @e[tag=sh_atk, distance=..64] mining_fatigue
 effect clear @e[tag=sh_atk, distance=..64] weakness
 
+tag @s add sh_temp_8
+execute as @e[tag=sh_corrupted,distance=..256] at @s unless entity @e[tag=sh_main,tag=!sh_temp_8] run function sculk_hive:behavior/vestige/purification/purify
+execute as @e[tag=sh_guard_corrupted,distance=..256, tag=!sh_guard_despawn] at @s unless entity @e[tag=sh_main,tag=!sh_temp_8] run function sculk_hive:behavior/vestige/purification/purify
+tag @s remove sh_temp_8
+
 execute as @a[distance=..32] at @s run playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ 4.5
 
 advancement grant @a[distance=..32,advancements={adventure/kill_sculk_hive=false}] only adventure/kill_sculk_hive

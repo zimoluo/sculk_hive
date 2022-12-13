@@ -35,8 +35,8 @@ execute as @e[tag=sh_final_hp] at @s align xyz positioned ~0.5 ~1 ~0.5 run funct
 execute as @e[tag=sh_chit] at @s run function sculk_hive:behavior/secret_phase/chibaku_tensei/main
 execute as @e[tag=sh_parabola] at @s run function sculk_hive:behavior/secret_phase/chibaku_tensei/parabola/main
 execute as @e[tag=sh_fire_trap] at @s run function sculk_hive:behavior/secret_phase/chibaku_tensei/parabola/fire/fire_trap/tick
-execute as @e[type=#sculk_hive:guard] at @s run function sculk_hive:behavior/vestige/main
-execute as @e[type=#sculk_hive:vestige_vulnerable, tag=!sh_part] at @s run function sculk_hive:behavior/vestige/corruption/main
+execute as @e[type=#sculk_hive:guard, tag=!sh_purified] at @s run function sculk_hive:behavior/vestige/main
+execute as @e[type=#sculk_hive:vestige_vulnerable, tag=!sh_part, tag=!sh_purified] at @s run function sculk_hive:behavior/vestige/corruption/main
 execute as @e[tag=sh_vestige_spawner] at @s unless block ~ ~ ~ void_air run function sculk_hive:behavior/vestige/spawner/format
 execute as @e[tag=sh_vestige_spawn_bot] at @s run function sculk_hive:behavior/vestige/spawner/main
 execute as @e[tag=sh_vestige_spawn_center] at @s run function sculk_hive:behavior/vestige/spawner/count

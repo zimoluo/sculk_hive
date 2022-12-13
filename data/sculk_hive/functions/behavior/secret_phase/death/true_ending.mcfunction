@@ -28,6 +28,11 @@ effect clear @e[tag=sh_atk, distance=..64] weakness
 effect give @a[tag=sh_atk, distance=..64] regeneration 3 9 true
 effect give @a[tag=sh_atk, distance=..64] instant_health 1 4 true
 
+tag @s add sh_temp_8
+execute as @e[tag=sh_corrupted,distance=..256] at @s unless entity @e[tag=sh_main,tag=!sh_temp_8] run function sculk_hive:behavior/vestige/purification/purify
+execute as @e[tag=sh_guard_corrupted,distance=..256, tag=!sh_guard_despawn] at @s unless entity @e[tag=sh_main,tag=!sh_temp_8] run function sculk_hive:behavior/vestige/purification/purify
+tag @s remove sh_temp_8
+
 execute as @a[distance=..32,advancements={adventure/sculk_hive_true_ending=true}] at @s run playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ 4.5
 
 advancement grant @a[distance=..32,advancements={adventure/kill_sculk_hive=false}] only adventure/kill_sculk_hive
