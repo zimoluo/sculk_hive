@@ -7,7 +7,7 @@
         "processors": "sculk_hive:vestige_decor",
         "projection": "rigid"
       },
-      "weight": 2
+      "weight": 6
     },
     {
       "element": {
@@ -39,11 +39,65 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
+        "location": "sculk_hive:vestige/statues/branches",
+        "processors": "sculk_hive:vestige_decor",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sculk_hive:vestige/statues/goblet",
+        "processors": "sculk_hive:vestige_decor",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sculk_hive:vestige/statues/lamp",
+        "processors": "sculk_hive:vestige_decor",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sculk_hive:vestige/statues/staircase",
+        "processors": "sculk_hive:vestige_decor",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sculk_hive:vestige/statues/trap",
+        "processors": "sculk_hive:vestige_decor",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sculk_hive:vestige/statues/well",
+        "processors": "sculk_hive:vestige_decor",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
         "location": "sculk_hive:vestige/statues/spawner",
         "processors": "sculk_hive:vestige_decor",
         "projection": "rigid"
       },
-      "weight": 1
+      "weight": 3
     }
   ],
   "fallback": "sculk_hive:vestige/statues",

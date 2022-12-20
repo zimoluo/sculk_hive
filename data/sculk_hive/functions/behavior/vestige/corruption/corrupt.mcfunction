@@ -8,10 +8,16 @@ execute if entity @s[type=allay] run summon vex ~ ~ ~ {Tags:["sh_temp_3"]}
 execute if entity @s[type=allay] run data modify entity @e[tag=sh_temp_3,limit=1,sort=nearest] HandItems set from entity @s HandItems
 execute if entity @s[type=allay] run data modify entity @e[tag=sh_temp_3,limit=1,sort=nearest] HandDropChances set from entity @s HandDropChances
 
-execute if entity @s[type=bat] run summon phantom ~ ~ ~ {Size: 0, DeathLootTable: "minecraft:entities/bat", Tags:["sh_temp_3"]}
 execute if entity @s[type=cow] run summon ravager ~ ~ ~ {DeathLootTable: "minecraft:entities/cow", Tags:["sh_temp_3"]}
 execute if entity @s[type=villager] run summon pillager ~ ~ ~ {Tags:["sh_temp_3"], HandItems:[{id:"crossbow", Count:1b}]}
 execute if entity @s[type=pig] run summon creeper ~ ~ ~ {Tags:["sh_temp_3"]}
+
+execute if entity @s[type=bat] run summon phantom ~ ~ ~ {Size: 0, DeathLootTable: "minecraft:entities/bat", Tags:["sh_temp_3"], AX: 0, AY: 0, AZ: 0}
+execute if entity @s[type=bat] store result entity @e[tag=sh_temp_3,limit=1,sort=nearest] AX int 1 run data get entity @s Pos[0]
+execute if entity @s[type=bat] store result entity @e[tag=sh_temp_3,limit=1,sort=nearest] AZ int 1 run data get entity @s Pos[2]
+execute if entity @s[type=bat] store result score @s sh_cd run data get entity @s Pos[1]
+execute if entity @s[type=bat] run scoreboard players add @s sh_cd 16
+execute if entity @s[type=bat] store result entity @e[tag=sh_temp_3,limit=1,sort=nearest] AY int 1 run scoreboard players get @s sh_cd
 
 execute if entity @s[type=skeleton_horse] run summon zombie_horse ~ ~ ~ {Tags:["sh_temp_3"]}
 execute if entity @s[type=skeleton_horse] run data modify entity @e[tag=sh_temp_3,limit=1,sort=nearest] SaddleItem set from entity @s SaddleItem

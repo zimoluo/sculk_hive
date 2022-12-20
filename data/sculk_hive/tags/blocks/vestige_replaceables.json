@@ -15,6 +15,9 @@
       "stone_brick_stairs",
       "polished_andesite_slab",
       "chest",
-      "spawner"
+      "spawner",
+      "stone_brick_wall",
+      "iron_door",
+      "stone_pressure_plate"
     ]
   }
