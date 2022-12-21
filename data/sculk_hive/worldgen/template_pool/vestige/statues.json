@@ -66,7 +66,7 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "sculk_hive:vestige/statues/staircase",
+        "location": "sculk_hive:vestige/statues/trap",
         "processors": "sculk_hive:vestige_decor",
         "projection": "rigid"
       },
@@ -75,7 +75,7 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "sculk_hive:vestige/statues/trap",
+        "location": "sculk_hive:vestige/statues/dryed",
         "processors": "sculk_hive:vestige_decor",
         "projection": "rigid"
       },
