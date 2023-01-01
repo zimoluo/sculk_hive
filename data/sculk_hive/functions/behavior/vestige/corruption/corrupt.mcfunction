@@ -11,6 +11,7 @@ execute if entity @s[type=allay] run data modify entity @e[tag=sh_temp_3,limit=1
 execute if entity @s[type=cow] run summon ravager ~ ~ ~ {DeathLootTable: "minecraft:entities/cow", Tags:["sh_temp_3"]}
 execute if entity @s[type=villager] run summon pillager ~ ~ ~ {Tags:["sh_temp_3"], HandItems:[{id:"crossbow", Count:1b}]}
 execute if entity @s[type=pig] run summon creeper ~ ~ ~ {Tags:["sh_temp_3"]}
+execute if entity @s[type=frog] run summon strider ~ ~ ~ {Tags:["sh_temp_3"], Saddle:0b}
 
 execute if entity @s[type=bat] run summon phantom ~ ~ ~ {Size: 0, DeathLootTable: "minecraft:entities/bat", Tags:["sh_temp_3"], AX: 0, AY: 0, AZ: 0}
 execute if entity @s[type=bat] store result entity @e[tag=sh_temp_3,limit=1,sort=nearest] AX int 1 run data get entity @s Pos[0]

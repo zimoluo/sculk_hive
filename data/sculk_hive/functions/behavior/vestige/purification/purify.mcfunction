@@ -13,6 +13,7 @@ execute if entity @s[type=phantom] run summon bat ~ ~ ~ {Tags:["sh_temp_6"]}
 execute if entity @s[type=ravager] run summon cow ~ ~ ~ {Tags:["sh_temp_6"]}
 execute if entity @s[type=pillager] run summon villager ~ ~ ~ {Tags:["sh_temp_6"]}
 execute if entity @s[type=creeper] run summon pig ~ ~ ~ {Tags:["sh_temp_6"]}
+execute if entity @s[type=strider] run summon frog ~ ~ ~ {Tags:["sh_temp_6"], variant:"minecraft:warm"}
 
 execute if entity @s[type=zombie_horse] run summon skeleton_horse ~ ~ ~ {Tags:["sh_temp_6"]}
 execute if entity @s[type=zombie_horse] run data modify entity @e[tag=sh_temp_6,limit=1,sort=nearest] SaddleItem set from entity @s SaddleItem

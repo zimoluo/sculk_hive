@@ -25,8 +25,8 @@ tag @e[nbt={Invulnerable:1b}] remove sh_atk
 tag @e[tag=sh_guard] remove sh_atk
 tag @e[tag=sh_part] remove sh_atk
 
-execute as @e[type=armor_stand] if data entity @s {ArmorItems:[{}, {tag:{Enchantments:[{id:"minecraft:swift_sneak"}]}}, {}, {}]} unless data entity @s {Marker:1b} unless data entity @s {Invisible:1b} at @s if entity @e[tag=sh_main, distance=..32] run tag @s add sh_atk
-execute as @e[type=armor_stand] if data entity @s {ArmorItems:[{}, {tag:{Enchantments:[{id:"minecraft:swift_sneak"}]}}, {}, {}]} unless data entity @s {Marker:1b} unless data entity @s {Invisible:1b} at @s if entity @e[tag=sh_fourth, distance=..40] run tag @s add sh_atk
+execute as @e[type=armor_stand] if data entity @s {ArmorItems:[{}, {tag:{Enchantments:[{id:"minecraft:swift_sneak"}]}}, {}, {}]} unless data entity @s {Marker:1b} unless data entity @s {Invisible:1b} unless data entity @s {Invulnerable:1b} at @s if entity @e[tag=sh_main, distance=..32] run tag @s add sh_atk
+execute as @e[type=armor_stand] if data entity @s {ArmorItems:[{}, {tag:{Enchantments:[{id:"minecraft:swift_sneak"}]}}, {}, {}]} unless data entity @s {Marker:1b} unless data entity @s {Invisible:1b} unless data entity @s {Invulnerable:1b} at @s if entity @e[tag=sh_fourth, distance=..40] run tag @s add sh_atk
 
 tag @e[tag=!sh_atk] remove sh_sta
 tag @e[tag=!sh_atk] remove sh_bite

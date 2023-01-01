@@ -16,14 +16,8 @@ execute positioned ~ ~1.5 ~ run playsound minecraft:block.sculk_shrieker.shriek 
 
 execute positioned ~ ~1.5 ~ run particle sculk_soul ~ ~ ~ 3 1.5 3 0.000001 150 force
 
-execute positioned ~-1 ~ ~-1 if predicate sculk_hive:chance/06 run fill ~ ~ ~ ~ ~ ~ air replace soul_fire
-execute positioned ~1 ~ ~-1 if predicate sculk_hive:chance/06 run fill ~ ~ ~ ~ ~ ~ air replace soul_fire
-execute positioned ~-1 ~ ~1 if predicate sculk_hive:chance/06 run fill ~ ~ ~ ~ ~ ~ air replace soul_fire
-execute positioned ~1 ~ ~1 if predicate sculk_hive:chance/06 run fill ~ ~ ~ ~ ~ ~ air replace soul_fire
+execute positioned ~ ~1.3 ~ run summon item ~ ~ ~ {Tags:["sh_smn_item"], Age:-18000s, Health:32767s, NoGravity:1b, Invulnerable:1b, PickupDelay:20s, Item:{id:"sculk_shrieker", Count:1b}}
 
-execute positioned ~2 ~1.3 ~ run summon item ~ ~ ~ {Tags:["sh_smn_item"], Age:-18000s, Health:32767s, NoGravity:1b, Invulnerable:1b, PickupDelay:20s, Item:{id:"sculk_shrieker", Count:1b}}
-execute positioned ~-2 ~1.3 ~ run summon item ~ ~ ~ {Tags:["sh_smn_item"], Age:-18000s, Health:32767s, NoGravity:1b, Invulnerable:1b, PickupDelay:20s, Item:{id:"flint_and_steel", Count:1b, tag:{Damage:0}}}
-execute if entity @a[gamemode=!spectator, gamemode=!creative, distance=..32] positioned ~ ~1.3 ~2 run summon item ~ ~ ~ {Tags:["sh_smn_item"], Age:-18000s, Health:32767s, NoGravity:1b, Invulnerable:1b, PickupDelay:20s, Item:{id:"enchanted_golden_apple", Count:3b}}
-execute if entity @a[gamemode=!spectator, gamemode=!creative, distance=..32] positioned ~ ~1.3 ~-2 run summon item ~ ~ ~ {Tags:["sh_smn_item"], Age:-18000s, Health:32767s, NoGravity:1b, Invulnerable:1b, PickupDelay:20s, Item:{id:"totem_of_undying", Count:1b}}
+execute if entity @a[gamemode=!spectator, gamemode=!creative, distance=..128,predicate=sculk_hive:vestige/in_vestige] run function sculk_hive:summon/structure_special/generate_supply
 
 kill @s
