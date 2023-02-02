@@ -8,7 +8,7 @@ scoreboard players set @s sh_phase_cd -1
 
 kill @e[tag=sh_part,tag=!sh_main, distance=..70]
 
-execute as @e[type=warden,distance=..64] at @s run function sculk_hive:behavior/general/kill_warden
+execute as @e[type=warden,distance=..64, tag=!sh_scheduled_delete] at @s run function sculk_hive:behavior/general/kill_warden
 function sculk_hive:behavior/general/shrieker_off
 
 effect clear @e[tag=sh_atk, distance=..64] wither

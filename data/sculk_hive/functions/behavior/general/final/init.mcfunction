@@ -16,4 +16,4 @@ execute as @e[tag=sh_sdr, distance=..64] at @s run function sculk_hive:behavior/
 
 function sculk_hive:behavior/general/shrieker_off
 
-execute as @e[type=warden,distance=..64] at @s run function sculk_hive:behavior/general/kill_warden
+execute as @e[type=warden,distance=..64, tag=!sh_scheduled_delete] at @s run function sculk_hive:behavior/general/kill_warden

@@ -7,7 +7,7 @@
         "processors": "sculk_hive:vestige_replace",
         "projection": "rigid"
       },
-      "weight": 10
+      "weight": 9
     },
     {
       "element": {
@@ -16,7 +16,7 @@
         "processors": "sculk_hive:vestige_replace",
         "projection": "rigid"
       },
-      "weight": 12
+      "weight": 10
     },
     {
       "element": {
@@ -25,7 +25,7 @@
         "processors": "sculk_hive:vestige_replace",
         "projection": "rigid"
       },
-      "weight": 11
+      "weight": 13
     },
     {
       "element": {
@@ -34,7 +34,7 @@
         "processors": "sculk_hive:vestige_replace",
         "projection": "rigid"
       },
-      "weight": 8
+      "weight": 9
     },
     {
       "element": {
@@ -43,16 +43,25 @@
         "processors": "sculk_hive:vestige_replace",
         "projection": "rigid"
       },
-      "weight": 8
+      "weight": 9
     },
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "sculk_hive:vestige/passages/end",
+        "location": "sculk_hive:vestige/passages/shaft_up",
         "processors": "sculk_hive:vestige_replace",
         "projection": "rigid"
       },
-      "weight": 1
+      "weight": 4
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sculk_hive:vestige/passages/shaft_down",
+        "processors": "sculk_hive:vestige_replace",
+        "projection": "rigid"
+      },
+      "weight": 6
     }
   ],
   "fallback": "sculk_hive:vestige/end",

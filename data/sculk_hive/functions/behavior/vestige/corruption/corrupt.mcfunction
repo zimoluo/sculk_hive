@@ -67,4 +67,5 @@ playsound block.sculk_shrieker.shriek hostile @a ~ ~ ~ 3.5 1.2
 
 tp @s ~ -160 ~
 data merge entity @s {DeathLootTable:"minecraft:empty"}
-kill @s
+
+tag @s add sh_scheduled_delete

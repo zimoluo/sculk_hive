@@ -1,5 +1,5 @@
 execute as @e[tag=sh_atk, distance=..64] at @s anchored eyes if entity @e[tag=sh_chit, distance=..5.5] run function sculk_hive:behavior/secret_phase/chibaku_tensei/tractor_beam/sphere_absorb
-execute as @e[tag=sh_attracted, tag=sh_atk, type=!player, distance=..64] at @s anchored eyes if entity @e[tag=sh_chit, distance=..1] run function sculk_hive:behavior/secret_phase/chibaku_tensei/tractor_beam/damage_mob
+execute as @e[tag=sh_attracted, tag=sh_atk, type=!player, distance=..64, tag=!sh_scheduled_delete] at @s anchored eyes if entity @e[tag=sh_chit, distance=..1] run function sculk_hive:behavior/secret_phase/chibaku_tensei/tractor_beam/damage_mob
 execute as @a[tag=sh_attracted, tag=sh_atk, distance=..64] at @s anchored eyes if entity @e[tag=sh_chit, distance=..3.5] run function sculk_hive:behavior/secret_phase/chibaku_tensei/tractor_beam/damage_player
 
 

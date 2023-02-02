@@ -75,4 +75,5 @@ execute anchored eyes run particle happy_villager ^ ^ ^ 0.5 0.5 0.5 0.0001 10 fo
 
 tp @s ~ -160 ~
 data merge entity @s {DeathLootTable:"minecraft:empty"}
-kill @s
+
+tag @s add sh_scheduled_delete

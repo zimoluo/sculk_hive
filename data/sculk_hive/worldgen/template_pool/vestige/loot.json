@@ -13,7 +13,7 @@
       "element": {
           "element_type": "minecraft:empty_pool_element"
       },
-      "weight": 11
+      "weight": 9
     }
   ],
   "fallback": "sculk_hive:vestige/loot",

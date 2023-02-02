@@ -32,7 +32,7 @@ execute as @e[tag=sh_cat_raw] at @s run function sculk_hive:summon/cat_init_top
 
 advancement grant @a[distance=..32,advancements={adventure/summon_sculk_hive=false}] only adventure/summon_sculk_hive
 
-execute as @e[type=warden,distance=..64] at @s run function sculk_hive:behavior/general/kill_warden
+execute as @e[type=warden,distance=..64, tag=!sh_scheduled_delete] at @s run function sculk_hive:behavior/general/kill_warden
 
 scoreboard players set @s sh_bossfight 0
 

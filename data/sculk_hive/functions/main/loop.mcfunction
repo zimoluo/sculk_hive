@@ -7,6 +7,8 @@ execute as @e[tag=sh_smn_cd] at @s if data storage sculk_hive:data {world:{mobGr
 
 execute as @e[tag=sh_main] at @s run function sculk_hive:behavior/general/main
 
+execute as @e[tag=sh_scheduled_delete] at @s run function sculk_hive:behavior/general/schedule_delete/tick
+
 execute as @e[tag=sh_cat] at @s run function sculk_hive:behavior/cat/main
 execute as @e[tag=sh_bot] at @s run function sculk_hive:behavior/cat_bot/main
 execute as @e[tag=sh_kck] at @s run function sculk_hive:behavior/sentry/knocked/main
@@ -20,7 +22,7 @@ execute as @e[tag=sh_final, tag=!sh_dth, tag=!sh_fourth] at @s run function scul
 execute as @e[tag=sh_spr] at @s run function sculk_hive:behavior/final_attack/warden_spirit/move
 execute as @e[tag=sh_laser] at @s run function sculk_hive:behavior/laser/main
 execute as @e[tag=sh_laser_weak] at @s run function sculk_hive:behavior/laser_weak/main
-execute as @e[tag=sh_sdr] at @s run function sculk_hive:behavior/soldier/main
+execute as @e[tag=sh_sdr, tag=!sh_scheduled_delete] at @s run function sculk_hive:behavior/soldier/main
 execute as @e[tag=sh_sdr_bot] at @s run function sculk_hive:behavior/soldier_bot/main
 execute as @e[tag=sh_rdr] at @s run function sculk_hive:behavior/soldier/horseman/rider
 execute as @e[type=item,nbt={Item:{tag:{IsSculkSword: 1b}}}] at @s run function sculk_hive:behavior/sword/main
@@ -35,8 +37,9 @@ execute as @e[tag=sh_final_hp] at @s align xyz positioned ~0.5 ~1 ~0.5 run funct
 execute as @e[tag=sh_chit] at @s run function sculk_hive:behavior/secret_phase/chibaku_tensei/main
 execute as @e[tag=sh_parabola] at @s run function sculk_hive:behavior/secret_phase/chibaku_tensei/parabola/main
 execute as @e[tag=sh_fire_trap] at @s run function sculk_hive:behavior/secret_phase/chibaku_tensei/parabola/fire/fire_trap/tick
-execute as @e[type=#sculk_hive:guard, tag=!sh_purified] at @s run function sculk_hive:behavior/vestige/main
-execute as @e[type=#sculk_hive:vestige_vulnerable, tag=!sh_part, tag=!sh_purified] at @s run function sculk_hive:behavior/vestige/corruption/main
+execute as @e[type=#sculk_hive:guard, tag=!sh_purified, tag=!sh_scheduled_delete] at @s run function sculk_hive:behavior/vestige/main
+execute unless data storage sculk_hive:data {world:{difficulty:0}} as @e[type=#sculk_hive:vestige_vulnerable, tag=!sh_part, tag=!sh_purified, tag=!sh_scheduled_delete] at @s run function sculk_hive:behavior/vestige/corruption/main
+execute if data storage sculk_hive:data {world:{difficulty:0}} as @e[type=#sculk_hive:vestige_vulnerable, tag=!sh_part, tag=!sh_purified, tag=!sh_scheduled_delete] at @s run function sculk_hive:behavior/vestige/conversion/reset
 execute as @e[tag=sh_vestige_spawner] at @s unless block ~ ~ ~ void_air run function sculk_hive:behavior/vestige/spawner/format
 execute as @e[tag=sh_vestige_spawn_bot] at @s run function sculk_hive:behavior/vestige/spawner/main
 execute as @e[tag=sh_vestige_spawn_center] at @s run function sculk_hive:behavior/vestige/spawner/count

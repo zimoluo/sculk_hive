@@ -1,2 +1,3 @@
-tp @s ~ -150 ~
-kill @s
+tp @s ~ -160 ~
+
+tag @s add sh_scheduled_delete
