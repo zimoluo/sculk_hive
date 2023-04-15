@@ -2,6 +2,8 @@ data modify entity @s Item.tag.Enchantments[{id:"minecraft:binding_curse"}].id s
 data remove entity @s Item.tag.AttributeModifiers[1]
 data remove entity @s Item.tag.AttributeModifiers[0]
 
+execute if data entity @s {Item:{tag:{display:{Name:'{"text":"Sculk Sword","color":"#006F75","italic":false}'}}}} run data modify entity @s Item.tag.display.Name set value '{"text":"Sculk Sword","color":"#FFE779","italic":false}'
+
 data modify entity @s Item.tag.display.Lore[1] set value '{"text":"Purified via magic","color":"#FFE779","italic":false, "font":"minecraft:illageralt"}'
 
 data merge entity @s {Motion:[0d, 0d, 0d], NoGravity:1b, Item:{id:netherite_sword, tag:{StrongFaith:1b}}}
