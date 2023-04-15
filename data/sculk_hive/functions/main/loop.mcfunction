@@ -40,7 +40,7 @@ execute as @e[tag=sh_fire_trap] at @s run function sculk_hive:behavior/secret_ph
 execute as @e[type=#sculk_hive:guard, tag=!sh_purified, tag=!sh_scheduled_delete] at @s run function sculk_hive:behavior/vestige/main
 execute unless data storage sculk_hive:data {world:{difficulty:0}} as @e[type=#sculk_hive:vestige_vulnerable, tag=!sh_part, tag=!sh_purified, tag=!sh_scheduled_delete] at @s run function sculk_hive:behavior/vestige/corruption/main
 execute if data storage sculk_hive:data {world:{difficulty:0}} as @e[type=#sculk_hive:vestige_vulnerable, tag=!sh_part, tag=!sh_purified, tag=!sh_scheduled_delete] at @s run function sculk_hive:behavior/vestige/conversion/reset
-execute as @e[tag=sh_vestige_spawner] at @s unless block ~ ~ ~ void_air run function sculk_hive:behavior/vestige/spawner/format
+execute as @e[tag=sh_vestige_spawner] at @s if loaded ~ ~ ~ run function sculk_hive:behavior/vestige/spawner/format
 execute as @e[tag=sh_vestige_spawn_bot] at @s run function sculk_hive:behavior/vestige/spawner/main
 execute as @e[tag=sh_vestige_spawn_center] at @s run function sculk_hive:behavior/vestige/spawner/count
 execute as @a[advancements={adventure/find_vestiges=false}] at @s if predicate sculk_hive:vestige/in_vestige run advancement grant @s only adventure/find_vestiges
