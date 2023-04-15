@@ -104,6 +104,7 @@ scoreboard players set 270 sh_constant 270
 scoreboard players set -1 sh_constant -1
 scoreboard players set 100 sh_constant 100
 scoreboard players set g/2 sh_constant 122
+scoreboard players set LOOP sh_constant 0
 
 gamerule maxCommandChainLength 2147483647
 team add sculk_hive

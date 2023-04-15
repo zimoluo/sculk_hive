@@ -23,8 +23,6 @@ tag @e[tag=sh_boomed, distance=..64] remove sh_boomed
 tag @e[tag=sh_bite, distance=..64] remove sh_bite
 tag @e[tag=sh_snk, distance=..64] remove sh_snk
 tag @e[tag=sh_sta, distance=..64] remove sh_sta
-tag @e[tag=sh_atk_normal, distance=..64] remove sh_atk_normal
-tag @e[tag=sh_atk_undead, distance=..64] remove sh_atk_undead
 execute as @e[tag=sh_attracted, distance=..64] at @s run function sculk_hive:behavior/secret_phase/chibaku_tensei/tractor_beam/release
 
 fill ~ ~ ~ ~ ~ ~ air replace sculk_shrieker[waterlogged=false]

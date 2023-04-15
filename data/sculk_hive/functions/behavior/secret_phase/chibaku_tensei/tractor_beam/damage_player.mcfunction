@@ -1,4 +1,4 @@
-execute if entity @e[tag=sh_chit, distance=..0.6] run effect give @s instant_damage 1 4 true
+execute if entity @e[tag=sh_chit, distance=..0.6] at @s run function sculk_hive:behavior/damage/chibaku_tensei
 
 effect give @s wither 100 9 false
 effect give @s blindness 100 0 false

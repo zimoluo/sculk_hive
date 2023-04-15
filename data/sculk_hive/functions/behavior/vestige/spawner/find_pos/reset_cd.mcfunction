@@ -1,4 +1,4 @@
-scoreboard players set @s sh_cd 900
+scoreboard players set @s sh_cd 50
 execute if predicate sculk_hive:chance/03 run scoreboard players add @s sh_cd 20
 execute if predicate sculk_hive:chance/03 run scoreboard players add @s sh_cd 20
 execute if predicate sculk_hive:chance/03 run scoreboard players add @s sh_cd 20

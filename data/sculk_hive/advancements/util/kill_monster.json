@@ -1,822 +1,1536 @@
 {
-  "criteria": {
+    "criteria": {
       "minecraft:blaze": {
-          "trigger": "minecraft:player_killed_entity",
-          "conditions": {
-              "entity": [
-                  {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                          "type": "minecraft:blaze"
-                      }
-                  }
-              ],
-              "killing_blow": {
-                  "is_explosion": false,
-                  "is_projectile": false,
-                  "is_lightning": false,
-                  "bypasses_invulnerability": false,
-                  "bypasses_magic": false
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:blaze"
               }
+            }
+          ],
+          "killing_blow": {
+            "tags": [
+              {
+                "expected": "true",
+                "id": "minecraft:player_attack"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:on_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:fall"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:lava"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:in_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:hot_floor"
+              }
+            ]
           }
+        }
       },
       "minecraft:player": {
         "trigger": "minecraft:player_killed_entity",
         "conditions": {
-            "entity": [
-                {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                        "type": "minecraft:player"
-                    }
-                }
-            ],
-            "killing_blow": {
-                "is_explosion": false,
-                "is_projectile": false,
-                "is_lightning": false,
-                "bypasses_invulnerability": false,
-                "bypasses_magic": false
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:player"
+              }
             }
+          ],
+          "killing_blow": {
+            "is_explosion": false,
+            "is_projectile": false,
+            "is_lightning": false,
+            "bypasses_invulnerability": false,
+            "bypasses_magic": false
+          }
         }
-    },
+      },
       "minecraft:warden": {
         "trigger": "minecraft:player_killed_entity",
         "conditions": {
-            "entity": [
-                {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                        "type": "minecraft:warden"
-                    }
-                }
-            ],
-            "killing_blow": {
-                "is_explosion": false,
-                "is_projectile": false,
-                "is_lightning": false,
-                "bypasses_invulnerability": false,
-                "bypasses_magic": false
-            }
-        }
-    },
-      "minecraft:cave_spider": {
-          "trigger": "minecraft:player_killed_entity",
-          "conditions": {
-              "entity": [
-                  {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                          "type": "minecraft:cave_spider"
-                      }
-                  }
-              ],
-              "killing_blow": {
-                  "is_explosion": false,
-                  "is_projectile": false,
-                  "is_lightning": false,
-                  "bypasses_invulnerability": false,
-                  "bypasses_magic": false
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:warden"
               }
+            }
+          ],
+          "killing_blow": {
+            "is_explosion": false,
+            "is_projectile": false,
+            "is_lightning": false,
+            "bypasses_invulnerability": false,
+            "bypasses_magic": false
           }
+        }
+      },
+      "minecraft:cave_spider": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:cave_spider"
+              }
+            }
+          ],
+          "killing_blow": {
+            "tags": [
+              {
+                "expected": "true",
+                "id": "minecraft:player_attack"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:on_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:fall"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:lava"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:in_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:hot_floor"
+              }
+            ]
+          }
+        }
       },
       "minecraft:illusioner": {
         "trigger": "minecraft:player_killed_entity",
         "conditions": {
-            "entity": [
-                {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                        "type": "minecraft:illusioner"
-                    }
-                }
-            ],
-            "killing_blow": {
-                "is_explosion": false,
-                "is_projectile": false,
-                "is_lightning": false,
-                "bypasses_invulnerability": false,
-                "bypasses_magic": false
-            }
-        }
-    },
-      "minecraft:creeper": {
-          "trigger": "minecraft:player_killed_entity",
-          "conditions": {
-              "entity": [
-                  {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                          "type": "minecraft:creeper"
-                      }
-                  }
-              ],
-              "killing_blow": {
-                  "is_explosion": false,
-                  "is_projectile": false,
-                  "is_lightning": false,
-                  "bypasses_invulnerability": false,
-                  "bypasses_magic": false
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:illusioner"
               }
+            }
+          ],
+          "killing_blow": {
+            "is_explosion": false,
+            "is_projectile": false,
+            "is_lightning": false,
+            "bypasses_invulnerability": false,
+            "bypasses_magic": false
           }
+        }
+      },
+      "minecraft:creeper": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:creeper"
+              }
+            }
+          ],
+          "killing_blow": {
+            "tags": [
+              {
+                "expected": "true",
+                "id": "minecraft:player_attack"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:on_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:fall"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:lava"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:in_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:hot_floor"
+              }
+            ]
+          }
+        }
       },
       "minecraft:drowned": {
-          "trigger": "minecraft:player_killed_entity",
-          "conditions": {
-              "entity": [
-                  {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                          "type": "minecraft:drowned"
-                      }
-                  }
-              ],
-              "killing_blow": {
-                  "is_explosion": false,
-                  "is_projectile": false,
-                  "is_lightning": false,
-                  "bypasses_invulnerability": false,
-                  "bypasses_magic": false
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:drowned"
               }
+            }
+          ],
+          "killing_blow": {
+            "tags": [
+              {
+                "expected": "true",
+                "id": "minecraft:player_attack"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:on_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:fall"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:lava"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:in_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:hot_floor"
+              }
+            ]
           }
+        }
       },
       "minecraft:elder_guardian": {
-          "trigger": "minecraft:player_killed_entity",
-          "conditions": {
-              "entity": [
-                  {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                          "type": "minecraft:elder_guardian"
-                      }
-                  }
-              ],
-              "killing_blow": {
-                  "is_explosion": false,
-                  "is_projectile": false,
-                  "is_lightning": false,
-                  "bypasses_invulnerability": false,
-                  "bypasses_magic": false
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:elder_guardian"
               }
+            }
+          ],
+          "killing_blow": {
+            "tags": [
+              {
+                "expected": "true",
+                "id": "minecraft:player_attack"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:on_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:fall"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:lava"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:in_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:hot_floor"
+              }
+            ]
           }
+        }
       },
       "minecraft:ender_dragon": {
-          "trigger": "minecraft:player_killed_entity",
-          "conditions": {
-              "entity": [
-                  {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                          "type": "minecraft:ender_dragon"
-                      }
-                  }
-              ],
-              "killing_blow": {
-                  "is_explosion": false,
-                  "is_projectile": false,
-                  "is_lightning": false,
-                  "bypasses_invulnerability": false,
-                  "bypasses_magic": false
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:ender_dragon"
               }
+            }
+          ],
+          "killing_blow": {
+            "tags": [
+              {
+                "expected": "true",
+                "id": "minecraft:player_attack"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:on_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:fall"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:lava"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:in_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:hot_floor"
+              }
+            ]
           }
+        }
       },
       "minecraft:enderman": {
-          "trigger": "minecraft:player_killed_entity",
-          "conditions": {
-              "entity": [
-                  {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                          "type": "minecraft:enderman"
-                      }
-                  }
-              ],
-              "killing_blow": {
-                  "is_explosion": false,
-                  "is_projectile": false,
-                  "is_lightning": false,
-                  "bypasses_invulnerability": false,
-                  "bypasses_magic": false
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:enderman"
               }
+            }
+          ],
+          "killing_blow": {
+            "tags": [
+              {
+                "expected": "true",
+                "id": "minecraft:player_attack"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:on_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:fall"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:lava"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:in_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:hot_floor"
+              }
+            ]
           }
+        }
       },
       "minecraft:endermite": {
-          "trigger": "minecraft:player_killed_entity",
-          "conditions": {
-              "entity": [
-                  {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                          "type": "minecraft:endermite"
-                      }
-                  }
-              ],
-              "killing_blow": {
-                  "is_explosion": false,
-                  "is_projectile": false,
-                  "is_lightning": false,
-                  "bypasses_invulnerability": false,
-                  "bypasses_magic": false
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:endermite"
               }
+            }
+          ],
+          "killing_blow": {
+            "tags": [
+              {
+                "expected": "true",
+                "id": "minecraft:player_attack"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:on_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:fall"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:lava"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:in_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:hot_floor"
+              }
+            ]
           }
+        }
       },
       "minecraft:evoker": {
-          "trigger": "minecraft:player_killed_entity",
-          "conditions": {
-              "entity": [
-                  {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                          "type": "minecraft:evoker"
-                      }
-                  }
-              ],
-              "killing_blow": {
-                  "is_explosion": false,
-                  "is_projectile": false,
-                  "is_lightning": false,
-                  "bypasses_invulnerability": false,
-                  "bypasses_magic": false
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:evoker"
               }
+            }
+          ],
+          "killing_blow": {
+            "tags": [
+              {
+                "expected": "true",
+                "id": "minecraft:player_attack"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:on_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:fall"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:lava"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:in_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:hot_floor"
+              }
+            ]
           }
+        }
       },
       "minecraft:ghast": {
-          "trigger": "minecraft:player_killed_entity",
-          "conditions": {
-              "entity": [
-                  {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                          "type": "minecraft:ghast"
-                      }
-                  }
-              ],
-              "killing_blow": {
-                  "is_explosion": false,
-                  "is_projectile": false,
-                  "is_lightning": false,
-                  "bypasses_invulnerability": false,
-                  "bypasses_magic": false
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:ghast"
               }
+            }
+          ],
+          "killing_blow": {
+            "tags": [
+              {
+                "expected": "true",
+                "id": "minecraft:player_attack"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:on_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:fall"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:lava"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:in_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:hot_floor"
+              }
+            ]
           }
+        }
       },
       "minecraft:guardian": {
-          "trigger": "minecraft:player_killed_entity",
-          "conditions": {
-              "entity": [
-                  {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                          "type": "minecraft:guardian"
-                      }
-                  }
-              ],
-              "killing_blow": {
-                  "is_explosion": false,
-                  "is_projectile": false,
-                  "is_lightning": false,
-                  "bypasses_invulnerability": false,
-                  "bypasses_magic": false
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:guardian"
               }
+            }
+          ],
+          "killing_blow": {
+            "tags": [
+              {
+                "expected": "true",
+                "id": "minecraft:player_attack"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:on_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:fall"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:lava"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:in_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:hot_floor"
+              }
+            ]
           }
+        }
       },
       "minecraft:hoglin": {
-          "trigger": "minecraft:player_killed_entity",
-          "conditions": {
-              "entity": [
-                  {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                          "type": "minecraft:hoglin"
-                      }
-                  }
-              ],
-              "killing_blow": {
-                  "is_explosion": false,
-                  "is_projectile": false,
-                  "is_lightning": false,
-                  "bypasses_invulnerability": false,
-                  "bypasses_magic": false
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:hoglin"
               }
+            }
+          ],
+          "killing_blow": {
+            "tags": [
+              {
+                "expected": "true",
+                "id": "minecraft:player_attack"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:on_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:fall"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:lava"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:in_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:hot_floor"
+              }
+            ]
           }
+        }
       },
       "minecraft:husk": {
-          "trigger": "minecraft:player_killed_entity",
-          "conditions": {
-              "entity": [
-                  {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                          "type": "minecraft:husk"
-                      }
-                  }
-              ],
-              "killing_blow": {
-                  "is_explosion": false,
-                  "is_projectile": false,
-                  "is_lightning": false,
-                  "bypasses_invulnerability": false,
-                  "bypasses_magic": false
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:husk"
               }
+            }
+          ],
+          "killing_blow": {
+            "tags": [
+              {
+                "expected": "true",
+                "id": "minecraft:player_attack"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:on_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:fall"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:lava"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:in_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:hot_floor"
+              }
+            ]
           }
+        }
       },
       "minecraft:magma_cube": {
-          "trigger": "minecraft:player_killed_entity",
-          "conditions": {
-              "entity": [
-                  {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                          "type": "minecraft:magma_cube"
-                      }
-                  }
-              ],
-              "killing_blow": {
-                  "is_explosion": false,
-                  "is_projectile": false,
-                  "is_lightning": false,
-                  "bypasses_invulnerability": false,
-                  "bypasses_magic": false
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:magma_cube"
               }
+            }
+          ],
+          "killing_blow": {
+            "tags": [
+              {
+                "expected": "true",
+                "id": "minecraft:player_attack"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:on_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:fall"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:lava"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:in_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:hot_floor"
+              }
+            ]
           }
+        }
       },
       "minecraft:phantom": {
-          "trigger": "minecraft:player_killed_entity",
-          "conditions": {
-              "entity": [
-                  {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                          "type": "minecraft:phantom"
-                      }
-                  }
-              ],
-              "killing_blow": {
-                  "is_explosion": false,
-                  "is_projectile": false,
-                  "is_lightning": false,
-                  "bypasses_invulnerability": false,
-                  "bypasses_magic": false
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:phantom"
               }
+            }
+          ],
+          "killing_blow": {
+            "tags": [
+              {
+                "expected": "true",
+                "id": "minecraft:player_attack"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:on_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:fall"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:lava"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:in_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:hot_floor"
+              }
+            ]
           }
+        }
       },
       "minecraft:piglin": {
-          "trigger": "minecraft:player_killed_entity",
-          "conditions": {
-              "entity": [
-                  {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                          "type": "minecraft:piglin"
-                      }
-                  }
-              ],
-              "killing_blow": {
-                  "is_explosion": false,
-                  "is_projectile": false,
-                  "is_lightning": false,
-                  "bypasses_invulnerability": false,
-                  "bypasses_magic": false
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:piglin"
               }
+            }
+          ],
+          "killing_blow": {
+            "tags": [
+              {
+                "expected": "true",
+                "id": "minecraft:player_attack"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:on_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:fall"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:lava"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:in_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:hot_floor"
+              }
+            ]
           }
+        }
       },
       "minecraft:piglin_brute": {
-          "trigger": "minecraft:player_killed_entity",
-          "conditions": {
-              "entity": [
-                  {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                          "type": "minecraft:piglin_brute"
-                      }
-                  }
-              ],
-              "killing_blow": {
-                  "is_explosion": false,
-                  "is_projectile": false,
-                  "is_lightning": false,
-                  "bypasses_invulnerability": false,
-                  "bypasses_magic": false
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:piglin_brute"
               }
+            }
+          ],
+          "killing_blow": {
+            "tags": [
+              {
+                "expected": "true",
+                "id": "minecraft:player_attack"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:on_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:fall"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:lava"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:in_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:hot_floor"
+              }
+            ]
           }
+        }
       },
       "minecraft:pillager": {
-          "trigger": "minecraft:player_killed_entity",
-          "conditions": {
-              "entity": [
-                  {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                          "type": "minecraft:pillager"
-                      }
-                  }
-              ],
-              "killing_blow": {
-                  "is_explosion": false,
-                  "is_projectile": false,
-                  "is_lightning": false,
-                  "bypasses_invulnerability": false,
-                  "bypasses_magic": false
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:pillager"
               }
+            }
+          ],
+          "killing_blow": {
+            "tags": [
+              {
+                "expected": "true",
+                "id": "minecraft:player_attack"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:on_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:fall"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:lava"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:in_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:hot_floor"
+              }
+            ]
           }
+        }
       },
       "minecraft:ravager": {
-          "trigger": "minecraft:player_killed_entity",
-          "conditions": {
-              "entity": [
-                  {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                          "type": "minecraft:ravager"
-                      }
-                  }
-              ],
-              "killing_blow": {
-                  "is_explosion": false,
-                  "is_projectile": false,
-                  "is_lightning": false,
-                  "bypasses_invulnerability": false,
-                  "bypasses_magic": false
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:ravager"
               }
+            }
+          ],
+          "killing_blow": {
+            "tags": [
+              {
+                "expected": "true",
+                "id": "minecraft:player_attack"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:on_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:fall"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:lava"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:in_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:hot_floor"
+              }
+            ]
           }
+        }
       },
       "minecraft:shulker": {
-          "trigger": "minecraft:player_killed_entity",
-          "conditions": {
-              "entity": [
-                  {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                          "type": "minecraft:shulker"
-                      }
-                  }
-              ],
-              "killing_blow": {
-                  "is_explosion": false,
-                  "is_projectile": false,
-                  "is_lightning": false,
-                  "bypasses_invulnerability": false,
-                  "bypasses_magic": false
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:shulker"
               }
+            }
+          ],
+          "killing_blow": {
+            "tags": [
+              {
+                "expected": "true",
+                "id": "minecraft:player_attack"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:on_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:fall"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:lava"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:in_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:hot_floor"
+              }
+            ]
           }
+        }
       },
       "minecraft:silverfish": {
-          "trigger": "minecraft:player_killed_entity",
-          "conditions": {
-              "entity": [
-                  {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                          "type": "minecraft:silverfish"
-                      }
-                  }
-              ],
-              "killing_blow": {
-                  "is_explosion": false,
-                  "is_projectile": false,
-                  "is_lightning": false,
-                  "bypasses_invulnerability": false,
-                  "bypasses_magic": false
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:silverfish"
               }
+            }
+          ],
+          "killing_blow": {
+            "tags": [
+              {
+                "expected": "true",
+                "id": "minecraft:player_attack"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:on_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:fall"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:lava"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:in_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:hot_floor"
+              }
+            ]
           }
+        }
       },
       "minecraft:skeleton": {
-          "trigger": "minecraft:player_killed_entity",
-          "conditions": {
-              "entity": [
-                  {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                          "type": "minecraft:skeleton"
-                      }
-                  }
-              ],
-              "killing_blow": {
-                  "is_explosion": false,
-                  "is_projectile": false,
-                  "is_lightning": false,
-                  "bypasses_invulnerability": false,
-                  "bypasses_magic": false
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:skeleton"
               }
+            }
+          ],
+          "killing_blow": {
+            "tags": [
+              {
+                "expected": "true",
+                "id": "minecraft:player_attack"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:on_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:fall"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:lava"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:in_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:hot_floor"
+              }
+            ]
           }
+        }
       },
       "minecraft:slime": {
-          "trigger": "minecraft:player_killed_entity",
-          "conditions": {
-              "entity": [
-                  {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                          "type": "minecraft:slime"
-                      }
-                  }
-              ],
-              "killing_blow": {
-                  "is_explosion": false,
-                  "is_projectile": false,
-                  "is_lightning": false,
-                  "bypasses_invulnerability": false,
-                  "bypasses_magic": false
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:slime"
               }
+            }
+          ],
+          "killing_blow": {
+            "tags": [
+              {
+                "expected": "true",
+                "id": "minecraft:player_attack"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:on_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:fall"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:lava"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:in_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:hot_floor"
+              }
+            ]
           }
+        }
       },
       "minecraft:spider": {
-          "trigger": "minecraft:player_killed_entity",
-          "conditions": {
-              "entity": [
-                  {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                          "type": "minecraft:spider"
-                      }
-                  }
-              ],
-              "killing_blow": {
-                  "is_explosion": false,
-                  "is_projectile": false,
-                  "is_lightning": false,
-                  "bypasses_invulnerability": false,
-                  "bypasses_magic": false
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:spider"
               }
+            }
+          ],
+          "killing_blow": {
+            "tags": [
+              {
+                "expected": "true",
+                "id": "minecraft:player_attack"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:on_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:fall"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:lava"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:in_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:hot_floor"
+              }
+            ]
           }
+        }
       },
       "minecraft:stray": {
-          "trigger": "minecraft:player_killed_entity",
-          "conditions": {
-              "entity": [
-                  {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                          "type": "minecraft:stray"
-                      }
-                  }
-              ],
-              "killing_blow": {
-                  "is_explosion": false,
-                  "is_projectile": false,
-                  "is_lightning": false,
-                  "bypasses_invulnerability": false,
-                  "bypasses_magic": false
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:stray"
               }
+            }
+          ],
+          "killing_blow": {
+            "tags": [
+              {
+                "expected": "true",
+                "id": "minecraft:player_attack"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:on_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:fall"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:lava"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:in_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:hot_floor"
+              }
+            ]
           }
+        }
       },
       "minecraft:vex": {
-          "trigger": "minecraft:player_killed_entity",
-          "conditions": {
-              "entity": [
-                  {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                          "type": "minecraft:vex"
-                      }
-                  }
-              ],
-              "killing_blow": {
-                  "is_explosion": false,
-                  "is_projectile": false,
-                  "is_lightning": false,
-                  "bypasses_invulnerability": false,
-                  "bypasses_magic": false
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:vex"
               }
+            }
+          ],
+          "killing_blow": {
+            "tags": [
+              {
+                "expected": "true",
+                "id": "minecraft:player_attack"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:on_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:fall"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:lava"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:in_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:hot_floor"
+              }
+            ]
           }
+        }
       },
       "minecraft:vindicator": {
-          "trigger": "minecraft:player_killed_entity",
-          "conditions": {
-              "entity": [
-                  {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                          "type": "minecraft:vindicator"
-                      }
-                  }
-              ],
-              "killing_blow": {
-                  "is_explosion": false,
-                  "is_projectile": false,
-                  "is_lightning": false,
-                  "bypasses_invulnerability": false,
-                  "bypasses_magic": false
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:vindicator"
               }
+            }
+          ],
+          "killing_blow": {
+            "tags": [
+              {
+                "expected": "true",
+                "id": "minecraft:player_attack"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:on_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:fall"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:lava"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:in_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:hot_floor"
+              }
+            ]
           }
+        }
       },
       "minecraft:witch": {
-          "trigger": "minecraft:player_killed_entity",
-          "conditions": {
-              "entity": [
-                  {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                          "type": "minecraft:witch"
-                      }
-                  }
-              ],
-              "killing_blow": {
-                  "is_explosion": false,
-                  "is_projectile": false,
-                  "is_lightning": false,
-                  "bypasses_invulnerability": false,
-                  "bypasses_magic": false
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:witch"
               }
+            }
+          ],
+          "killing_blow": {
+            "tags": [
+              {
+                "expected": "true",
+                "id": "minecraft:player_attack"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:on_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:fall"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:lava"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:in_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:hot_floor"
+              }
+            ]
           }
+        }
       },
       "minecraft:wither": {
-          "trigger": "minecraft:player_killed_entity",
-          "conditions": {
-              "entity": [
-                  {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                          "type": "minecraft:wither"
-                      }
-                  }
-              ],
-              "killing_blow": {
-                  "is_explosion": false,
-                  "is_projectile": false,
-                  "is_lightning": false,
-                  "bypasses_invulnerability": false,
-                  "bypasses_magic": false
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:wither"
               }
+            }
+          ],
+          "killing_blow": {
+            "tags": [
+              {
+                "expected": "true",
+                "id": "minecraft:player_attack"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:on_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:fall"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:lava"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:in_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:hot_floor"
+              }
+            ]
           }
+        }
       },
       "minecraft:wither_skeleton": {
-          "trigger": "minecraft:player_killed_entity",
-          "conditions": {
-              "entity": [
-                  {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                          "type": "minecraft:wither_skeleton"
-                      }
-                  }
-              ],
-              "killing_blow": {
-                  "is_explosion": false,
-                  "is_projectile": false,
-                  "is_lightning": false,
-                  "bypasses_invulnerability": false,
-                  "bypasses_magic": false
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:wither_skeleton"
               }
+            }
+          ],
+          "killing_blow": {
+            "tags": [
+              {
+                "expected": "true",
+                "id": "minecraft:player_attack"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:on_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:fall"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:lava"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:in_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:hot_floor"
+              }
+            ]
           }
+        }
       },
       "minecraft:zoglin": {
-          "trigger": "minecraft:player_killed_entity",
-          "conditions": {
-              "entity": [
-                  {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                          "type": "minecraft:zoglin"
-                      }
-                  }
-              ],
-              "killing_blow": {
-                  "is_explosion": false,
-                  "is_projectile": false,
-                  "is_lightning": false,
-                  "bypasses_invulnerability": false,
-                  "bypasses_magic": false
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:zoglin"
               }
+            }
+          ],
+          "killing_blow": {
+            "tags": [
+              {
+                "expected": "true",
+                "id": "minecraft:player_attack"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:on_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:fall"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:lava"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:in_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:hot_floor"
+              }
+            ]
           }
+        }
       },
       "minecraft:zombie": {
-          "trigger": "minecraft:player_killed_entity",
-          "conditions": {
-              "entity": [
-                  {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                          "type": "minecraft:zombie"
-                      }
-                  }
-              ],
-              "killing_blow": {
-                  "is_explosion": false,
-                  "is_projectile": false,
-                  "is_lightning": false,
-                  "bypasses_invulnerability": false,
-                  "bypasses_magic": false
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:zombie"
               }
+            }
+          ],
+          "killing_blow": {
+            "tags": [
+              {
+                "expected": "true",
+                "id": "minecraft:player_attack"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:on_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:fall"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:lava"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:in_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:hot_floor"
+              }
+            ]
           }
+        }
       },
       "minecraft:zombie_villager": {
-          "trigger": "minecraft:player_killed_entity",
-          "conditions": {
-              "entity": [
-                  {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                          "type": "minecraft:zombie_villager"
-                      }
-                  }
-              ],
-              "killing_blow": {
-                  "is_explosion": false,
-                  "is_projectile": false,
-                  "is_lightning": false,
-                  "bypasses_invulnerability": false,
-                  "bypasses_magic": false
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:zombie_villager"
               }
+            }
+          ],
+          "killing_blow": {
+            "tags": [
+              {
+                "expected": "true",
+                "id": "minecraft:player_attack"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:on_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:fall"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:lava"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:in_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:hot_floor"
+              }
+            ]
           }
+        }
       },
       "minecraft:zombified_piglin": {
-          "trigger": "minecraft:player_killed_entity",
-          "conditions": {
-              "entity": [
-                  {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                          "type": "minecraft:zombified_piglin"
-                      }
-                  }
-              ],
-              "killing_blow": {
-                  "is_explosion": false,
-                  "is_projectile": false,
-                  "is_lightning": false,
-                  "bypasses_invulnerability": false,
-                  "bypasses_magic": false
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:zombified_piglin"
               }
+            }
+          ],
+          "killing_blow": {
+            "tags": [
+              {
+                "expected": "true",
+                "id": "minecraft:player_attack"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:on_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:fall"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:lava"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:in_fire"
+              },
+              {
+                "expected": "true",
+                "id": "minecraft:hot_floor"
+              }
+            ]
           }
+        }
       }
-  },
-  "requirements": [
+    },
+    "requirements": [
       [
-          "minecraft:blaze",
-          "minecraft:cave_spider",
-          "minecraft:creeper",
-          "minecraft:drowned",
-          "minecraft:elder_guardian",
-          "minecraft:ender_dragon",
-          "minecraft:enderman",
-          "minecraft:endermite",
-          "minecraft:evoker",
-          "minecraft:ghast",
-          "minecraft:guardian",
-          "minecraft:hoglin",
-          "minecraft:husk",
-          "minecraft:magma_cube",
-          "minecraft:phantom",
-          "minecraft:piglin",
-          "minecraft:piglin_brute",
-          "minecraft:pillager",
-          "minecraft:ravager",
-          "minecraft:shulker",
-          "minecraft:silverfish",
-          "minecraft:skeleton",
-          "minecraft:slime",
-          "minecraft:spider",
-          "minecraft:stray",
-          "minecraft:vex",
-          "minecraft:vindicator",
-          "minecraft:witch",
-          "minecraft:wither_skeleton",
-          "minecraft:wither",
-          "minecraft:zoglin",
-          "minecraft:zombie_villager",
-          "minecraft:zombie",
-          "minecraft:zombified_piglin",
-          "minecraft:warden",
-          "minecraft:player",
-          "minecraft:illusioner"
+        "minecraft:blaze",
+        "minecraft:cave_spider",
+        "minecraft:creeper",
+        "minecraft:drowned",
+        "minecraft:elder_guardian",
+        "minecraft:ender_dragon",
+        "minecraft:enderman",
+        "minecraft:endermite",
+        "minecraft:evoker",
+        "minecraft:ghast",
+        "minecraft:guardian",
+        "minecraft:hoglin",
+        "minecraft:husk",
+        "minecraft:magma_cube",
+        "minecraft:phantom",
+        "minecraft:piglin",
+        "minecraft:piglin_brute",
+        "minecraft:pillager",
+        "minecraft:ravager",
+        "minecraft:shulker",
+        "minecraft:silverfish",
+        "minecraft:skeleton",
+        "minecraft:slime",
+        "minecraft:spider",
+        "minecraft:stray",
+        "minecraft:vex",
+        "minecraft:vindicator",
+        "minecraft:witch",
+        "minecraft:wither_skeleton",
+        "minecraft:wither",
+        "minecraft:zoglin",
+        "minecraft:zombie_villager",
+        "minecraft:zombie",
+        "minecraft:zombified_piglin",
+        "minecraft:warden",
+        "minecraft:player",
+        "minecraft:illusioner"
       ]
-  ]
-}
+    ]
+  }

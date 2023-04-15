@@ -16,6 +16,7 @@ fill ~ ~ ~ ~ ~ ~ sculk_shrieker[can_summon=true, shrieking=false, waterlogged=tr
 function sculk_hive:behavior/general/shrieker_on
 
 tag @s add sh_main
+data merge entity @s {CustomNameVisible:0b, CustomName:'{"color":"#006F75","text":"Sculk Hive","italic": false}'}
 tag @s add sh_part
 tag @s remove sh_smn_cd
 

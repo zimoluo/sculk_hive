@@ -20,8 +20,6 @@ function sculk_hive:behavior/general/shrieker_on
 
 tag @a[tag=sh_eff, distance=..64] remove sh_eff
 tag @e[tag=sh_atk, distance=..64] remove sh_atk
-tag @e[tag=sh_atk_normal, distance=..64] remove sh_atk_normal
-tag @e[tag=sh_atk_undead, distance=..64] remove sh_atk_undead
 
 tag @s add sh_smn
 tag @s remove sh_smn_cd

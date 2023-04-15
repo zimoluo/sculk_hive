@@ -34,5 +34,4 @@ playsound minecraft:block.sculk_shrieker.shriek hostile @a ~ ~ ~ 4.5 0.8
 
 effect give @e[tag=sh_atk, distance=..64] darkness 15 0 true
 effect give @e[tag=sh_atk, distance=..64] weakness 15
-effect give @e[tag=sh_atk, tag=sh_atk_normal, distance=..64] instant_damage 1 1 true
-effect give @e[tag=sh_atk, tag=sh_atk_undead, distance=..64] instant_health 1 1 true
+execute as @e[tag=sh_atk, distance=..64] at @s run function sculk_hive:behavior/damage/rage

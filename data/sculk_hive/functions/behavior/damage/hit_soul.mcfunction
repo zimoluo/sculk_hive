@@ -1,0 +1,1 @@
+damage @s 11 sculk_hive:boom by @e[tag=sh_main,limit=1,sort=nearest,distance=..70]

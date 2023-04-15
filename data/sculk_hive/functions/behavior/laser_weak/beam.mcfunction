@@ -9,8 +9,7 @@ particle minecraft:sonic_boom ^ ^ ^ 0.0001 0.0001 0.0001 1 1 force
 execute positioned ~-0.75 ~-1 ~-0.75 as @e[tag=sh_atk, dx=0.5, dz=0.5, dy=1] at @s run effect give @s darkness 10 0 true
 execute positioned ~-0.75 ~-1 ~-0.75 as @e[tag=sh_atk, dx=0.5, dz=0.5, dy=1] at @s run effect give @s wither 10 1
 execute positioned ~-0.75 ~-1 ~-0.75 as @e[tag=sh_atk, dx=0.5, dz=0.5, dy=1] at @s run effect give @s slowness 10 0
-execute positioned ~-0.75 ~-1 ~-0.75 as @e[tag=sh_atk, dx=0.5, dz=0.5, dy=1] at @s if entity @s[tag=sh_atk_undead] run effect give @s instant_health 1 1 true
-execute positioned ~-0.75 ~-1 ~-0.75 as @e[tag=sh_atk, dx=0.5, dz=0.5, dy=1] at @s if entity @s[tag=sh_atk_normal] run effect give @s instant_damage 1 1 true
+execute positioned ~-0.75 ~-1 ~-0.75 as @e[tag=sh_atk, dx=0.5, dz=0.5, dy=1] at @s unless entity @s[type=armor_stand] run function sculk_hive:behavior/damage/laser_1
 execute positioned ~-0.75 ~-1 ~-0.75 as @e[tag=sh_atk, dx=0.5, dz=0.5, dy=1] at @s if entity @s[type=armor_stand] run function sculk_hive:behavior/general/de_armor
 
 

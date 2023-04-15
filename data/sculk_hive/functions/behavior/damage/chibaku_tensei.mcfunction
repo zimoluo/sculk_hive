@@ -1,0 +1,1 @@
+damage @s 100 sculk_hive:chibaku_tensei by @e[tag=sh_main,limit=1,sort=nearest,distance=..70]

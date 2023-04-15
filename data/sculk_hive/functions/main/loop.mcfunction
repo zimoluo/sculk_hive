@@ -25,25 +25,30 @@ execute as @e[tag=sh_laser_weak] at @s run function sculk_hive:behavior/laser_we
 execute as @e[tag=sh_sdr, tag=!sh_scheduled_delete] at @s run function sculk_hive:behavior/soldier/main
 execute as @e[tag=sh_sdr_bot] at @s run function sculk_hive:behavior/soldier_bot/main
 execute as @e[tag=sh_rdr] at @s run function sculk_hive:behavior/soldier/horseman/rider
+
 execute as @e[type=item,nbt={Item:{tag:{IsSculkSword: 1b}}}] at @s run function sculk_hive:behavior/sword/main
 execute as @e[type=item,nbt={Item:{tag:{isSculkHiveDiary: 1b}}}] at @s run function sculk_hive:behavior/general/diary
 execute as @e[type=#sculk_hive:wielder,tag=!sh_dpy] at @s run function sculk_hive:behavior/sword/wielder/main
 execute as @e[tag=sh_prep_ctrl] at @s run function sculk_hive:behavior/sword/prep_ctrl/main
 execute as @a[advancements={sculk_hive:util/kill_monster=true}] at @s run function sculk_hive:behavior/sword/any/kill
 execute as @a[advancements={sculk_hive:util/kill_monster=false, sculk_hive:util/hit_monster=true}] at @s run function sculk_hive:behavior/sword/any/hit
+
 execute as @e[tag=sh_cat_hp] at @s align xyz positioned ~0.5 ~1 ~0.5 run function sculk_hive:behavior/general/hp_prevent_suffocate
 execute as @e[tag=sh_sey_hp] at @s align xyz positioned ~0.5 ~1 ~0.5 run function sculk_hive:behavior/general/hp_prevent_suffocate
 execute as @e[tag=sh_final_hp] at @s align xyz positioned ~0.5 ~1 ~0.5 run function sculk_hive:behavior/general/hp_prevent_suffocate
 execute as @e[tag=sh_chit] at @s run function sculk_hive:behavior/secret_phase/chibaku_tensei/main
 execute as @e[tag=sh_parabola] at @s run function sculk_hive:behavior/secret_phase/chibaku_tensei/parabola/main
 execute as @e[tag=sh_fire_trap] at @s run function sculk_hive:behavior/secret_phase/chibaku_tensei/parabola/fire/fire_trap/tick
+
+execute if score LOOP sh_constant matches 0..99 run scoreboard players add LOOP sh_constant 1
+execute unless score LOOP sh_constant matches 0..99 run function sculk_hive:main/loop_5s/reset
+
 execute as @e[type=#sculk_hive:guard, tag=!sh_purified, tag=!sh_scheduled_delete] at @s run function sculk_hive:behavior/vestige/main
-execute unless data storage sculk_hive:data {world:{difficulty:0}} as @e[type=#sculk_hive:vestige_vulnerable, tag=!sh_part, tag=!sh_purified, tag=!sh_scheduled_delete] at @s run function sculk_hive:behavior/vestige/corruption/main
+
+execute unless data storage sculk_hive:data {world:{difficulty:0}} as @e[type=#sculk_hive:vestige_vulnerable, tag=sh_converting, tag=!sh_part, tag=!sh_purified, tag=!sh_scheduled_delete] at @s run function sculk_hive:behavior/vestige/corruption/converting
 execute if data storage sculk_hive:data {world:{difficulty:0}} as @e[type=#sculk_hive:vestige_vulnerable, tag=!sh_part, tag=!sh_purified, tag=!sh_scheduled_delete] at @s run function sculk_hive:behavior/vestige/conversion/reset
+
 execute as @e[tag=sh_vestige_spawner] at @s if loaded ~ ~ ~ run function sculk_hive:behavior/vestige/spawner/format
-execute as @e[tag=sh_vestige_spawn_bot] at @s run function sculk_hive:behavior/vestige/spawner/main
-execute as @e[tag=sh_vestige_spawn_center] at @s run function sculk_hive:behavior/vestige/spawner/count
-execute as @a[advancements={adventure/find_vestiges=false}] at @s if predicate sculk_hive:vestige/in_vestige run advancement grant @s only adventure/find_vestiges
-execute as @a unless score @s sh_boss_beaten matches 0.. run scoreboard players set @s sh_boss_beaten 0
+
 
 function sculk_hive:behavior/bossbar/main

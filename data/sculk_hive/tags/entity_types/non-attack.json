@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-	"minecraft:ender_dragon",
 	"minecraft:warden",
   "ghast",
 	"#sculk_hive:non-mob"
