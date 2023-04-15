@@ -16,27 +16,7 @@
             "tags": [
               {
                 "expected": "true",
-                "id": "minecraft:player_attack"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:on_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:fall"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:lava"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:in_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:hot_floor"
+                "id": "sculk_hive:sword_valid"
               }
             ]
           }
@@ -100,27 +80,7 @@
             "tags": [
               {
                 "expected": "true",
-                "id": "minecraft:player_attack"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:on_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:fall"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:lava"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:in_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:hot_floor"
+                "id": "sculk_hive:sword_valid"
               }
             ]
           }
@@ -163,27 +123,7 @@
             "tags": [
               {
                 "expected": "true",
-                "id": "minecraft:player_attack"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:on_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:fall"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:lava"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:in_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:hot_floor"
+                "id": "sculk_hive:sword_valid"
               }
             ]
           }
@@ -205,27 +145,7 @@
             "tags": [
               {
                 "expected": "true",
-                "id": "minecraft:player_attack"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:on_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:fall"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:lava"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:in_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:hot_floor"
+                "id": "sculk_hive:sword_valid"
               }
             ]
           }
@@ -247,27 +167,7 @@
             "tags": [
               {
                 "expected": "true",
-                "id": "minecraft:player_attack"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:on_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:fall"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:lava"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:in_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:hot_floor"
+                "id": "sculk_hive:sword_valid"
               }
             ]
           }
@@ -289,27 +189,7 @@
             "tags": [
               {
                 "expected": "true",
-                "id": "minecraft:player_attack"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:on_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:fall"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:lava"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:in_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:hot_floor"
+                "id": "sculk_hive:sword_valid"
               }
             ]
           }
@@ -331,27 +211,7 @@
             "tags": [
               {
                 "expected": "true",
-                "id": "minecraft:player_attack"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:on_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:fall"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:lava"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:in_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:hot_floor"
+                "id": "sculk_hive:sword_valid"
               }
             ]
           }
@@ -373,27 +233,7 @@
             "tags": [
               {
                 "expected": "true",
-                "id": "minecraft:player_attack"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:on_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:fall"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:lava"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:in_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:hot_floor"
+                "id": "sculk_hive:sword_valid"
               }
             ]
           }
@@ -415,27 +255,7 @@
             "tags": [
               {
                 "expected": "true",
-                "id": "minecraft:player_attack"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:on_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:fall"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:lava"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:in_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:hot_floor"
+                "id": "sculk_hive:sword_valid"
               }
             ]
           }
@@ -457,27 +277,7 @@
             "tags": [
               {
                 "expected": "true",
-                "id": "minecraft:player_attack"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:on_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:fall"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:lava"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:in_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:hot_floor"
+                "id": "sculk_hive:sword_valid"
               }
             ]
           }
@@ -499,27 +299,7 @@
             "tags": [
               {
                 "expected": "true",
-                "id": "minecraft:player_attack"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:on_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:fall"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:lava"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:in_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:hot_floor"
+                "id": "sculk_hive:sword_valid"
               }
             ]
           }
@@ -541,27 +321,7 @@
             "tags": [
               {
                 "expected": "true",
-                "id": "minecraft:player_attack"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:on_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:fall"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:lava"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:in_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:hot_floor"
+                "id": "sculk_hive:sword_valid"
               }
             ]
           }
@@ -583,27 +343,7 @@
             "tags": [
               {
                 "expected": "true",
-                "id": "minecraft:player_attack"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:on_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:fall"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:lava"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:in_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:hot_floor"
+                "id": "sculk_hive:sword_valid"
               }
             ]
           }
@@ -625,27 +365,7 @@
             "tags": [
               {
                 "expected": "true",
-                "id": "minecraft:player_attack"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:on_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:fall"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:lava"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:in_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:hot_floor"
+                "id": "sculk_hive:sword_valid"
               }
             ]
           }
@@ -667,27 +387,7 @@
             "tags": [
               {
                 "expected": "true",
-                "id": "minecraft:player_attack"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:on_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:fall"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:lava"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:in_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:hot_floor"
+                "id": "sculk_hive:sword_valid"
               }
             ]
           }
@@ -709,27 +409,7 @@
             "tags": [
               {
                 "expected": "true",
-                "id": "minecraft:player_attack"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:on_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:fall"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:lava"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:in_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:hot_floor"
+                "id": "sculk_hive:sword_valid"
               }
             ]
           }
@@ -751,27 +431,7 @@
             "tags": [
               {
                 "expected": "true",
-                "id": "minecraft:player_attack"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:on_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:fall"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:lava"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:in_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:hot_floor"
+                "id": "sculk_hive:sword_valid"
               }
             ]
           }
@@ -793,27 +453,7 @@
             "tags": [
               {
                 "expected": "true",
-                "id": "minecraft:player_attack"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:on_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:fall"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:lava"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:in_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:hot_floor"
+                "id": "sculk_hive:sword_valid"
               }
             ]
           }
@@ -835,27 +475,7 @@
             "tags": [
               {
                 "expected": "true",
-                "id": "minecraft:player_attack"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:on_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:fall"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:lava"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:in_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:hot_floor"
+                "id": "sculk_hive:sword_valid"
               }
             ]
           }
@@ -877,27 +497,7 @@
             "tags": [
               {
                 "expected": "true",
-                "id": "minecraft:player_attack"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:on_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:fall"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:lava"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:in_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:hot_floor"
+                "id": "sculk_hive:sword_valid"
               }
             ]
           }
@@ -919,27 +519,7 @@
             "tags": [
               {
                 "expected": "true",
-                "id": "minecraft:player_attack"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:on_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:fall"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:lava"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:in_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:hot_floor"
+                "id": "sculk_hive:sword_valid"
               }
             ]
           }
@@ -961,27 +541,7 @@
             "tags": [
               {
                 "expected": "true",
-                "id": "minecraft:player_attack"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:on_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:fall"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:lava"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:in_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:hot_floor"
+                "id": "sculk_hive:sword_valid"
               }
             ]
           }
@@ -1003,27 +563,7 @@
             "tags": [
               {
                 "expected": "true",
-                "id": "minecraft:player_attack"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:on_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:fall"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:lava"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:in_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:hot_floor"
+                "id": "sculk_hive:sword_valid"
               }
             ]
           }
@@ -1045,27 +585,7 @@
             "tags": [
               {
                 "expected": "true",
-                "id": "minecraft:player_attack"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:on_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:fall"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:lava"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:in_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:hot_floor"
+                "id": "sculk_hive:sword_valid"
               }
             ]
           }
@@ -1087,27 +607,7 @@
             "tags": [
               {
                 "expected": "true",
-                "id": "minecraft:player_attack"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:on_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:fall"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:lava"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:in_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:hot_floor"
+                "id": "sculk_hive:sword_valid"
               }
             ]
           }
@@ -1129,27 +629,7 @@
             "tags": [
               {
                 "expected": "true",
-                "id": "minecraft:player_attack"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:on_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:fall"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:lava"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:in_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:hot_floor"
+                "id": "sculk_hive:sword_valid"
               }
             ]
           }
@@ -1171,27 +651,7 @@
             "tags": [
               {
                 "expected": "true",
-                "id": "minecraft:player_attack"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:on_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:fall"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:lava"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:in_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:hot_floor"
+                "id": "sculk_hive:sword_valid"
               }
             ]
           }
@@ -1213,27 +673,7 @@
             "tags": [
               {
                 "expected": "true",
-                "id": "minecraft:player_attack"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:on_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:fall"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:lava"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:in_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:hot_floor"
+                "id": "sculk_hive:sword_valid"
               }
             ]
           }
@@ -1255,27 +695,7 @@
             "tags": [
               {
                 "expected": "true",
-                "id": "minecraft:player_attack"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:on_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:fall"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:lava"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:in_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:hot_floor"
+                "id": "sculk_hive:sword_valid"
               }
             ]
           }
@@ -1297,27 +717,7 @@
             "tags": [
               {
                 "expected": "true",
-                "id": "minecraft:player_attack"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:on_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:fall"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:lava"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:in_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:hot_floor"
+                "id": "sculk_hive:sword_valid"
               }
             ]
           }
@@ -1339,27 +739,7 @@
             "tags": [
               {
                 "expected": "true",
-                "id": "minecraft:player_attack"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:on_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:fall"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:lava"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:in_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:hot_floor"
+                "id": "sculk_hive:sword_valid"
               }
             ]
           }
@@ -1381,27 +761,7 @@
             "tags": [
               {
                 "expected": "true",
-                "id": "minecraft:player_attack"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:on_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:fall"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:lava"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:in_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:hot_floor"
+                "id": "sculk_hive:sword_valid"
               }
             ]
           }
@@ -1423,27 +783,7 @@
             "tags": [
               {
                 "expected": "true",
-                "id": "minecraft:player_attack"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:on_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:fall"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:lava"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:in_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:hot_floor"
+                "id": "sculk_hive:sword_valid"
               }
             ]
           }
@@ -1465,27 +805,7 @@
             "tags": [
               {
                 "expected": "true",
-                "id": "minecraft:player_attack"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:on_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:fall"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:lava"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:in_fire"
-              },
-              {
-                "expected": "true",
-                "id": "minecraft:hot_floor"
+                "id": "sculk_hive:sword_valid"
               }
             ]
           }

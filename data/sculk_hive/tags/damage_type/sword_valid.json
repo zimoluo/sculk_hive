@@ -1,0 +1,21 @@
+{
+    "values": [
+      "player_attack",
+      "on_fire",
+      "fall",
+      "lava",
+      "in_fire",
+      "cactus",
+      "sweet_berry_bush",
+      "hot_floor",
+      "fireball",
+      "unattributed_fireball",
+      "mob_attack",
+      "freeze",
+      "cramming",
+      "out_of_world",
+      "drown",
+      "stalagmite",
+      "wither"
+    ]
+}
