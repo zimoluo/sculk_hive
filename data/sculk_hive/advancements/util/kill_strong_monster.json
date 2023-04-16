@@ -1,0 +1,527 @@
+{
+  "criteria": {
+    "blaze": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:blaze"
+            }
+          }
+        ],
+        "killing_blow": {
+          "tags": [
+            {
+              "expected": "true",
+              "id": "sculk_hive:sword_valid"
+            }
+          ]
+        }
+      }
+    },
+    "player": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:player"
+            }
+          }
+        ],
+        "killing_blow": {
+          "tags": [
+            {
+              "expected": "true",
+              "id": "sculk_hive:sword_valid"
+            }
+          ]
+        }
+      }
+    },
+    "warden": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:warden"
+            }
+          }
+        ],
+        "killing_blow": {
+          "tags": [
+            {
+              "expected": "true",
+              "id": "sculk_hive:sword_valid"
+            }
+          ]
+        }
+      }
+    },
+    "cave_spider": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:cave_spider"
+            }
+          }
+        ],
+        "killing_blow": {
+          "tags": [
+            {
+              "expected": "true",
+              "id": "sculk_hive:sword_valid"
+            }
+          ]
+        }
+      }
+    },
+    "illusioner": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:illusioner"
+            }
+          }
+        ],
+        "killing_blow": {
+          "tags": [
+            {
+              "expected": "true",
+              "id": "sculk_hive:sword_valid"
+            }
+          ]
+        }
+      }
+    },
+    "drowned": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:drowned",
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "trident"
+                  ]
+                }
+              }
+            }
+          }
+        ],
+        "killing_blow": {
+          "tags": [
+            {
+              "expected": "true",
+              "id": "sculk_hive:sword_valid"
+            }
+          ]
+        }
+      }
+    },
+    "elder_guardian": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:elder_guardian"
+            }
+          }
+        ],
+        "killing_blow": {
+          "tags": [
+            {
+              "expected": "true",
+              "id": "sculk_hive:sword_valid"
+            }
+          ]
+        }
+      }
+    },
+    "ender_dragon": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:ender_dragon"
+            }
+          }
+        ],
+        "killing_blow": {
+          "tags": [
+            {
+              "expected": "true",
+              "id": "sculk_hive:sword_valid"
+            }
+          ]
+        }
+      }
+    },
+    "enderman": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:enderman"
+            }
+          }
+        ],
+        "killing_blow": {
+          "tags": [
+            {
+              "expected": "true",
+              "id": "sculk_hive:sword_valid"
+            }
+          ]
+        }
+      }
+    },
+    "evoker": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:evoker"
+            }
+          }
+        ],
+        "killing_blow": {
+          "tags": [
+            {
+              "expected": "true",
+              "id": "sculk_hive:sword_valid"
+            }
+          ]
+        }
+      }
+    },
+    "ghast": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:ghast"
+            }
+          }
+        ],
+        "killing_blow": {
+          "tags": [
+            {
+              "expected": "true",
+              "id": "sculk_hive:sword_valid"
+            }
+          ]
+        }
+      }
+    },
+    "magma_cube": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:magma_cube",
+              "nbt": "{Size: 3}"
+            }
+          }
+        ],
+        "killing_blow": {
+          "tags": [
+            {
+              "expected": "true",
+              "id": "sculk_hive:sword_valid"
+            }
+          ]
+        }
+      }
+    },
+    "piglin_brute": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:piglin_brute"
+            }
+          }
+        ],
+        "killing_blow": {
+          "tags": [
+            {
+              "expected": "true",
+              "id": "sculk_hive:sword_valid"
+            }
+          ]
+        }
+      }
+    },
+    "ravager": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:ravager"
+            }
+          }
+        ],
+        "killing_blow": {
+          "tags": [
+            {
+              "expected": "true",
+              "id": "sculk_hive:sword_valid"
+            }
+          ]
+        }
+      }
+    },
+    "skeleton": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "alternative",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:skeleton",
+                  "nbt": "{Tags:[\"sh_part\"]}"
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:skeleton",
+                  "nbt": "{Tags:[\"sh_guard\"]}"
+                }
+              }
+            ]
+          }
+        ],
+        "killing_blow": {
+          "tags": [
+            {
+              "expected": "true",
+              "id": "sculk_hive:sword_valid"
+            }
+          ]
+        }
+      }
+    },
+    "vindicator": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:vindicator"
+            }
+          }
+        ],
+        "killing_blow": {
+          "tags": [
+            {
+              "expected": "true",
+              "id": "sculk_hive:sword_valid"
+            }
+          ]
+        }
+      }
+    },
+    "witch": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:witch"
+            }
+          }
+        ],
+        "killing_blow": {
+          "tags": [
+            {
+              "expected": "true",
+              "id": "sculk_hive:sword_valid"
+            }
+          ]
+        }
+      }
+    },
+    "wither": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:wither"
+            }
+          }
+        ],
+        "killing_blow": {
+          "tags": [
+            {
+              "expected": "true",
+              "id": "sculk_hive:sword_valid"
+            }
+          ]
+        }
+      }
+    },
+    "wither_skeleton": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:wither_skeleton"
+            }
+          }
+        ],
+        "killing_blow": {
+          "tags": [
+            {
+              "expected": "true",
+              "id": "sculk_hive:sword_valid"
+            }
+          ]
+        }
+      }
+    },
+    "zoglin": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:zoglin"
+            }
+          }
+        ],
+        "killing_blow": {
+          "tags": [
+            {
+              "expected": "true",
+              "id": "sculk_hive:sword_valid"
+            }
+          ]
+        }
+      }
+    },
+    "zombie": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "alternative",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:zombie",
+                  "nbt": "{Tags:[\"sh_part\"]}"
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:zombie",
+                  "nbt": "{Tags:[\"sh_guard\"]}"
+                }
+              }
+            ]
+          }
+        ],
+        "killing_blow": {
+          "tags": [
+            {
+              "expected": "true",
+              "id": "sculk_hive:sword_valid"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "blaze",
+      "cave_spider",
+      "drowned",
+      "elder_guardian",
+      "ender_dragon",
+      "enderman",
+      "evoker",
+      "ghast",
+      "magma_cube",
+      "piglin_brute",
+      "ravager",
+      "skeleton",
+      "vindicator",
+      "witch",
+      "wither_skeleton",
+      "wither",
+      "zoglin",
+      "zombie",
+      "warden",
+      "player",
+      "illusioner"
+    ]
+  ]
+}

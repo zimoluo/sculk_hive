@@ -165,6 +165,14 @@
     "kelp_plant",
     "nether_portal",
     "end_portal",
-    "#fence_gates"
+    "#fence_gates",
+    "decorated_pot",
+    "pink_petals",
+    "torchflower",
+    "#crops",
+    "torchflower_crop",
+    "#all_signs",
+    "piglin_head",
+    "piglin_wall_head"
   ]
 }

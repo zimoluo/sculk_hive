@@ -39,6 +39,10 @@
 	"minecraft:experience_orb",
 	"minecraft:marker",
 	"minecraft:glow_item_frame",
-	"chest_boat"
+	"chest_boat",
+	"interaction",
+	"item_display",
+	"text_display",
+	"block_display"
   ]
 }

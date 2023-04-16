@@ -42,6 +42,9 @@
     "frogspawn",
     "mangrove_propagule",
     "sculk_vein",
-    "snow"
+    "snow",
+    "pink_petals",
+    "torchflower",
+    "torchflower_crop"
   ]
 }

@@ -70,6 +70,8 @@
       "sculk_sensor",
       "sculk_shrieker",
       "sculk_vein",
-      "pointed_dripstone"
+      "pointed_dripstone",
+      "decorated_pot",
+      "#all_signs"
     ]
   }

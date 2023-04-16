@@ -90,6 +90,9 @@
     "wither_skeleton_skull",
     "wither_skeleton_wall_skull",
     "#sculk_hive:immune_destruction",
-    "#sculk_hive:immune_vein_waterloggable"
+    "#sculk_hive:immune_vein_waterloggable",
+    "piglin_head",
+    "piglin_wall_head",
+    "decorated_pot"
   ]
 }

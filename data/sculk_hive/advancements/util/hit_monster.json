@@ -1,6 +1,6 @@
 {
   "criteria": {
-      "minecraft:blaze": {
+      "blaze": {
           "trigger": "minecraft:player_hurt_entity",
           "conditions": {
               "entity": [
@@ -14,7 +14,7 @@
               ]
           }
       },
-      "minecraft:warden": {
+      "warden": {
         "trigger": "minecraft:player_hurt_entity",
         "conditions": {
             "entity": [
@@ -28,7 +28,7 @@
             ]
         }
     },
-    "minecraft:illusioner": {
+    "illusioner": {
         "trigger": "minecraft:player_hurt_entity",
         "conditions": {
             "entity": [
@@ -42,7 +42,7 @@
             ]
         }
     },
-    "minecraft:player": {
+    "player": {
         "trigger": "minecraft:player_hurt_entity",
         "conditions": {
             "entity": [
@@ -56,7 +56,7 @@
             ]
         }
     },
-      "minecraft:cave_spider": {
+      "cave_spider": {
           "trigger": "minecraft:player_hurt_entity",
           "conditions": {
               "entity": [
@@ -70,7 +70,7 @@
               ]
           }
       },
-      "minecraft:creeper": {
+      "creeper": {
           "trigger": "minecraft:player_hurt_entity",
           "conditions": {
               "entity": [
@@ -84,7 +84,7 @@
               ]
           }
       },
-      "minecraft:drowned": {
+      "drowned": {
           "trigger": "minecraft:player_hurt_entity",
           "conditions": {
               "entity": [
@@ -98,7 +98,7 @@
               ]
           }
       },
-      "minecraft:elder_guardian": {
+      "elder_guardian": {
           "trigger": "minecraft:player_hurt_entity",
           "conditions": {
               "entity": [
@@ -112,7 +112,7 @@
               ]
           }
       },
-      "minecraft:ender_dragon": {
+      "ender_dragon": {
           "trigger": "minecraft:player_hurt_entity",
           "conditions": {
               "entity": [
@@ -126,7 +126,7 @@
               ]
           }
       },
-      "minecraft:enderman": {
+      "enderman": {
           "trigger": "minecraft:player_hurt_entity",
           "conditions": {
               "entity": [
@@ -140,7 +140,7 @@
               ]
           }
       },
-      "minecraft:endermite": {
+      "endermite": {
           "trigger": "minecraft:player_hurt_entity",
           "conditions": {
               "entity": [
@@ -154,7 +154,7 @@
               ]
           }
       },
-      "minecraft:evoker": {
+      "evoker": {
           "trigger": "minecraft:player_hurt_entity",
           "conditions": {
               "entity": [
@@ -168,7 +168,7 @@
               ]
           }
       },
-      "minecraft:ghast": {
+      "ghast": {
           "trigger": "minecraft:player_hurt_entity",
           "conditions": {
               "entity": [
@@ -182,7 +182,7 @@
               ]
           }
       },
-      "minecraft:guardian": {
+      "guardian": {
           "trigger": "minecraft:player_hurt_entity",
           "conditions": {
               "entity": [
@@ -196,7 +196,7 @@
               ]
           }
       },
-      "minecraft:hoglin": {
+      "hoglin": {
           "trigger": "minecraft:player_hurt_entity",
           "conditions": {
               "entity": [
@@ -210,7 +210,7 @@
               ]
           }
       },
-      "minecraft:husk": {
+      "husk": {
           "trigger": "minecraft:player_hurt_entity",
           "conditions": {
               "entity": [
@@ -224,7 +224,7 @@
               ]
           }
       },
-      "minecraft:magma_cube": {
+      "magma_cube": {
           "trigger": "minecraft:player_hurt_entity",
           "conditions": {
               "entity": [
@@ -238,7 +238,7 @@
               ]
           }
       },
-      "minecraft:phantom": {
+      "phantom": {
           "trigger": "minecraft:player_hurt_entity",
           "conditions": {
               "entity": [
@@ -252,7 +252,7 @@
               ]
           }
       },
-      "minecraft:piglin": {
+      "piglin": {
           "trigger": "minecraft:player_hurt_entity",
           "conditions": {
               "entity": [
@@ -266,7 +266,7 @@
               ]
           }
       },
-      "minecraft:piglin_brute": {
+      "piglin_brute": {
           "trigger": "minecraft:player_hurt_entity",
           "conditions": {
               "entity": [
@@ -280,7 +280,7 @@
               ]
           }
       },
-      "minecraft:pillager": {
+      "pillager": {
           "trigger": "minecraft:player_hurt_entity",
           "conditions": {
               "entity": [
@@ -294,7 +294,7 @@
               ]
           }
       },
-      "minecraft:ravager": {
+      "ravager": {
           "trigger": "minecraft:player_hurt_entity",
           "conditions": {
               "entity": [
@@ -308,7 +308,7 @@
               ]
           }
       },
-      "minecraft:shulker": {
+      "shulker": {
           "trigger": "minecraft:player_hurt_entity",
           "conditions": {
               "entity": [
@@ -322,7 +322,7 @@
               ]
           }
       },
-      "minecraft:silverfish": {
+      "silverfish": {
           "trigger": "minecraft:player_hurt_entity",
           "conditions": {
               "entity": [
@@ -336,7 +336,7 @@
               ]
           }
       },
-      "minecraft:skeleton": {
+      "skeleton": {
           "trigger": "minecraft:player_hurt_entity",
           "conditions": {
               "entity": [
@@ -350,7 +350,7 @@
               ]
           }
       },
-      "minecraft:slime": {
+      "slime": {
           "trigger": "minecraft:player_hurt_entity",
           "conditions": {
               "entity": [
@@ -364,7 +364,7 @@
               ]
           }
       },
-      "minecraft:spider": {
+      "spider": {
           "trigger": "minecraft:player_hurt_entity",
           "conditions": {
               "entity": [
@@ -378,7 +378,7 @@
               ]
           }
       },
-      "minecraft:stray": {
+      "stray": {
           "trigger": "minecraft:player_hurt_entity",
           "conditions": {
               "entity": [
@@ -392,7 +392,7 @@
               ]
           }
       },
-      "minecraft:vex": {
+      "vex": {
           "trigger": "minecraft:player_hurt_entity",
           "conditions": {
               "entity": [
@@ -406,7 +406,7 @@
               ]
           }
       },
-      "minecraft:vindicator": {
+      "vindicator": {
           "trigger": "minecraft:player_hurt_entity",
           "conditions": {
               "entity": [
@@ -420,7 +420,7 @@
               ]
           }
       },
-      "minecraft:witch": {
+      "witch": {
           "trigger": "minecraft:player_hurt_entity",
           "conditions": {
               "entity": [
@@ -434,7 +434,7 @@
               ]
           }
       },
-      "minecraft:wither": {
+      "wither": {
           "trigger": "minecraft:player_hurt_entity",
           "conditions": {
               "entity": [
@@ -448,7 +448,7 @@
               ]
           }
       },
-      "minecraft:wither_skeleton": {
+      "wither_skeleton": {
           "trigger": "minecraft:player_hurt_entity",
           "conditions": {
               "entity": [
@@ -462,7 +462,7 @@
               ]
           }
       },
-      "minecraft:zoglin": {
+      "zoglin": {
           "trigger": "minecraft:player_hurt_entity",
           "conditions": {
               "entity": [
@@ -476,7 +476,7 @@
               ]
           }
       },
-      "minecraft:zombie": {
+      "zombie": {
           "trigger": "minecraft:player_hurt_entity",
           "conditions": {
               "entity": [
@@ -490,7 +490,7 @@
               ]
           }
       },
-      "minecraft:zombie_villager": {
+      "zombie_villager": {
           "trigger": "minecraft:player_hurt_entity",
           "conditions": {
               "entity": [
@@ -504,7 +504,7 @@
               ]
           }
       },
-      "minecraft:zombified_piglin": {
+      "zombified_piglin": {
           "trigger": "minecraft:player_hurt_entity",
           "conditions": {
               "entity": [
@@ -521,43 +521,43 @@
   },
   "requirements": [
       [
-          "minecraft:blaze",
-          "minecraft:cave_spider",
-          "minecraft:creeper",
-          "minecraft:drowned",
-          "minecraft:elder_guardian",
-          "minecraft:ender_dragon",
-          "minecraft:enderman",
-          "minecraft:endermite",
-          "minecraft:evoker",
-          "minecraft:ghast",
-          "minecraft:guardian",
-          "minecraft:hoglin",
-          "minecraft:husk",
-          "minecraft:magma_cube",
-          "minecraft:phantom",
-          "minecraft:piglin",
-          "minecraft:piglin_brute",
-          "minecraft:pillager",
-          "minecraft:ravager",
-          "minecraft:shulker",
-          "minecraft:silverfish",
-          "minecraft:skeleton",
-          "minecraft:slime",
-          "minecraft:spider",
-          "minecraft:stray",
-          "minecraft:vex",
-          "minecraft:vindicator",
-          "minecraft:witch",
-          "minecraft:wither_skeleton",
-          "minecraft:wither",
-          "minecraft:zoglin",
-          "minecraft:zombie_villager",
-          "minecraft:zombie",
-          "minecraft:zombified_piglin",
-          "minecraft:warden",
-          "minecraft:player",
-          "minecraft:illusioner"
+          "blaze",
+          "cave_spider",
+          "creeper",
+          "drowned",
+          "elder_guardian",
+          "ender_dragon",
+          "enderman",
+          "endermite",
+          "evoker",
+          "ghast",
+          "guardian",
+          "hoglin",
+          "husk",
+          "magma_cube",
+          "phantom",
+          "piglin",
+          "piglin_brute",
+          "pillager",
+          "ravager",
+          "shulker",
+          "silverfish",
+          "skeleton",
+          "slime",
+          "spider",
+          "stray",
+          "vex",
+          "vindicator",
+          "witch",
+          "wither_skeleton",
+          "wither",
+          "zoglin",
+          "zombie_villager",
+          "zombie",
+          "zombified_piglin",
+          "warden",
+          "player",
+          "illusioner"
       ]
   ]
 }
