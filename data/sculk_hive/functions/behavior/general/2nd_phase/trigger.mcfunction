@@ -6,7 +6,8 @@ execute as @a[tag=sh_eff, distance=..64] at @s anchored eyes run particle flash 
 
 execute as @e[tag=sh_atk, distance=..64] run function sculk_hive:behavior/general/reset_atk_scoreboard
 
-execute as @e[tag=sh_sey_hp] run data merge entity @s {Invulnerable:0b}
+execute as @e[tag=sh_sey_hp, distance=..64] run data merge entity @s {Invulnerable:0b}
+tag @e[tag=sh_sey_hp,distance=..64] add sh_attackable
 
 particle minecraft:sculk_soul ~ ~ ~ 2 2 2 0.00001 100 force
 particle minecraft:soul_fire_flame ~ ~ ~ 2 2 2 0.00001 100 force
@@ -25,8 +26,8 @@ execute as @e[tag=sh_atk, distance=..64] if predicate sculk_hive:chance/03 run s
 execute as @e[tag=sh_atk, distance=..64] if predicate sculk_hive:chance/03 run scoreboard players add @s sh_boom_cd 5
 execute as @e[tag=sh_atk, distance=..64] if predicate sculk_hive:chance/03 run scoreboard players add @s sh_boom_cd 5
 
-execute as @e[tag=sh_kck] run tag @s add sh_sey
-execute as @e[tag=sh_sey] at @s run function sculk_hive:behavior/sentry/transform
+execute as @e[tag=sh_kck,distance=..64] run tag @s add sh_sey
+execute as @e[tag=sh_sey, distance=..64] at @s run function sculk_hive:behavior/sentry/transform
 
 effect clear @e[tag=sh_sey_hp, distance=..64] resistance
 
