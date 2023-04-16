@@ -1,5 +1,5 @@
-execute positioned ~0.35 ~ ~-0.5 run summon minecraft:armor_stand ~ ~ ~ {HandItems:[{id:sculk,Count:1b}],Pose:{RightArm:[-100f,0f,0f]}, Invisible:1b, Invulnerable:1b, Marker:1b, NoGravity:1b, Tags:["sh_dpy","sh_prep"],DisabledSlots:16191}
-data modify entity @e[tag=sh_dpy,limit=1,sort=nearest] HandItems[0] set from entity @s Item
+summon minecraft:item_display ~ ~1.4 ~ {item:{id:"stone_sword",Count:1b},billboard:"vertical",interpolation_duration:0,start_interpolation:0,transformation:[0.695f, -0.719f, 0.000f,0.000f,0.719f, 0.695f, 0.000f,0.500f,0.000f, 0.000f, 1.000f,0.000f,0.000f, 0.000f, 0.000f,1.000f],width:1,height:2,shadow_radius:0f,shadow_strength:0f,brightness:{sky:15,block:15}, Tags:["sh_dpy", "sh_prep"]}
+data modify entity @e[tag=sh_dpy,limit=1,sort=nearest] item set from entity @s Item
 
 summon marker ~ ~ ~ {Tags:["sh_prep","sh_prep_ctrl"]}
 

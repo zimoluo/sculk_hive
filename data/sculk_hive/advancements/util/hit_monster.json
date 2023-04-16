@@ -14,6 +14,21 @@
               ]
           }
       },
+      "skeleton_horse_soldier": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+            "entity": [
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "type": "minecraft:skeleton_horse",
+                        "nbt": "{Tags:[\"sh_sdr\"]}"
+                    }
+                }
+            ]
+        }
+    },
       "warden": {
         "trigger": "minecraft:player_hurt_entity",
         "conditions": {
@@ -557,7 +572,8 @@
           "zombified_piglin",
           "warden",
           "player",
-          "illusioner"
+          "illusioner",
+          "skeleton_horse_soldier"
       ]
   ]
 }

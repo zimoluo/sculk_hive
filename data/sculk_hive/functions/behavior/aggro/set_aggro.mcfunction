@@ -1,0 +1,2 @@
+execute if entity @s[tag=sh_guard] if entity @e[type=!player, type=!#sculk_hive:guard_ignore, nbt=!{Invulnerable:1b}, tag=!sh_guard, tag=!sh_part, distance=..24, predicate=sculk_hive:vestige/in_vestige] unless entity @a[distance=..24, gamemode=!spectator, gamemode=!creative, predicate=sculk_hive:vestige/in_vestige] run function sculk_hive:behavior/aggro/guard
+execute if entity @s[tag=sh_part] if entity @e[type=!player, tag=sh_atk, distance=..32] unless entity @a[distance=..32, tag=sh_atk] run function sculk_hive:behavior/aggro/soldier

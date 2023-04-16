@@ -86,6 +86,8 @@ scoreboard objectives add sh_attract_timer dummy
 scoreboard objectives add sh_boss_beaten dummy
 scoreboard objectives add sh_guard_conversion dummy
 scoreboard objectives add sh_delete_tick dummy
+scoreboard objectives add sh_riding_test dummy
+scoreboard objectives add sh_aggro_cd dummy
 
 scoreboard objectives add sh_constant dummy
 scoreboard players set 2 sh_constant 2

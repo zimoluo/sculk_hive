@@ -44,3 +44,5 @@ execute if entity @s[tag=sh_guard_soul] run particle sculk_soul ~ ~1.3 ~ 0.3 0.4
 
 execute if entity @s[tag=sh_guard_shield] store result score @s sh_hp run data get entity @s Health
 execute if entity @s[tag=sh_guard_shield] if score @s sh_hp matches ..18 run function sculk_hive:behavior/vestige/shield_break
+
+function sculk_hive:behavior/aggro/tick

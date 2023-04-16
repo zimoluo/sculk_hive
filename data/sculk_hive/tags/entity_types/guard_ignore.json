@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+	"#sculk_hive:non-attack",
+  "ender_dragon",
+  "phantom",
+  "bat",
+  "parrot",
+  "allay",
+  "vex",
+  "bee"
+  ]
+}

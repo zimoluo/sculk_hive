@@ -48,6 +48,7 @@ execute if data storage sculk_hive:data {world:{difficulty: 3}} if predicate scu
 attribute @s[type=zombie] zombie.spawn_reinforcements base set 0.0
 attribute @s generic.armor base set 3.0
 attribute @s generic.armor_toughness base set 1.0
+attribute @s generic.follow_range base set 24
 
 item replace entity @s armor.head with iron_helmet{Enchantments:[{id:"minecraft:protection",lvl:1s}, {id:"minecraft:projectile_protection",lvl:1s}], Unbreakable:1b}
 
