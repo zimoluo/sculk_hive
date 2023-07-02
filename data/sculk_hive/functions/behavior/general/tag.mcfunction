@@ -21,6 +21,20 @@ tag @e[tag=sh_part] remove sh_atk
 execute as @e[type=armor_stand] if data entity @s {ArmorItems:[{}, {tag:{Enchantments:[{id:"minecraft:swift_sneak"}]}}, {}, {}]} unless data entity @s {Marker:1b} unless data entity @s {Invisible:1b} unless data entity @s {Invulnerable:1b} at @s if entity @e[tag=sh_main, distance=..32] run tag @s add sh_atk
 execute as @e[type=armor_stand] if data entity @s {ArmorItems:[{}, {tag:{Enchantments:[{id:"minecraft:swift_sneak"}]}}, {}, {}]} unless data entity @s {Marker:1b} unless data entity @s {Invisible:1b} unless data entity @s {Invulnerable:1b} at @s if entity @e[tag=sh_fourth, distance=..40] run tag @s add sh_atk
 
+
+
+
+execute as @e[type=armor_stand] at @s unless data entity @s {Marker:1b} unless data entity @s {NoGravity:1b} if entity @e[tag=sh_fourth,distance=..40, scores={sh_dth_cd=120..}] if entity @e[tag=sh_chit,distance=..50] run tag @s add sh_atk
+execute as @e[type=#sculk_hive:will_absorb] at @s unless data entity @s {NoGravity:1b} if entity @e[tag=sh_fourth,distance=..40, scores={sh_dth_cd=120..}] if entity @e[tag=sh_chit,distance=..50] run tag @s add sh_atk
+execute as @e[tag=sh_guard] at @s unless data entity @s {NoGravity:1b} if entity @e[tag=sh_fourth,distance=..40, scores={sh_dth_cd=120..}] if entity @e[tag=sh_chit,distance=..50] run tag @s add sh_atk
+
+execute as @e[tag=sh_atk] at @s if data entity @s {NoGravity:1b} if entity @e[tag=sh_fourth,distance=..40, scores={sh_dth_cd=120..}] run tag @s remove sh_atk
+execute as @e[tag=sh_atk] at @s unless entity @e[tag=sh_fourth,distance=..40] unless entity @e[tag=sh_main,distance=..40] run tag @s remove sh_atk
+
+tag @e[tag=sh_part] remove sh_atk
+
+
+
 tag @e[tag=!sh_atk] remove sh_sta
 tag @e[tag=!sh_atk] remove sh_bite
 tag @e[tag=!sh_atk] remove sh_boomed

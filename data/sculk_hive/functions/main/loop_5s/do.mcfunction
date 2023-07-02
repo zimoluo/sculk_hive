@@ -11,3 +11,6 @@ execute unless data storage sculk_hive:data {world:{difficulty:0}} as @e[type=#s
 execute as @a unless score @s sh_boss_beaten matches 0.. run scoreboard players set @s sh_boss_beaten 0
 
 execute as @e[tag=sh_vestige_spawn_center] at @s if entity @e[tag=sh_smn, tag=!sh_smn_special,distance=..3] run kill @e[tag=sh_smn_fire,distance=..256]
+
+
+execute as @a if predicate sculk_hive:vestige/impersonating run advancement grant @s only adventure/impersonate_guard

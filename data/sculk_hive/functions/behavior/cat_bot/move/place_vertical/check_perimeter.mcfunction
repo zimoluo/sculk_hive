@@ -1,0 +1,4 @@
+execute unless block ~ ~ ~ #sculk_hive:non-full unless block ~ ~ ~ #sculk_hive:immune_spread if block ~1 ~ ~ #sculk_hive:non-full run function sculk_hive:behavior/cat_bot/move/place_vertical/place_sculk
+execute unless block ~ ~ ~ #sculk_hive:non-full unless block ~ ~ ~ #sculk_hive:immune_spread if block ~-1 ~ ~ #sculk_hive:non-full run function sculk_hive:behavior/cat_bot/move/place_vertical/place_sculk
+execute unless block ~ ~ ~ #sculk_hive:non-full unless block ~ ~ ~ #sculk_hive:immune_spread if block ~ ~ ~1 #sculk_hive:non-full run function sculk_hive:behavior/cat_bot/move/place_vertical/place_sculk
+execute unless block ~ ~ ~ #sculk_hive:non-full unless block ~ ~ ~ #sculk_hive:immune_spread if block ~ ~ ~-1 #sculk_hive:non-full run function sculk_hive:behavior/cat_bot/move/place_vertical/place_sculk

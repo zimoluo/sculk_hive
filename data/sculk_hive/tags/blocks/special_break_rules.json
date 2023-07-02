@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+      "minecraft:water",
+      "minecraft:snow",
+      "#sculk_hive:break_no_destroy"
+    ]
+  }

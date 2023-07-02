@@ -2,5 +2,6 @@ execute if score @s sh_sdr_cd matches ..0 run function sculk_hive:behavior/soldi
 scoreboard players remove @s sh_sdr_cd 1
 
 tp @s ~ ~-0.1 ~ ~-18 ~
+execute if entity @s[type=skeleton_horse] on passengers at @s run tp @s ~ ~ ~ ~-18 ~
 
 particle block sculk ~ ~1 ~ 0.5 0.8 0.5 1 15 force

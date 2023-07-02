@@ -1,5 +1,5 @@
-playsound minecraft:entity.allay.ambient_with_item hostile @a ~ ~ ~ 2 0.8
-playsound minecraft:entity.allay.ambient_with_item hostile @a ~ ~ ~ 2 1.1
+playsound minecraft:entity.illusioner.cast_spell hostile @a ~ ~ ~ 2 0.8
+playsound minecraft:item.trident.return hostile @a ~ ~ ~ 2 1.1
 particle end_rod ~ ~ ~ 0.9 0.2 0.9 0.0001 15 force
 particle enchant ~ ~ ~ 0.9 0.2 0.9 0.0001 15 force
 particle enchanted_hit ~ ~ ~ 0.9 0.2 0.9 0.0001 15 force

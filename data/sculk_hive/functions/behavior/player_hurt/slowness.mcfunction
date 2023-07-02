@@ -1,0 +1,2 @@
+execute as @a[advancements={sculk_hive:util/hurt_by_slowness_sword=true}] at @s rotated ~ 0 anchored eyes run function sculk_hive:behavior/player_hurt/slowness_do
+execute as @a[advancements={sculk_hive:util/hurt_by_slowness_sword=true}] run advancement revoke @s only sculk_hive:util/hurt_by_slowness_sword

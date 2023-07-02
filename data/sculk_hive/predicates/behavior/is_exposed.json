@@ -1,0 +1,59 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "location_check",
+                "offsetY": -1,
+                "predicate": {
+                    "block": {
+                        "tag": "sculk_hive:exposed_check"
+                    }
+            }
+        },
+        {
+            "condition": "location_check",
+                "offsetY": 1,
+                "predicate": {
+                    "block": {
+                        "tag": "sculk_hive:exposed_check"
+                    }
+            }
+        },
+        {
+            "condition": "location_check",
+                "offsetX": 1,
+                "predicate": {
+                    "block": {
+                        "tag": "sculk_hive:exposed_check"
+                    }
+            }
+        },
+        {
+            "condition": "location_check",
+                "offsetX": -1,
+                "predicate": {
+                    "block": {
+                        "tag": "sculk_hive:exposed_check"
+                    }
+            }
+        },
+        {
+            "condition": "location_check",
+                "offsetZ": -1,
+                "predicate": {
+                    "block": {
+                        "tag": "sculk_hive:exposed_check"
+                    }
+            }
+        },
+        {
+            "condition": "location_check",
+                "offsetZ": 1,
+                "predicate": {
+                    "block": {
+                        "tag": "sculk_hive:exposed_check"
+                    }
+            }
+        }
+    ]
+}

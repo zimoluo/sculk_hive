@@ -1,0 +1,76 @@
+[
+    {
+      "function": "copy_nbt",
+      "source": {
+        "type": "storage",
+        "source": "sculk_hive:midas_curse"
+      },
+      "ops": [
+        {
+          "op": "replace",
+          "source": "itemData.Damage",
+          "target": "Damage"
+        },
+        {
+          "op": "replace",
+          "source": "itemData.display",
+          "target": "display"
+        },
+        {
+          "op": "replace",
+          "source": "itemData.RepairCost",
+          "target": "RepairCost"
+        },
+        {
+          "op": "replace",
+          "source": "itemData.Enchantments",
+          "target": "Enchantments"
+        },
+        {
+          "op": "replace",
+          "source": "itemData.StoredEnchantments",
+          "target": "StoredEnchantments"
+        },
+        {
+          "op": "replace",
+          "source": "itemData.Trim",
+          "target": "Trim"
+        },
+        {
+          "op": "replace",
+          "source": "itemData.Unbreakable",
+          "target": "Unbreakable"
+        },
+        {
+          "op": "replace",
+          "source": "itemData.CanDestroy",
+          "target": "CanDestroy"
+        },
+        {
+          "op": "replace",
+          "source": "itemData.AttributeModifiers",
+          "target": "AttributeModifiers"
+        },
+        {
+          "op": "replace",
+          "source": "itemData.CanPlaceOn",
+          "target": "CanPlaceOn"
+        },
+        {
+          "op": "replace",
+          "source": "itemData.HideFlags",
+          "target": "HideFlags"
+        },
+        {
+          "op": "replace",
+          "source": "itemData.BlockEntityTag",
+          "target": "BlockEntityTag"
+        },
+        {
+          "op": "replace",
+          "source": "itemData.BlockStateTag",
+          "target": "BlockStateTag"
+        }
+      ]
+    }
+  ]

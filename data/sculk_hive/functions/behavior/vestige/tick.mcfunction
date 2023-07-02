@@ -1,4 +1,4 @@
-data merge entity @s {FallDistance: 0.0f}
+data merge entity @s[nbt=!{OnGround:1b}] {FallDistance: 0.0f}
 data merge entity @s[type=zombie] {InWaterTime: -2147483648, DrownedConversionTime: -2147483648, TicksFrozen: 0}
 
 execute if entity @s[type=skeleton] positioned ~ ~ ~ if block ~ ~ ~ powder_snow run setblock ~ ~ ~ air destroy
@@ -46,3 +46,7 @@ execute if entity @s[tag=sh_guard_shield] store result score @s sh_hp run data g
 execute if entity @s[tag=sh_guard_shield] if score @s sh_hp matches ..18 run function sculk_hive:behavior/vestige/shield_break
 
 function sculk_hive:behavior/aggro/tick
+
+
+
+execute if entity @s[tag=sh_midas] run function sculk_hive:behavior/midas/tick

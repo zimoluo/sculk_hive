@@ -1,32 +1,45 @@
-execute positioned ~2 ~-1 ~ run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
-execute positioned ~-2 ~-1 ~ run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
-execute positioned ~ ~-1 ~2 run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
-execute positioned ~ ~-1 ~-2 run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
+execute positioned ~ ~-1 ~ run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
+execute positioned ~ ~-1 ~ run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
+execute positioned ~ ~-1 ~ run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
+execute positioned ~ ~-1 ~ run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
+execute positioned ~ ~-1 ~ run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
+execute positioned ~ ~-1 ~ run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
+execute positioned ~ ~-1 ~ run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
+execute positioned ~ ~-1 ~ run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
+execute positioned ~ ~-1 ~ run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
+execute positioned ~ ~-1 ~ run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
+execute positioned ~ ~-1 ~ run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
+execute positioned ~ ~-1 ~ run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
+execute positioned ~ ~-1 ~ run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
+execute positioned ~ ~-1 ~ run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
+execute positioned ~ ~-1 ~ run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
+execute positioned ~ ~-1 ~ run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
+execute positioned ~ ~-1 ~ run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
+execute positioned ~ ~-1 ~ run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
+execute positioned ~ ~-1 ~ run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
+execute positioned ~ ~-1 ~ run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
+execute positioned ~ ~-1 ~ run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
+execute positioned ~ ~-1 ~ run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
+execute positioned ~ ~-1 ~ run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
+execute positioned ~ ~-1 ~ run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
+execute positioned ~ ~-1 ~ run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
+execute positioned ~ ~-1 ~ run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
+execute positioned ~ ~-1 ~ run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
+execute positioned ~ ~-1 ~ run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
+execute positioned ~ ~-1 ~ run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
+execute positioned ~ ~-1 ~ run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
 
-execute positioned ~2 ~-1 ~ run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
-execute positioned ~-2 ~-1 ~ run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
-execute positioned ~ ~-1 ~2 run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
-execute positioned ~ ~-1 ~-2 run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
-
-execute positioned ~2 ~-1 ~ run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
-execute positioned ~-2 ~-1 ~ run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
-execute positioned ~ ~-1 ~2 run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
-execute positioned ~ ~-1 ~-2 run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
-
-execute positioned ~2 ~-1 ~ run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
-execute positioned ~-2 ~-1 ~ run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
-execute positioned ~ ~-1 ~2 run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
-execute positioned ~ ~-1 ~-2 run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
-
-execute if predicate sculk_hive:chance/04 positioned ~2 ~-1 ~ run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
-execute if predicate sculk_hive:chance/04 positioned ~-2 ~-1 ~ run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
-execute if predicate sculk_hive:chance/04 positioned ~ ~-1 ~2 run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
-execute if predicate sculk_hive:chance/04 positioned ~ ~-1 ~-2 run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
-
-execute if predicate sculk_hive:chance/04 positioned ~2 ~-1 ~ run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
-execute if predicate sculk_hive:chance/04 positioned ~-2 ~-1 ~ run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
-execute if predicate sculk_hive:chance/04 positioned ~ ~-1 ~2 run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
-execute if predicate sculk_hive:chance/04 positioned ~ ~-1 ~-2 run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
+execute if predicate sculk_hive:chance/06 positioned ~ ~-1 ~ run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
+execute if predicate sculk_hive:chance/06 positioned ~ ~-1 ~ run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
+execute if predicate sculk_hive:chance/06 positioned ~ ~-1 ~ run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
+execute if predicate sculk_hive:chance/06 positioned ~ ~-1 ~ run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
+execute if predicate sculk_hive:chance/06 positioned ~ ~-1 ~ run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
+execute if predicate sculk_hive:chance/06 positioned ~ ~-1 ~ run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
+execute if predicate sculk_hive:chance/06 positioned ~ ~-1 ~ run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
+execute if predicate sculk_hive:chance/06 positioned ~ ~-1 ~ run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
+execute if predicate sculk_hive:chance/06 positioned ~ ~-1 ~ run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
+execute if predicate sculk_hive:chance/06 positioned ~ ~-1 ~ run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
+execute if predicate sculk_hive:chance/06 positioned ~ ~-1 ~ run summon marker ~ ~ ~ {Tags:["sh_bot", "sh_bot_raw", "sh_part"]}
 
 execute as @e[tag=sh_bot_raw] at @s run function sculk_hive:behavior/cat_bot/init_super
 

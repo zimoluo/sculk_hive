@@ -1,0 +1,39 @@
+{
+  "parent": "minecraft:adventure/sculk_hive_true_ending",
+  "criteria": {
+    "midas": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"sh_midas\"]}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Kill the Midas, the God with golden touch"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "item": "minecraft:gold_ingot"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Midas!"
+    }
+  },
+  "requirements": [
+    [
+      "midas"
+    ]
+  ]
+}

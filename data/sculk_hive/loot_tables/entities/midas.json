@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+            {
+              "condition": "killed_by_player"
+            }
+          ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:chest",
+            "functions": [
+              {
+                "function": "set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Midas\\' Chest\",\"color\":\"#FFD700\",\"italic\":false}'},BlockEntityTag:{LootTable:\"sculk_hive:chests/midas\"}}"
+              }
+            ],
+            "weight": 1
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+}

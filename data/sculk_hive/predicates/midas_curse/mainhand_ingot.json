@@ -1,0 +1,16 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "mainhand": {
+                "items": [
+                    "netherite_ingot",
+                    "iron_ingot",
+                    "copper_ingot",
+                    "gold_ingot"
+                ]
+            }
+        }
+    }
+}

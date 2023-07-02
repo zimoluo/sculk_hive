@@ -1,0 +1,20 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "mainhand": {
+                "items": [
+                    "coal_block",
+                    "iron_block",
+                    "copper_block",
+                    "gold_block",
+                    "redstone_block",
+                    "diamond_block",
+                    "netherite_block",
+                    "emerald_block"
+                ]
+            }
+        }
+    }
+}

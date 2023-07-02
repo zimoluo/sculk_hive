@@ -1,0 +1,20 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "chest": {
+                "nbt": "{isGuardianChestplate:1b}"
+            },
+            "head": {
+                "nbt": "{isGuardianHelmet:1b}"
+            },
+            "offhand": {
+                "nbt": "{isGuardianShield:1b}"
+            },
+            "mainhand": {
+                "nbt": "{isGuardianWeapon:1b}"
+            }
+        }
+    }
+}

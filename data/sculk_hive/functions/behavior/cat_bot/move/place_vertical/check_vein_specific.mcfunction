@@ -1,0 +1,15 @@
+execute if block ~ ~ ~ #sculk_hive:non-full unless block ~ ~ ~ #sculk_hive:immune_vein unless block ~1 ~ ~ sculk unless block ~-1 ~ ~ sculk unless block ~ ~ ~1 sculk unless block ~ ~ ~-1 sculk unless block ~1 ~ ~ #sculk_hive:non-full unless block ~1 ~ ~ #sculk_hive:non-full_top_surface if block ~1 ~ ~1 sculk run function sculk_hive:behavior/cat_bot/move/vein/place_specific
+
+execute if block ~ ~ ~ #sculk_hive:non-full unless block ~ ~ ~ #sculk_hive:immune_vein unless block ~1 ~ ~ sculk unless block ~-1 ~ ~ sculk unless block ~ ~ ~1 sculk unless block ~ ~ ~-1 sculk unless block ~1 ~ ~ #sculk_hive:non-full unless block ~1 ~ ~ #sculk_hive:non-full_top_surface if block ~1 ~ ~-1 sculk run function sculk_hive:behavior/cat_bot/move/vein/place_specific
+
+execute if block ~ ~ ~ #sculk_hive:non-full unless block ~ ~ ~ #sculk_hive:immune_vein unless block ~1 ~ ~ sculk unless block ~-1 ~ ~ sculk unless block ~ ~ ~1 sculk unless block ~ ~ ~-1 sculk unless block ~-1 ~ ~ #sculk_hive:non-full unless block ~-1 ~ ~ #sculk_hive:non-full_top_surface if block ~-1 ~ ~1 sculk run function sculk_hive:behavior/cat_bot/move/vein/place_specific
+
+execute if block ~ ~ ~ #sculk_hive:non-full unless block ~ ~ ~ #sculk_hive:immune_vein unless block ~1 ~ ~ sculk unless block ~-1 ~ ~ sculk unless block ~ ~ ~1 sculk unless block ~ ~ ~-1 sculk unless block ~-1 ~ ~ #sculk_hive:non-full unless block ~-1 ~ ~ #sculk_hive:non-full_top_surface if block ~-1 ~ ~-1 sculk run function sculk_hive:behavior/cat_bot/move/vein/place_specific
+
+execute if block ~ ~ ~ #sculk_hive:non-full unless block ~ ~ ~ #sculk_hive:immune_vein unless block ~1 ~ ~ sculk unless block ~-1 ~ ~ sculk unless block ~ ~ ~1 sculk unless block ~ ~ ~-1 sculk unless block ~ ~ ~1 #sculk_hive:non-full unless block ~ ~ ~1 #sculk_hive:non-full_top_surface if block ~1 ~ ~1 sculk run function sculk_hive:behavior/cat_bot/move/vein/place_specific
+
+execute if block ~ ~ ~ #sculk_hive:non-full unless block ~ ~ ~ #sculk_hive:immune_vein unless block ~1 ~ ~ sculk unless block ~-1 ~ ~ sculk unless block ~ ~ ~1 sculk unless block ~ ~ ~-1 sculk unless block ~ ~ ~1 #sculk_hive:non-full unless block ~ ~ ~1 #sculk_hive:non-full_top_surface if block ~-1 ~ ~1 sculk run function sculk_hive:behavior/cat_bot/move/vein/place_specific
+
+execute if block ~ ~ ~ #sculk_hive:non-full unless block ~ ~ ~ #sculk_hive:immune_vein unless block ~1 ~ ~ sculk unless block ~-1 ~ ~ sculk unless block ~ ~ ~1 sculk unless block ~ ~ ~-1 sculk unless block ~ ~ ~-1 #sculk_hive:non-full unless block ~ ~ ~-1 #sculk_hive:non-full_top_surface if block ~1 ~ ~-1 sculk run function sculk_hive:behavior/cat_bot/move/vein/place_specific
+
+execute if block ~ ~ ~ #sculk_hive:non-full unless block ~ ~ ~ #sculk_hive:immune_vein unless block ~1 ~ ~ sculk unless block ~-1 ~ ~ sculk unless block ~ ~ ~1 sculk unless block ~ ~ ~-1 sculk unless block ~ ~ ~-1 #sculk_hive:non-full unless block ~ ~ ~-1 #sculk_hive:non-full_top_surface if block ~-1 ~ ~-1 sculk run function sculk_hive:behavior/cat_bot/move/vein/place_specific

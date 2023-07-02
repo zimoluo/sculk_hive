@@ -1,0 +1,20 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "mainhand": {
+                "items": [
+                    "deepslate_copper_ore",
+                    "deepslate_coal_ore",
+                    "deepslate_lapis_ore",
+                    "deepslate_iron_ore",
+                    "deepslate_emerald_ore",
+                    "deepslate_diamond_ore",
+                    "deepslate_redstone_ore",
+                    "deepslate_gold_ore"
+                ]
+            }
+        }
+    }
+}

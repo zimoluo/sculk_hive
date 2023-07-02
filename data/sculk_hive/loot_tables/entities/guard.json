@@ -78,6 +78,185 @@
               "condition": "minecraft:killed_by_player"
             },
             {
+              "condition": "random_chance",
+              "chance": 0.01
+            },
+            {
+              "condition": "entity_properties",
+              "entity": "killer_player",
+              "predicate": {
+                "type_specific": {
+                  "type": "player",
+                  "advancements": {
+                    "minecraft:adventure/sculk_hive_true_ending": true
+                  }
+                }
+              }
+            }
+          ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:2s}, {id:\"minecraft:projectile_protection\",lvl:2s}, {id:\"minecraft:unbreaking\",lvl:3s}], Trim:{material:\"iron\", pattern: \"wayfinder\"}, display:{Name:'{\"text\":\"Guardian Helmet\",\"color\":\"#006F75\",\"italic\":false}'}, HideFlags:128, isGuardianHelmet:1b}"
+              }
+            ],
+            "name": "minecraft:iron_helmet",
+            "weight": 1
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+            {
+              "condition": "minecraft:killed_by_player"
+            },
+            {
+              "condition": "random_chance",
+              "chance": 0.01
+            },
+            {
+              "condition": "entity_properties",
+              "entity": "killer_player",
+              "predicate": {
+                "type_specific": {
+                  "type": "player",
+                  "advancements": {
+                    "minecraft:adventure/sculk_hive_true_ending": true
+                  }
+                }
+              }
+            },
+            {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "chest": {
+                    "items": [
+                      "iron_chestplate"
+                    ]
+                  }
+                }
+              }
+            }
+          ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{AttributeModifiers:[{Name: \"Ironman\", AttributeName:\"minecraft:generic.armor\",Amount: 8.0, Operation: 0, Slot:\"chest\", UUID:[I;-1623373971,-1055374012,-20907132,1716046]}, {Name: \"Ironman is Tough\", AttributeName:\"minecraft:generic.armor_toughness\",Amount: 2.0, Operation: 0, Slot:\"chest\", UUID:[I;-1623373971,-1055374012,-20907132,1716046]}, {Name: \"Ironman is Slow\", AttributeName:\"minecraft:generic.movement_speed\",Amount: -0.012, Operation: 0, Slot:\"chest\", UUID:[I;-1623373971,-1055374012,-20907132,1716046]},{Name: \"Ironman is Powerful\", AttributeName:\"minecraft:generic.attack_damage\",Amount: 2.5, Operation: 0, Slot:\"chest\", UUID:[I;-1623373971,-1055374012,-20907132,1716046]}, {Name: \"Ironman is Resistant\", AttributeName:\"minecraft:generic.knockback_resistance\",Amount: 0.3, Operation: 0, Slot:\"chest\", UUID:[I;-1623373971,-1055374012,-20907132,1716046]}, {Name: \"Ironman is Healthy\", AttributeName:\"minecraft:generic.max_health\",Amount: 4.0, Operation: 0, Slot:\"chest\", UUID:[I;-1623373971,-1055374012,-20907132,1716046]}], Enchantments:[{id:\"projectile_protection\", lvl:3s},{id:\"fire_protection\", lvl:3s}, {id:\"thorns\", lvl:2s}, {id:\"unbreaking\", lvl:3s}], Trim:{material:\"iron\", pattern: \"eye\"}, display:{Name:'{\"text\":\"Guardian Chestplate\",\"color\":\"#006F75\",\"italic\":false}'}, HideFlags:128, isGuardianChestplate:1b}"
+              }
+            ],
+            "name": "minecraft:iron_chestplate",
+            "weight": 1
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+            {
+              "condition": "minecraft:killed_by_player"
+            },
+            {
+              "condition": "random_chance",
+              "chance": 0.01
+            },
+            {
+              "condition": "entity_properties",
+              "entity": "killer_player",
+              "predicate": {
+                "type_specific": {
+                  "type": "player",
+                  "advancements": {
+                    "minecraft:adventure/sculk_hive_true_ending": true
+                  }
+                }
+              }
+            },
+            {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"sh_guard_had_shield\"]}"
+              }
+            }
+          ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{BlockEntityTag:{Base:15,Patterns:[{Color:8,Pattern:\"bo\"},{Color:7,Pattern:\"flo\"},{Color:0,Pattern:\"flo\"}]}, AttributeModifiers:[{Name: \"Super Soldier\", AttributeName:\"minecraft:generic.armor\",Amount: 12.0, Operation: 0, Slot:\"offhand\", UUID:[I;-1623373971,-1055374012,-2090532864,105399952]}, {Name: \"Super Soldier is Tough\", AttributeName:\"minecraft:generic.armor_toughness\",Amount: 3.5, Operation: 0, Slot:\"offhand\", UUID:[I;-1623373971,-1055374012,-2090532864,105399952]}, {Name: \"Super Soldier is Slow\", AttributeName:\"minecraft:generic.movement_speed\",Amount: -0.036, Operation: 0, Slot:\"offhand\", UUID:[I;-1623373971,-1055374012,-2090532864,105399952]}, {Name: \"Super Soldier is Resistant\", AttributeName:\"minecraft:generic.knockback_resistance\",Amount: 0.8, Operation: 0, Slot:\"offhand\", UUID:[I;-1623373971,-1055374012,-2090532864,105399952]},{Name: \"Super Soldier is Powerful\", AttributeName:\"minecraft:generic.attack_damage\",Amount: 3.5, Operation: 0, Slot:\"offhand\", UUID:[I;-1623373971,-1055374012,-2090532864,105399952]}, {Name: \"Super Soldier is Healthy\", AttributeName:\"minecraft:generic.max_health\",Amount: 6.0, Operation: 0, Slot:\"offhand\", UUID:[I;-1623373971,-1055374012,-2090532864,105399952]}, {Name: \"Super Soldier is Beating\", AttributeName:\"minecraft:generic.attack_knockback\",Amount: 0.25, Operation: 0, Slot:\"offhand\", UUID:[I;-1623373971,-1055374012,-2090532864,105399952]}], Enchantments:[{id:\"projectile_protection\", lvl:4s},{id:\"fire_protection\", lvl:4s},{id:\"protection\", lvl:1s}, {id:\"thorns\", lvl:3s},{id:\"unbreaking\", lvl:3s}], display:{Name:'{\"text\":\"Guardian Shield\",\"color\":\"#006F75\",\"italic\":false}'}, HideFlags:32, isGuardianShield:1b}"
+              }
+            ],
+            "name": "minecraft:shield",
+            "weight": 1
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+            {
+              "condition": "minecraft:killed_by_player"
+            },
+            {
+              "condition": "random_chance",
+              "chance": 0.01
+            },
+            {
+              "condition": "entity_properties",
+              "entity": "killer_player",
+              "predicate": {
+                "type_specific": {
+                  "type": "player",
+                  "advancements": {
+                    "minecraft:adventure/sculk_hive_true_ending": true
+                  }
+                }
+              }
+            },
+            {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"sh_guard_soul\"]}"
+              }
+            }
+          ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionEffects:[{Id:20,Amplifier:1,Duration:240},{Id:33,Amplifier:0,Duration:360},{Id:18,Amplifier:0,Duration:100}], CustomPotionColor: 28533, display:{Name:'{\"text\":\"Dark Brew\",\"color\":\"#006F75\",\"italic\":false}'}, isDarkBrew:1b}"
+              }
+            ],
+            "name": "minecraft:splash_potion",
+            "weight": 1
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+            {
+              "condition": "minecraft:killed_by_player"
+            },
+            {
               "condition": "entity_properties",
               "entity": "killer_player",
               "predicate": {

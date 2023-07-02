@@ -8,4 +8,7 @@ scoreboard players operation @s sh_cat_span_max = @s sh_cat_span
 
 function sculk_hive:behavior/cat_bot/reset_ttl
 
+tp @s ~ ~ ~ facing entity @e[tag=sh_main,limit=1,sort=nearest,distance=..40]
+execute at @s run tp @s ~ ~ ~ ~180 0
+
 tag @s remove sh_bot_raw

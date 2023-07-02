@@ -1,13 +1,29 @@
 {
   "replace": false,
   "values": [
-	"#sculk_hive:non-attack",
+	"#sculk_hive:non-mob",
+  "ghast",
   "ender_dragon",
   "phantom",
   "bat",
   "parrot",
   "allay",
   "vex",
-  "bee"
+  "silverfish",
+  "#sculk_hive:guard",
+  "cod",
+  "salmon",
+  "tropical_fish",
+  "pufferfish",
+  "squid",
+  "glow_squid",
+  "dolphin",
+  "wither",
+  "ocelot",
+  "cat",
+  "cow",
+  "pig",
+  "sheep",
+  "chicken"
   ]
 }

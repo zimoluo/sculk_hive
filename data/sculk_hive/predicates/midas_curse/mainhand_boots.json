@@ -1,0 +1,18 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "mainhand": {
+                "items": [
+                    "iron_boots",
+                    "leather_boots",
+                    "chainmail_boots",
+                    "diamond_boots",
+                    "netherite_boots",
+                    "golden_boots"
+                ]
+            }
+        }
+    }
+}

@@ -12,7 +12,4 @@ summon experience_orb ~0.1 ~0.5 ~ {Count:1, Value:15s}
 summon experience_orb ~ ~0.5 ~0.1 {Count:1, Value:10s}
 summon experience_orb ~-0.1 ~0.5 ~-0.1 {Count:1, Value:5s}
 
-execute unless block ~ ~-1 ~ #sculk_hive:immune_spread run setblock ~ ~-1 ~ sculk
-execute if block ~ ~-1 ~ #sculk_hive:immune_spread unless block ~ ~-1 ~ #sculk_hive:non-full unless block ~ ~-1 ~ #sculk_hive:non-full_top_surface unless block ~ ~-1 ~ #sculk_hive:sculk_full run setblock ~ ~ ~ sculk_vein[down=true,east=true,north=true,south=true,up=true,west=true]
-
 kill @s

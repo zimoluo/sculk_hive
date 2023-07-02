@@ -88,6 +88,13 @@ scoreboard objectives add sh_guard_conversion dummy
 scoreboard objectives add sh_delete_tick dummy
 scoreboard objectives add sh_riding_test dummy
 scoreboard objectives add sh_aggro_cd dummy
+scoreboard objectives add sh_potion_cd dummy
+scoreboard objectives add sh_fire_cd dummy
+scoreboard objectives add sh_arrow_dx dummy
+scoreboard objectives add sh_arrow_dy dummy
+scoreboard objectives add sh_arrow_dz dummy
+scoreboard objectives add sh_arrow_score dummy
+scoreboard objectives add sh_midas_tick dummy
 
 scoreboard objectives add sh_constant dummy
 scoreboard players set 2 sh_constant 2
@@ -115,3 +122,4 @@ team modify sculk_hive seeFriendlyInvisibles false
 team modify sculk_hive collisionRule always
 bossbar add sculk_hive:health {"color":"#006F75","text":"Sculk Hive","italic": false}
 bossbar set sculk_hive:health style progress
+data merge storage sculk_hive:midas_curse {}

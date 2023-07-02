@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+	"minecraft:warden",
+  "ghast",
+	"#minecraft:arrows",
+  "trident",
+  "boat",
+  "chest_boat",
+  "minecart",
+  "chest_minecart",
+  "tnt_minecart",
+  "furnace_minecart",
+  "hopper_minecart"
+  ]
+}

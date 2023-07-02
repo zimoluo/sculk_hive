@@ -393,6 +393,19 @@
           },
           "location_predicate": {
             "predicate_type": "minecraft:block_match",
+            "block": "minecraft:grass_block"
+          },
+          "output_state": {
+            "Name": "minecraft:dirt"
+          }
+        },
+        {
+          "input_predicate": {
+            "block": "minecraft:stone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
             "block": "minecraft:copper_ore"
           },
           "output_state": {

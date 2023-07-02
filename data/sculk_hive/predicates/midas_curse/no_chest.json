@@ -1,0 +1,14 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "chest": {
+                "items": [
+                    "air",
+                    "golden_chestplate"
+                ]
+            }
+        }
+    }
+}

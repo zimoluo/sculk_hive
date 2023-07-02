@@ -47,3 +47,7 @@ execute if data storage sculk_hive:data {world:{difficulty:3}} run scoreboard pl
 execute if data storage sculk_hive:data {world:{difficulty:1}} run scoreboard players set ESCAPE sh_constant 90
 execute if data storage sculk_hive:data {world:{difficulty:2}} run scoreboard players set ESCAPE sh_constant 120
 execute if data storage sculk_hive:data {world:{difficulty:3}} run scoreboard players set ESCAPE sh_constant 160
+
+execute if data storage sculk_hive:data {world:{difficulty:1}} run scoreboard players set MIDAS sh_constant 160
+execute if data storage sculk_hive:data {world:{difficulty:2}} run scoreboard players set MIDAS sh_constant 240
+execute if data storage sculk_hive:data {world:{difficulty:3}} run scoreboard players set MIDAS sh_constant 320

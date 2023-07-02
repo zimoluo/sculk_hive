@@ -1,0 +1,5 @@
+execute if entity @s[tag=sh_bot_super] if score @s sh_cat_span matches 1.. if score @s sh_cat_span_diff matches ..0 run function sculk_hive:behavior/cat_bot/rotation/begin
+execute if entity @s[tag=sh_bot_super] if score @s sh_cat_span matches 1.. if score @s sh_cat_span_diff matches 1.. run function sculk_hive:behavior/cat_bot/rotation/super
+execute unless entity @s[tag=sh_bot_super] if score @s sh_cat_span matches 1.. if score @s sh_cat_span_diff matches ..0 run function sculk_hive:behavior/cat_bot/rotation/begin
+execute unless entity @s[tag=sh_bot_super] if score @s sh_cat_span matches 1.. if score @s sh_cat_span_diff matches 1.. unless score @s sh_cat_span matches ..2 run function sculk_hive:behavior/cat_bot/rotation/onmyway
+execute unless entity @s[tag=sh_bot_super] if score @s sh_cat_span matches 1.. if score @s sh_cat_span matches ..2 run function sculk_hive:behavior/cat_bot/rotation/almost

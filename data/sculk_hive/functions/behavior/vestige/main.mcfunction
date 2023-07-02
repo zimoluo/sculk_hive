@@ -13,3 +13,6 @@ execute if entity @s[tag=sh_guard] if entity @e[tag=sh_vestige_spawn_center,dist
 execute if entity @s[tag=sh_guard] unless predicate sculk_hive:vestige/in_vestige unless entity @e[tag=sh_vestige_spawn_center,distance=..128] unless entity @s[tag=sh_guard_despawn] run scoreboard players add @s sh_cd 1
 
 execute if entity @s[tag=sh_guard] if score @s sh_cd matches 100.. unless entity @s[tag=sh_guard_despawn] run function sculk_hive:behavior/vestige/prepare_despawn
+
+execute if entity @s[tag=sh_guard, tag=sh_guard_has_seen_potion] run function sculk_hive:behavior/vestige/potion_tick
+execute if entity @s[tag=sh_guard, tag=sh_guard_potion_gone] run function sculk_hive:behavior/vestige/see_if_poisoned

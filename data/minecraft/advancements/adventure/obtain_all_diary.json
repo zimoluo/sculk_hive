@@ -32,7 +32,7 @@
     "description": {
       "text": "Have all Developer Diaries in inventory at once!"
     },
-    "frame": "challenge",
+    "frame": "goal",
     "hidden": true,
     "icon": {
       "item": "minecraft:written_book"
@@ -46,6 +46,5 @@
     [
       "obtain_all_diary"
     ]
-  ],
-  "hidden": true
+  ]
 }

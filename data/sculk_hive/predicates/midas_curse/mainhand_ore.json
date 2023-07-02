@@ -1,0 +1,20 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "mainhand": {
+                "items": [
+                    "copper_ore",
+                    "coal_ore",
+                    "lapis_ore",
+                    "iron_ore",
+                    "emerald_ore",
+                    "diamond_ore",
+                    "redstone_ore",
+                    "gold_ore"
+                ]
+            }
+        }
+    }
+}

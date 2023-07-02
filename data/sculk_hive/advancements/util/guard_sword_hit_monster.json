@@ -1,0 +1,582 @@
+{
+  "criteria": {
+      "blaze": {
+          "trigger": "minecraft:player_hurt_entity",
+          "conditions": {
+              "entity": [
+                  {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                          "type": "minecraft:blaze"
+                      }
+                  }
+              ]
+          }
+      },
+      "skeleton_horse_soldier": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+            "entity": [
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "type": "minecraft:skeleton_horse",
+                        "nbt": "{Tags:[\"sh_sdr\"]}"
+                    }
+                }
+            ]
+        }
+    },
+      "warden": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+            "entity": [
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "type": "minecraft:warden"
+                    }
+                }
+            ]
+        }
+    },
+    "illusioner": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+            "entity": [
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "type": "minecraft:illusioner"
+                    }
+                }
+            ]
+        }
+    },
+    "player": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+            "entity": [
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "type": "minecraft:player"
+                    }
+                }
+            ]
+        }
+    },
+      "cave_spider": {
+          "trigger": "minecraft:player_hurt_entity",
+          "conditions": {
+              "entity": [
+                  {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                          "type": "minecraft:cave_spider"
+                      }
+                  }
+              ]
+          }
+      },
+      "creeper": {
+          "trigger": "minecraft:player_hurt_entity",
+          "conditions": {
+              "entity": [
+                  {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                          "type": "minecraft:creeper"
+                      }
+                  }
+              ]
+          }
+      },
+      "drowned": {
+          "trigger": "minecraft:player_hurt_entity",
+          "conditions": {
+              "entity": [
+                  {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                          "type": "minecraft:drowned"
+                      }
+                  }
+              ]
+          }
+      },
+      "elder_guardian": {
+          "trigger": "minecraft:player_hurt_entity",
+          "conditions": {
+              "entity": [
+                  {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                          "type": "minecraft:elder_guardian"
+                      }
+                  }
+              ]
+          }
+      },
+      "ender_dragon": {
+          "trigger": "minecraft:player_hurt_entity",
+          "conditions": {
+              "entity": [
+                  {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                          "type": "minecraft:ender_dragon"
+                      }
+                  }
+              ]
+          }
+      },
+      "enderman": {
+          "trigger": "minecraft:player_hurt_entity",
+          "conditions": {
+              "entity": [
+                  {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                          "type": "minecraft:enderman"
+                      }
+                  }
+              ]
+          }
+      },
+      "endermite": {
+          "trigger": "minecraft:player_hurt_entity",
+          "conditions": {
+              "entity": [
+                  {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                          "type": "minecraft:endermite"
+                      }
+                  }
+              ]
+          }
+      },
+      "evoker": {
+          "trigger": "minecraft:player_hurt_entity",
+          "conditions": {
+              "entity": [
+                  {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                          "type": "minecraft:evoker"
+                      }
+                  }
+              ]
+          }
+      },
+      "ghast": {
+          "trigger": "minecraft:player_hurt_entity",
+          "conditions": {
+              "entity": [
+                  {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                          "type": "minecraft:ghast"
+                      }
+                  }
+              ]
+          }
+      },
+      "guardian": {
+          "trigger": "minecraft:player_hurt_entity",
+          "conditions": {
+              "entity": [
+                  {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                          "type": "minecraft:guardian"
+                      }
+                  }
+              ]
+          }
+      },
+      "hoglin": {
+          "trigger": "minecraft:player_hurt_entity",
+          "conditions": {
+              "entity": [
+                  {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                          "type": "minecraft:hoglin"
+                      }
+                  }
+              ]
+          }
+      },
+      "husk": {
+          "trigger": "minecraft:player_hurt_entity",
+          "conditions": {
+              "entity": [
+                  {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                          "type": "minecraft:husk"
+                      }
+                  }
+              ]
+          }
+      },
+      "magma_cube": {
+          "trigger": "minecraft:player_hurt_entity",
+          "conditions": {
+              "entity": [
+                  {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                          "type": "minecraft:magma_cube"
+                      }
+                  }
+              ]
+          }
+      },
+      "phantom": {
+          "trigger": "minecraft:player_hurt_entity",
+          "conditions": {
+              "entity": [
+                  {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                          "type": "minecraft:phantom"
+                      }
+                  }
+              ]
+          }
+      },
+      "piglin": {
+          "trigger": "minecraft:player_hurt_entity",
+          "conditions": {
+              "entity": [
+                  {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                          "type": "minecraft:piglin"
+                      }
+                  }
+              ]
+          }
+      },
+      "piglin_brute": {
+          "trigger": "minecraft:player_hurt_entity",
+          "conditions": {
+              "entity": [
+                  {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                          "type": "minecraft:piglin_brute"
+                      }
+                  }
+              ]
+          }
+      },
+      "pillager": {
+          "trigger": "minecraft:player_hurt_entity",
+          "conditions": {
+              "entity": [
+                  {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                          "type": "minecraft:pillager"
+                      }
+                  }
+              ]
+          }
+      },
+      "ravager": {
+          "trigger": "minecraft:player_hurt_entity",
+          "conditions": {
+              "entity": [
+                  {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                          "type": "minecraft:ravager"
+                      }
+                  }
+              ]
+          }
+      },
+      "shulker": {
+          "trigger": "minecraft:player_hurt_entity",
+          "conditions": {
+              "entity": [
+                  {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                          "type": "minecraft:shulker"
+                      }
+                  }
+              ]
+          }
+      },
+      "silverfish": {
+          "trigger": "minecraft:player_hurt_entity",
+          "conditions": {
+              "entity": [
+                  {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                          "type": "minecraft:silverfish"
+                      }
+                  }
+              ]
+          }
+      },
+      "skeleton": {
+          "trigger": "minecraft:player_hurt_entity",
+          "conditions": {
+              "entity": [
+                  {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                          "type": "minecraft:skeleton"
+                      }
+                  }
+              ]
+          }
+      },
+      "slime": {
+          "trigger": "minecraft:player_hurt_entity",
+          "conditions": {
+              "entity": [
+                  {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                          "type": "minecraft:slime"
+                      }
+                  }
+              ]
+          }
+      },
+      "spider": {
+          "trigger": "minecraft:player_hurt_entity",
+          "conditions": {
+              "entity": [
+                  {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                          "type": "minecraft:spider"
+                      }
+                  }
+              ]
+          }
+      },
+      "stray": {
+          "trigger": "minecraft:player_hurt_entity",
+          "conditions": {
+              "entity": [
+                  {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                          "type": "minecraft:stray"
+                      }
+                  }
+              ]
+          }
+      },
+      "vex": {
+          "trigger": "minecraft:player_hurt_entity",
+          "conditions": {
+              "entity": [
+                  {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                          "type": "minecraft:vex"
+                      }
+                  }
+              ]
+          }
+      },
+      "vindicator": {
+          "trigger": "minecraft:player_hurt_entity",
+          "conditions": {
+              "entity": [
+                  {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                          "type": "minecraft:vindicator"
+                      }
+                  }
+              ]
+          }
+      },
+      "witch": {
+          "trigger": "minecraft:player_hurt_entity",
+          "conditions": {
+              "entity": [
+                  {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                          "type": "minecraft:witch"
+                      }
+                  }
+              ]
+          }
+      },
+      "wither": {
+          "trigger": "minecraft:player_hurt_entity",
+          "conditions": {
+              "entity": [
+                  {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                          "type": "minecraft:wither"
+                      }
+                  }
+              ]
+          }
+      },
+      "wither_skeleton": {
+          "trigger": "minecraft:player_hurt_entity",
+          "conditions": {
+              "entity": [
+                  {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                          "type": "minecraft:wither_skeleton"
+                      }
+                  }
+              ]
+          }
+      },
+      "zoglin": {
+          "trigger": "minecraft:player_hurt_entity",
+          "conditions": {
+              "entity": [
+                  {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                          "type": "minecraft:zoglin"
+                      }
+                  }
+              ]
+          }
+      },
+      "zombie": {
+          "trigger": "minecraft:player_hurt_entity",
+          "conditions": {
+              "entity": [
+                  {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                          "type": "minecraft:zombie"
+                      }
+                  }
+              ]
+          }
+      },
+      "zombie_villager": {
+          "trigger": "minecraft:player_hurt_entity",
+          "conditions": {
+              "entity": [
+                  {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                          "type": "minecraft:zombie_villager"
+                      }
+                  }
+              ]
+          }
+      },
+      "zombified_piglin": {
+          "trigger": "minecraft:player_hurt_entity",
+          "conditions": {
+              "entity": [
+                  {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                          "type": "minecraft:zombified_piglin"
+                      }
+                  }
+              ]
+          }
+      }
+  },
+  "requirements": [
+      [
+          "blaze",
+          "cave_spider",
+          "creeper",
+          "drowned",
+          "elder_guardian",
+          "ender_dragon",
+          "enderman",
+          "endermite",
+          "evoker",
+          "ghast",
+          "guardian",
+          "hoglin",
+          "husk",
+          "magma_cube",
+          "phantom",
+          "piglin",
+          "piglin_brute",
+          "pillager",
+          "ravager",
+          "shulker",
+          "silverfish",
+          "skeleton",
+          "slime",
+          "spider",
+          "stray",
+          "vex",
+          "vindicator",
+          "witch",
+          "wither_skeleton",
+          "wither",
+          "zoglin",
+          "zombie_villager",
+          "zombie",
+          "zombified_piglin",
+          "warden",
+          "player",
+          "illusioner",
+          "skeleton_horse_soldier"
+      ]
+  ],
+  "rewards": {
+    "function": "sculk_hive:behavior/player_hurt/guard_sword_hit_judge"
+  }
+}

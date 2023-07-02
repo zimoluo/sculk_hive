@@ -1,0 +1,18 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "mainhand": {
+                "items": [
+                    "iron_leggings",
+                    "leather_leggings",
+                    "chainmail_leggings",
+                    "diamond_leggings",
+                    "netherite_leggings",
+                    "golden_leggings"
+                ]
+            }
+        }
+    }
+}

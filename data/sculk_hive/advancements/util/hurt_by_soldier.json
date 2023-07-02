@@ -1,0 +1,51 @@
+{
+  "criteria": {
+      "hurt_by_sdr": {
+          "conditions": {
+            "damage": {
+              "source_entity": {
+                "nbt": "{Tags:[\"sh_sdr\"]}"
+              },
+              "type": {
+                "tags": [
+                  {
+                    "id": "sculk_hive:guard_attack",
+                    "expected": true
+                  }
+                ]
+              },
+              "blocked": false
+            }
+          },
+          "trigger": "minecraft:entity_hurt_player"
+    },
+    "hurt_by_rdr": {
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "nbt": "{Tags:[\"sh_rdr\"]}"
+          },
+          "type": {
+            "tags": [
+              {
+                "id": "sculk_hive:guard_attack",
+                "expected": true
+              }
+            ]
+          },
+          "blocked": false
+        }
+      },
+      "trigger": "minecraft:entity_hurt_player"
+    }
+  },
+  "requirements": [
+    [
+      "hurt_by_sdr",
+      "hurt_by_rdr"
+    ]
+  ],
+  "rewards": {
+    "function": "sculk_hive:behavior/player_hurt/soldier"
+  }
+}

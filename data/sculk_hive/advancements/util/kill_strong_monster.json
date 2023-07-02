@@ -15,7 +15,7 @@
         "killing_blow": {
           "tags": [
             {
-              "expected": "true",
+              "expected": true,
               "id": "sculk_hive:sword_valid"
             }
           ]
@@ -38,7 +38,7 @@
           "killing_blow": {
             "tags": [
               {
-                "expected": "true",
+                "expected": true,
                 "id": "sculk_hive:sword_valid"
               }
             ]
@@ -60,7 +60,7 @@
         "killing_blow": {
           "tags": [
             {
-              "expected": "true",
+              "expected": true,
               "id": "sculk_hive:sword_valid"
             }
           ]
@@ -82,7 +82,7 @@
         "killing_blow": {
           "tags": [
             {
-              "expected": "true",
+              "expected": true,
               "id": "sculk_hive:sword_valid"
             }
           ]
@@ -104,7 +104,7 @@
         "killing_blow": {
           "tags": [
             {
-              "expected": "true",
+              "expected": true,
               "id": "sculk_hive:sword_valid"
             }
           ]
@@ -126,7 +126,7 @@
         "killing_blow": {
           "tags": [
             {
-              "expected": "true",
+              "expected": true,
               "id": "sculk_hive:sword_valid"
             }
           ]
@@ -155,7 +155,7 @@
         "killing_blow": {
           "tags": [
             {
-              "expected": "true",
+              "expected": true,
               "id": "sculk_hive:sword_valid"
             }
           ]
@@ -177,7 +177,7 @@
         "killing_blow": {
           "tags": [
             {
-              "expected": "true",
+              "expected": true,
               "id": "sculk_hive:sword_valid"
             }
           ]
@@ -199,7 +199,7 @@
         "killing_blow": {
           "tags": [
             {
-              "expected": "true",
+              "expected": true,
               "id": "sculk_hive:sword_valid"
             }
           ]
@@ -221,7 +221,7 @@
         "killing_blow": {
           "tags": [
             {
-              "expected": "true",
+              "expected": true,
               "id": "sculk_hive:sword_valid"
             }
           ]
@@ -243,7 +243,7 @@
         "killing_blow": {
           "tags": [
             {
-              "expected": "true",
+              "expected": true,
               "id": "sculk_hive:sword_valid"
             }
           ]
@@ -265,7 +265,7 @@
         "killing_blow": {
           "tags": [
             {
-              "expected": "true",
+              "expected": true,
               "id": "sculk_hive:sword_valid"
             }
           ]
@@ -288,7 +288,7 @@
         "killing_blow": {
           "tags": [
             {
-              "expected": "true",
+              "expected": true,
               "id": "sculk_hive:sword_valid"
             }
           ]
@@ -310,7 +310,7 @@
         "killing_blow": {
           "tags": [
             {
-              "expected": "true",
+              "expected": true,
               "id": "sculk_hive:sword_valid"
             }
           ]
@@ -332,7 +332,7 @@
         "killing_blow": {
           "tags": [
             {
-              "expected": "true",
+              "expected": true,
               "id": "sculk_hive:sword_valid"
             }
           ]
@@ -344,7 +344,7 @@
       "conditions": {
         "entity": [
           {
-            "condition": "alternative",
+            "condition": "any_of",
             "terms": [
               {
                 "condition": "minecraft:entity_properties",
@@ -368,7 +368,7 @@
         "killing_blow": {
           "tags": [
             {
-              "expected": "true",
+              "expected": true,
               "id": "sculk_hive:sword_valid"
             }
           ]
@@ -390,7 +390,7 @@
         "killing_blow": {
           "tags": [
             {
-              "expected": "true",
+              "expected": true,
               "id": "sculk_hive:sword_valid"
             }
           ]
@@ -412,7 +412,7 @@
         "killing_blow": {
           "tags": [
             {
-              "expected": "true",
+              "expected": true,
               "id": "sculk_hive:sword_valid"
             }
           ]
@@ -434,7 +434,7 @@
         "killing_blow": {
           "tags": [
             {
-              "expected": "true",
+              "expected": true,
               "id": "sculk_hive:sword_valid"
             }
           ]
@@ -456,7 +456,7 @@
         "killing_blow": {
           "tags": [
             {
-              "expected": "true",
+              "expected": true,
               "id": "sculk_hive:sword_valid"
             }
           ]
@@ -478,7 +478,7 @@
         "killing_blow": {
           "tags": [
             {
-              "expected": "true",
+              "expected": true,
               "id": "sculk_hive:sword_valid"
             }
           ]
@@ -490,7 +490,7 @@
       "conditions": {
         "entity": [
           {
-            "condition": "alternative",
+            "condition": "any_of",
             "terms": [
               {
                 "condition": "minecraft:entity_properties",
@@ -514,7 +514,7 @@
         "killing_blow": {
           "tags": [
             {
-              "expected": "true",
+              "expected": true,
               "id": "sculk_hive:sword_valid"
             }
           ]

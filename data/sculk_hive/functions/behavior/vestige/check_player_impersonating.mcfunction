@@ -1,0 +1,2 @@
+execute as @a[advancements={sculk_hive:util/check_guard_setup=true}] if predicate sculk_hive:vestige/impersonating run advancement grant @s only adventure/impersonate_guard
+advancement revoke @s only sculk_hive:util/check_guard_setup

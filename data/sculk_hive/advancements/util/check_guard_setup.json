@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:nether/obtain_ancient_debris",
+    "criteria": {
+      "netherite_armor": {
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{isGuardianHelmet:1b}"
+            },
+            {
+                "nbt": "{isGuardianChestplate:1b}"
+            },
+            {
+                "nbt": "{isGuardianShield:1b}"
+            },
+            {
+                "nbt": "{isGuardianWeapon:1b}"
+            }
+          ]
+        },
+        "trigger": "minecraft:inventory_changed"
+      }
+    },
+    "requirements": [
+      [
+        "netherite_armor"
+      ]
+    ],
+    "rewards": {
+      "function": "sculk_hive:behavior/vestige/check_player_impersonating"
+    }
+  }

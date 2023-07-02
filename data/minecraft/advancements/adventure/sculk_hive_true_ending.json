@@ -10,8 +10,8 @@
     "description": {
       "text": "Witness the powerful monstrosity's rage and death"
     },
-    "frame": "challenge",
-    "hidden": true,
+    "frame": "goal",
+    "hidden": false,
     "icon": {
       "item": "minecraft:sculk_shrieker"
     },
@@ -24,6 +24,5 @@
     [
       "quite_impossible"
     ]
-  ],
-  "hidden": true
+  ]
 }

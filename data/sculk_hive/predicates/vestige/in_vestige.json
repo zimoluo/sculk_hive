@@ -1,70 +1,61 @@
 {
-    "condition": "inverted",
-    "term": {
-        "condition": "alternative",
-        "terms": [
-            {
-                "condition": "inverted",
-                "term": {
+    "condition": "all_of",
+    "terms": [
+        {
+            "condition": "location_check",
+            "predicate": {
+                "structure": "sculk_hive:jungle_vestiges"
+            }
+        },
+        {
+            "condition": "any_of",
+            "terms": [
+                {
                     "condition": "location_check",
+                    "offsetY": -1,
                     "predicate": {
-                        "structure": "sculk_hive:jungle_vestiges"
+                        "block": {
+                            "tag": "sculk_hive:vestige_floor"
+                        }
+                    }
+                },
+                {
+                    "condition": "location_check",
+                    "offsetY": -2,
+                    "predicate": {
+                        "block": {
+                            "tag": "sculk_hive:vestige_floor"
+                        }
+                    }
+                },
+                {
+                    "condition": "location_check",
+                    "offsetY": -3,
+                    "predicate": {
+                        "block": {
+                            "tag": "sculk_hive:vestige_floor"
+                        }
+                    }
+                },
+                {
+                    "condition": "location_check",
+                    "offsetY": -4,
+                    "predicate": {
+                        "block": {
+                            "tag": "sculk_hive:vestige_floor"
+                        }
+                    }
+                },
+                {
+                    "condition": "location_check",
+                    "offsetY": -5,
+                    "predicate": {
+                        "block": {
+                            "tag": "sculk_hive:vestige_floor"
+                        }
                     }
                 }
-            },
-            {
-                "condition": "inverted",
-                "term": {
-                    "condition": "alternative",
-                    "terms": [
-                        {
-                            "condition": "location_check",
-                            "offsetY": -1,
-                            "predicate": {
-                                "block": {
-                                    "tag": "sculk_hive:vestige_floor"
-                                }
-                            }
-                        },
-                        {
-                            "condition": "location_check",
-                            "offsetY": -2,
-                            "predicate": {
-                                "block": {
-                                    "tag": "sculk_hive:vestige_floor"
-                                }
-                            }
-                        },
-                        {
-                            "condition": "location_check",
-                            "offsetY": -3,
-                            "predicate": {
-                                "block": {
-                                    "tag": "sculk_hive:vestige_floor"
-                                }
-                            }
-                        },
-                        {
-                            "condition": "location_check",
-                            "offsetY": -4,
-                            "predicate": {
-                                "block": {
-                                    "tag": "sculk_hive:vestige_floor"
-                                }
-                            }
-                        },
-                        {
-                            "condition": "location_check",
-                            "offsetY": -5,
-                            "predicate": {
-                                "block": {
-                                    "tag": "sculk_hive:vestige_floor"
-                                }
-                            }
-                        }
-                    ]
-                }
-            }
-        ]
-    }
+            ]
+        }
+    ]
 }

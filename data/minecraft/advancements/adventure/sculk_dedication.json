@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:adventure/kill_sculk_hive",
+  "parent": "minecraft:adventure/sculk_hive_true_ending",
   "criteria": {
     "quite_impossible": {
       "trigger": "minecraft:impossible"
@@ -25,6 +25,5 @@
     [
       "quite_impossible"
     ]
-  ],
-  "hidden": true
+  ]
 }

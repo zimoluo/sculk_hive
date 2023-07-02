@@ -1,0 +1,26 @@
+[
+    {
+      "function": "copy_nbt",
+      "source": {
+        "type": "storage",
+        "source": "sculk_hive:midas_curse"
+      },
+      "ops": [
+        {
+          "op": "replace",
+          "source": "itemData.display",
+          "target": "display"
+        },
+        {
+          "op": "replace",
+          "source": "itemData.CanDestroy",
+          "target": "CanDestroy"
+        },
+        {
+          "op": "replace",
+          "source": "itemData.HideFlags",
+          "target": "HideFlags"
+        }
+      ]
+    }
+  ]

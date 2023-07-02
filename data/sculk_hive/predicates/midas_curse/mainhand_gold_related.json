@@ -1,0 +1,60 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+            "equipment": {
+                "mainhand": {
+                    "items": [
+                            "gold_block",
+                            "gold_ingot",
+                            "gold_nugget",
+                            "gold_ore",
+                            "golden_apple",
+                            "golden_axe",
+                            "golden_boots",
+                            "golden_helmet",
+                            "golden_chestplate",
+                            "golden_leggings",
+                            "raw_gold",
+                            "raw_gold_block",
+                            "golden_hoe",
+                            "golden_sword",
+                            "golden_shovel",
+                            "golden_pickaxe",
+                            "golden_horse_armor",
+                            "spectral_arrow",
+                            "golden_carrot",
+                            "glistering_melon_slice",
+                            "powered_rail",
+                            "deepslate_gold_ore",
+                            "nether_gold_ore",
+                            "enchanted_golden_apple",
+                            "gilded_blackstone",
+                            "clock",
+                            "totem_of_undying",
+                            "bell",
+                            "light_weighted_pressure_plate"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "mainhand": {
+                        "nbt": "{BlockEntityTag:{LootTable:\"sculk_hive:chests/midas\"}}",
+                        "items": [
+                            "chest"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

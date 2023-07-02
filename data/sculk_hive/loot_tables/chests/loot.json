@@ -209,11 +209,31 @@
                 "functions": [
                     {
                         "function": "set_nbt",
-                        "tag": "{HideFlags: 6, Enchantments:[{id:\"minecraft:binding_curse\", lvl:1s}], IsSculkSword:1b, StrongFaith:0b, HasWielder:0b, WielderUUID:[I; 0,0,0,0], AttributeModifiers:[{Slot:\"mainhand\", AttributeName:\"generic.attack_speed\", Name:\"generic.attack_speed\", Amount:-2.18d, Operation:0, UUID:[I; -98353636, 1098926181, -1340359474, -1752847197]},{Slot:\"mainhand\", AttributeName:\"generic.attack_damage\", Name:\"generic.attack_damage\", Amount:9.8, Operation:0, UUID:[I; -885041709, 1683771192, -1533567981, -1556236849]}],Unbreakable:1b,display:{Name:'{\"text\":\"Sculk Sword\",\"color\":\"#006F75\",\"italic\":false}',Lore:['\" \"','{\"text\":\"Enchanted with souls\",\"color\":\"#006F75\",\"italic\":false, \"font\":\"minecraft:illageralt\"}']}}"
+                        "tag": "{HideFlags: 6, Enchantments:[{id:\"minecraft:binding_curse\", lvl:1s}], IsSculkSword:1b, StrongFaith:0b, HasWielder:0b, WielderUUID:[I; 0,0,0,0], AttributeModifiers:[{Slot:\"mainhand\", AttributeName:\"generic.attack_speed\", Name:\"generic.attack_speed\", Amount:-2.18d, Operation:0, UUID:[I; -98353636, 1098926181, -1340359474, -1752847197]},{Slot:\"mainhand\", AttributeName:\"generic.attack_damage\", Name:\"generic.attack_damage\", Amount:9.8, Operation:0, UUID:[I; -885041709, 1683771192, -1533567981, -1556236849]}],Unbreakable:1b,display:{Name:'{\"text\":\"Sculk Sword\",\"color\":\"#006F75\",\"italic\":false}',Lore:['\" \"','{\"text\":\"Enchanted with souls\",\"color\":\"#006F75\",\"italic\":false, \"font\":\"minecraft:illageralt\"}']}, isGuardianWeapon:1b}"
                     }
                 ]
             }
         ]
+        },
+        {
+          "rolls": {
+            "type": "uniform",
+            "min": 1,
+            "max": 1.8
+          },
+          "entries": [
+              {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{CustomPotionEffects:[{Id:20,Amplifier:1,Duration:240},{Id:33,Amplifier:0,Duration:360},{Id:18,Amplifier:0,Duration:100}], CustomPotionColor: 28533, display:{Name:'{\"text\":\"Dark Brew\",\"color\":\"#006F75\",\"italic\":false}'}, isDarkBrew:1b}"
+                  }
+                ],
+                "name": "minecraft:splash_potion",
+                "weight": 1
+              }
+          ]
         },
         {
           "entries": [

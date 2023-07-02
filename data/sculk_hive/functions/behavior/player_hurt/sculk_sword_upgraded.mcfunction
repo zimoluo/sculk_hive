@@ -1,0 +1,2 @@
+execute as @a[advancements={sculk_hive:util/hurt_by_sculk_sword_upgraded=true}] at @s rotated ~ 0 anchored eyes run function sculk_hive:behavior/player_hurt/sculk_sword_upgraded_do
+execute as @a[advancements={sculk_hive:util/hurt_by_sculk_sword_upgraded=true}] run advancement revoke @s only sculk_hive:util/hurt_by_sculk_sword_upgraded

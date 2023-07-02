@@ -1,6 +1,8 @@
 {
   "values": [
-    "sculk_hive:chibaku_tensei",
-    "sculk_hive:rage"
+    "#sculk_hive:chibaku_tensei",
+    "sculk_hive:rage",
+    "sculk_hive:aggro",
+    "sculk_hive:midas_curse"
   ]
 }

@@ -1,0 +1,2 @@
+execute if score @s sh_midas_tick matches 0.. if score @s sh_midas_tick < MIDAS sh_constant run scoreboard players operation @s sh_midas_tick = MIDAS sh_constant
+execute unless score @s sh_midas_tick matches 0.. run function sculk_hive:behavior/midas/effect/initialize_curse_length

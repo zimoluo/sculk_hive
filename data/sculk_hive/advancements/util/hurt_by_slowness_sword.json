@@ -1,0 +1,31 @@
+{
+  "criteria": {
+    "hurt_by_sword": {
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "nbt": "{HandItems:[{tag:{guardWeaponProperty:1b}}]}"
+          },
+          "type": {
+            "tags": [
+              {
+                "id": "sculk_hive:sword_valid_mob",
+                "expected": true
+              }
+            ]
+          },
+          "blocked": false
+        }
+      },
+      "trigger": "minecraft:entity_hurt_player"
+    }
+  },
+  "requirements": [
+    [
+      "hurt_by_sword"
+    ]
+  ],
+  "rewards": {
+    "function": "sculk_hive:behavior/player_hurt/slowness"
+  }
+}

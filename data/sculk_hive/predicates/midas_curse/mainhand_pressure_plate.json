@@ -1,0 +1,11 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "mainhand": {
+                "tag": "sculk_hive:pressure_plates"
+            }
+        }
+    }
+}
