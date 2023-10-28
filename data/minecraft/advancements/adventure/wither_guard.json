@@ -14,7 +14,7 @@
     "hidden": false,
     "icon": {
       "item": "minecraft:splash_potion",
-      "nbt": "{CustomPotionEffects:[{Id:20,Amplifier:1,Duration:240},{Id:33,Amplifier:0,Duration:360},{Id:18,Amplifier:0,Duration:100}], CustomPotionColor: 28533, display:{Name:'{\"text\":\"Dark Brew\",\"color\":\"#006F75\",\"italic\":false}'}}"
+      "nbt": "{custom_potion_effects:[{Id:\"wither\",Amplifier:1,Duration:240},{Id:\"darkness\",Amplifier:0,Duration:360},{Id:\"weakness\",Amplifier:0,Duration:100}], CustomPotionColor: 28533, display:{Name:'{\"text\":\"Dark Brew\",\"color\":\"#006F75\",\"italic\":false}'}}"
     },
     "show_toast": true,
     "title": {

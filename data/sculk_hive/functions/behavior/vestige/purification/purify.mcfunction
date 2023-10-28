@@ -34,7 +34,7 @@ execute if entity @s[type=illusioner] run data modify entity @e[tag=sh_temp_6,li
 execute if entity @s[type=zombie] run summon zombie ~ ~ ~ {Tags:["sh_temp_6"]}
 execute if entity @s[type=skeleton] run summon skeleton ~ ~ ~ {Tags:["sh_temp_6"], HandItems:[{id:"bow", Count:1b}]}
 
-data modify entity @e[tag=sh_temp_6,limit=1,sort=nearest] ActiveEffects set from entity @s ActiveEffects
+data modify entity @e[tag=sh_temp_6,limit=1,sort=nearest] active_effects set from entity @s active_effects
 data modify entity @e[tag=sh_temp_6,limit=1,sort=nearest] Air set from entity @s Air
 data modify entity @e[tag=sh_temp_6,limit=1,sort=nearest] AbsorptionAmount set from entity @s AbsorptionAmount
 data modify entity @e[tag=sh_temp_6,limit=1,sort=nearest] Brain set from entity @s Brain

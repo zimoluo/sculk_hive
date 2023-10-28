@@ -36,7 +36,7 @@ execute if entity @s[type=evoker] run data modify entity @e[tag=sh_temp_3,limit=
 execute if entity @s[type=evoker] run data modify entity @e[tag=sh_temp_3,limit=1,sort=nearest] Wave set from entity @s Wave
 execute if entity @s[type=evoker] run data modify entity @e[tag=sh_temp_3,limit=1,sort=nearest] Wave set from entity @s SpellTicks
 
-data modify entity @e[tag=sh_temp_3,limit=1,sort=nearest] ActiveEffects set from entity @s ActiveEffects
+data modify entity @e[tag=sh_temp_3,limit=1,sort=nearest] active_effects set from entity @s active_effects
 data modify entity @e[tag=sh_temp_3,limit=1,sort=nearest] Air set from entity @s Air
 data modify entity @e[tag=sh_temp_3,limit=1,sort=nearest] AbsorptionAmount set from entity @s AbsorptionAmount
 data modify entity @e[tag=sh_temp_3,limit=1,sort=nearest] Brain set from entity @s Brain
