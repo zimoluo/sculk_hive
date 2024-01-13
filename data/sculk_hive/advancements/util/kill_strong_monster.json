@@ -89,6 +89,28 @@
         }
       }
     },
+    "breeze": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:breeze"
+            }
+          }
+        ],
+        "killing_blow": {
+          "tags": [
+            {
+              "expected": true,
+              "id": "sculk_hive:sword_valid"
+            }
+          ]
+        }
+      }
+    },
     "cave_spider": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
@@ -545,7 +567,8 @@
       "warden",
       "player",
       "illusioner",
-      "skeleton_horse_soldier"
+      "skeleton_horse_soldier",
+      "breeze"
     ]
   ]
 }

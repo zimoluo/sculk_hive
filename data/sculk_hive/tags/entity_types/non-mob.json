@@ -43,6 +43,7 @@
 	"interaction",
 	"item_display",
 	"text_display",
-	"block_display"
+	"block_display",
+	"wind_charge"
   ]
 }

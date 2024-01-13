@@ -1,6 +1,6 @@
 {
-    "replace": false,
-    "values": [
+  "replace": false,
+  "values": [
     "#minecraft:skeletons",
     "minecraft:zombie",
     "minecraft:drowned",
@@ -19,5 +19,5 @@
     "minecraft:armor_stand",
     "player",
     "allay"
-    ]
-  }
+  ]
+}

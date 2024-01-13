@@ -241,7 +241,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{custom_potion_effects:[{id:\"wither\",Amplifier:1,duration:240},{id:\"darkness\",Amplifier:0,duration:360},{id:\"weakness\",Amplifier:0,duration:100}], CustomPotionColor: 28533, display:{Name:'{\"text\":\"Dark Brew\",\"color\":\"#006F75\",\"italic\":false}'}, isDarkBrew:1b}"
+                "tag": "{custom_potion_effects:[{id:\"wither\",amplifier:1,duration:240},{id:\"darkness\",amplifier:0,duration:360},{id:\"weakness\",amplifier:0,duration:100}], CustomPotionColor: 28533, display:{Name:'{\"text\":\"Dark Brew\",\"color\":\"#006F75\",\"italic\":false}'}, isDarkBrew:1b}"
               }
             ],
             "name": "minecraft:splash_potion",
